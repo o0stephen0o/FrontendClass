@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2. Introduction to HTML II</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+        aside {
+            background-color: darkgray;
+            float: right;
+        }
+    </style> 
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>2. Introduction to HTML II</h1>
+        <h2>Presented by Krystal Institute</h2>
+    </header>
+    <!-- Navigation bar -->
+    <nav>
+        <a href="https://www.google.com.hk/">Google</a>
+        <a href="https://hk.yahoo.com/">Yahoo</a>
+    </nav>
+    <main>
+        <!-- Company Information -->
+        <section id="companyInfo">
+            <header>
+                <h3>Company Information</h3>
+            </header>
+            <article>
+                <p>Krystal Institute is a research institution that aims to empower the people, provide upward mobility, and bridge the digital divide.</p>
+            </article>
+        </section>
+        <!-- Search Engines -->
+        <section id="searchEngines">
+            <header>
+                <h3>Search Engines</h3>
+            </header>
+            <article>
+                <h4>Google</h4>
+                <p>Google is......</p>
+            </article>
+            <article>
+                <h4>Yahoo</h4>
+                <p>Yahoo! (/ˈjɑːhuː/, styled as yahoo!)[6][7] is an American web services provider. It is headquartered in Sunnyvale, California and is owned by Verizon Media, pending sale to investment funds managed by Apollo Global Management.</p>
+            </article>
+        </section>
+        <!-- Sidebar -->
+        <aside>
+            <p>Note: Sidebar should be related to the main content
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione in eum commodi nulla earum? Repellendus amet, vel nihil commodi dolorum iure optio temporibus, dolorem in eligendi exercitationem ducimus minima! Id quae ipsum laudantium soluta unde iste modi veniam, ea, deleniti aspernatur provident quaerat possimus perferendis, odit inventore reprehenderit iusto quod at ipsam! Dolore rem consequuntur non quos temporibus facere incidunt aperiam. Dolorem quis facilis corrupti at ex, necessitatibus deserunt nostrum harum enim natus iure obcaecati porro ratione architecto! Beatae aspernatur voluptatem ad vitae, quaerat sint quas accusamus quos quod esse consequuntur maxime, sunt vel fugiat perferendis ipsum possimus saepe. Aspernatur!
+            </p>
+        </aside>
+        <p>Placement of texts after sidebar will be affected. Krystal Institute is a research institution that aims to empower the people, provide upward mobility, and bridge the digital divide. We educate the public on knowledge essential to excellence in the digital  economy. We empower students by nurturing creativity and providing open-source technology that enables them to capitalize on conceptual knowledge. We are the enabling force behind the 4th Industrial Revolution.</p>
+        <!-- Common tags -->
+        <span>
+            <!-- Links -->
+            <a href="https://www.google.com/">Google</a>
+            <a href="https://www.google.com/" target="_blank">Google _blank</a><br>
+            <a href="#companyInfo">Back to Company Information</a>
+            <!-- Time -->
+            <time datetime="12:00">12:00</time>
+            <time datetime="2021-05-11 15:00">Today</time>
+            <!-- Formatting -->
+            <p>Normal</p>
+            <b>Bold</b>
+            <strong>Strong</strong>
+            <i>Italic</i>
+            <em>Emphasized</em>
+            <mark>Highlight</mark>
+            <small>Small</small>
+            <del>Deleted</del>
+            <ins>Inserted</ins>
+            <sub>Subscript</sub>
+            <sup>Superscript</sup>
+            <!-- List -->
+            <ul>
+                <li><data value="001">List item 1</data></li>
+                <li><data value="002">List item 2</data></li>
+            </ul>
+            <ol>
+                <li>List item 1</li>
+                <li>List item 2</li>
+            </ol>
+            <dl>
+                <dt>Data Table 1</dt>
+                <dd>Data</dd>
+                <dt>Data Table 2</dt>
+                <dd>Data</dd>
+            </dl>
+            <!-- Quotation -->
+            <p>Quoted from Wikipedia:</p>
+            <blockquote cite="https://en.wikipedia.org/wiki/Quotation">
+                A quotation is the repetition of a sentence, phrase, or passage from speech or text that someone has said or written.[1] In oral speech, it is the representation of an utterance (i.e. of something that a speaker actually said) that is introduced by a quotative marker, such as a verb of saying. For example: John said: "I saw Mary today".
+            </blockquote>
+            <p>Shakespeare: <q>To be, or not to be, that is the question.</q></p>
+            <p><cite>Love Story</cite> by Taylor Swift<br>We were both young when I first saw you</p>
+            <!-- Address -->
+            <address>
+                Written by <a href="mailto:bjenny122@gmail.com">Choco Lau</a><br>
+                Visit us at:<br>
+                <a href="https://www.krystal.institute/">Krystal Institue</a><br>
+                1/F, HKPC Building, 78 Tat Chee Ave, Kowloon Tong<br>
+                Hong Kong
+            </address>
+            <!-- BDO -->
+            <bdo dir="rtl">
+                This text will go from right to left.
+            </bdo>
+            <!-- Horizontal rule -->
+            <p>Horizontal rule</p>
+            <hr>
+            <!-- Meter -->
+            <label for="disk_c">Disk usage C:</label>
+            <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+            <label for="disk_d">Disk usage D:</label>
+            <meter id="disk_d" value="0.6">60%</meter>
+            <!-- Progress -->
+            <label for="file">Downloading progress:</label>
+            <progress id="file" value="43" max="100"> 43% </progress>
+            <!-- Word break opportunity -->
+            <p>This is a normal paragraph that will break line automatically.
+                Resize the browser to see the effect.
+            </p>
+            <p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryverylongword.<wbr>
+            Resize the browser window to see the result.</p>
+        </span>
+    </main>
+    <footer>
+        <!-- copyright -->
+        <div style="text-align: center;">@ 2021 Copyright: Krystal Institue</div>
+    </footer>
+</body>
+</html>
