@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3. HTML: Intermediate</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>3. HTML: Intermediate</h1>
+        <h2>Presented by Krystal Institute</h2>
+    </header>
+    <main>
+        <!-- Table -->
+        <h3>Table</h3>
+        <table>
+            <caption>KI Shop</caption>
+            <tr>
+                <th>ID</th>
+                <th>Fruites</th>
+                <th>Price (HKD)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>$5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Banana</td>
+                <td>$6</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <caption>KI Shop (with colspan)</caption>
+            <tr>
+                <th>ID</th>
+                <th>Fruites</th>
+                <th colspan="2">Price (HKD)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>$</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Banana</td>
+                <td>$</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <!-- Preformatted text -->
+        <h3>Preformatted text</h3>
+        <pre>
+    Text in the pre element
+is displayed just the way
+you type,     including the spacing or line skipping.
+        </pre>
+        <h3>Symbols & Entities</h3>
+        <!-- Symbols -->
+        <p>NEW SHEQEL SIGN &#8362;</p>
+        <p>DONG SIGN &#x20AB;</p>
+        <p>EURO SIGN &euro;</p>
+        <!-- Button -->
+        <button type="button" id="press" name="press">Press</button>
+        <!-- Details -->
+        <h3>Details</h3>
+        <details open>
+            <summary>More</summary>
+            Hi! How are you?
+        </details>
+        <details>
+            <summary>Overview</summary>
+            <ol>
+                <li>Apple: $5</li>
+                <li>Banana: $6</li>
+            </ol>
+        </details>
+        <!-- Dialog -->
+        <h3>Dialog</h3>
+        <button onclick="document.getElementById('dialog').showModal()">Dialog</button>
+        <dialog id="dialog">
+            <p>This is a pop up dialog!</p>
+        </dialog>
+        <!-- Special effects -->
+        <h3>Special effects</h3>
+        <span title="This is a tooltip :D">Stop your cursor here!</span>
+        <br>
+        <br>
+        
+        
+        <marquee>Right to left</marquee>
+        <marquee direction="up">Bottom to top</marquee>
+        <marquee direction="down" width="250" height="200" behavior="slide">
+            <marquee behavior="alternate">This text will slide at the bottom</marquee>
+        </marquee>
+        <marquee direction="down" width="250" height="200" behavior="alternate">
+            <marquee behavior="alternate">This text will bounce</marquee>
+        </marquee>
+    </main>
+    <footer>
+        <!-- copyright -->
+        <div style="text-align: center;">@ 2021 Copyright: Krystal Institue</div>
+    </footer>
+</body>
+</html>
