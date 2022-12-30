@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>5. HTML: Embedding of multimedia I</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>5. HTML: Embedding of multimedia I</h1>
+        <h2>Presented by Krystal Institute</h2>
+    </header>
+    <main>
+        <!-- Image -->
+        <h3>Images</h3>
+        <p>Sky</p>
+        <img  width="200" src="Image/sky.jpeg" alt="sky">
+        <p>Google logo</p>
+        <img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="google">
+        <p>Google logo (with image map)</p>
+        <img src="Image/googlelogo.png" usemap="#googlelogoMap" alt="google">
+        <map name="googlelogoMap">
+            <area shape="rect" coords="0,0,80,80" href="https://www.google.com/" alt="Google">
+            <area shape="circle" coords="108,56,26" href="https://en.wikipedia.org/wiki/O" alt="O">
+            <area shape="poly" coords="194,30,244,30,244,86,220,104,194,90" href="https://en.wikipedia.org/wiki/G" alt="G">
+        </map>
+        <p>Picture element</p>
+        <picture>
+            <source media="(min-width: 700px)" width="200px" srcset="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+            <source media="(min-width: 600px)" width="100px" srcset="https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+            <img width="50px" src="https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        </picture>
+        <br>
+        <!-- Video -->
+        <h3>Videos</h3>
+        <video width="300" controls>
+            <source src="Video/reading.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video width="300" autoplay muted>
+            <source src="Video/reading.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video width="300" controls muted>
+            <source src="Video/reading.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <!-- Audio -->
+        <h3>Audios</h3>
+        <audio controls>
+            <source src="Audio/beat.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls muted>
+            <source src="Audio/beat.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </main>
+    <footer>
+        <!-- copyright -->
+        <div style="text-align: center;">@ 2021 Copyright: Krystal Institue</div>
+    </footer>
+</body>
+</html>
