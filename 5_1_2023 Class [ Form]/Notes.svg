@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Notes.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1705808"
+     inkscape:cx="234.49898"
+     inkscape:cy="245.60457"
+     inkscape:window-width="1472"
+     inkscape:window-height="828"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect4657"
+       is_visible="true"
+       lpeversion="1"
+       offset_points="0,4.9921382"
+       not_jump="false"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       scale_width="1"
+       end_linecap_type="zerowidth" />
+    <linearGradient
+       id="linearGradient3271"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop3269" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke-width:0.264583"
+       id="rect111"
+       width="55.602737"
+       height="47.917809"
+       x="47.465752"
+       y="125.67123" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.1285;stroke-dasharray:none;stroke-opacity:1"
+       id="rect217"
+       width="72.652313"
+       height="81.693413"
+       x="49.338223"
+       y="61.543701"
+       inkscape:label="rect217" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ff0000;stroke-width:0.264583"
+       x="66.452049"
+       y="89.958908"
+       id="text273"><tspan
+         sodipodi:role="line"
+         id="tspan271"
+         style="stroke-width:0.264583"
+         x="66.452049"
+         y="89.958908" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ff0000;stroke-width:0.264583"
+       x="140.58905"
+       y="130.19177"
+       id="text327"><tspan
+         sodipodi:role="line"
+         id="tspan325"
+         style="stroke-width:0.264583"
+         x="140.58905"
+         y="130.19177" /></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 49.066431,74.159032 c 1.438428,0 72.560779,-0.159824 72.560779,-0.159824"
+       id="path4647" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="54.021019"
+       y="67.446365"
+       id="text4651"><tspan
+         sodipodi:role="line"
+         id="tspan4649"
+         style="stroke-width:0.1;stroke-dasharray:none"
+         x="54.021019"
+         y="67.446365">FORM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="53.381718"
+       y="83.428909"
+       id="text5387"><tspan
+         sodipodi:role="line"
+         id="tspan5385"
+         style="stroke-width:0.1"
+         x="53.381718"
+         y="83.428909">Name</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="50.424946"
+       y="79.433273"
+       id="text5391"><tspan
+         sodipodi:role="line"
+         id="tspan5389"
+         style="stroke-width:0.1"
+         x="50.424946"
+         y="79.433273">&lt;label&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="50.149097"
+       y="97.582787"
+       id="text5391-5"><tspan
+         sodipodi:role="line"
+         id="tspan5389-5"
+         style="stroke-width:0.1"
+         x="50.149097"
+         y="97.582787">&lt;label for=&quot;name&quot;&gt; &lt;/label&gt;</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.1"
+         x="50.149097"
+         y="101.55154"
+         id="tspan5482">&lt;input id=&quot;name&quot; name=&quot;name&quot; value=&quot;&quot;&gt;</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.1"
+         x="50.149097"
+         y="105.52029"
+         id="tspan5486" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.1"
+         x="50.149097"
+         y="109.48904"
+         id="tspan5488" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.1"
+         x="50.149097"
+         y="113.45779"
+         id="tspan5490" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="50.06065"
+       y="91.323685"
+       id="text5391-4"><tspan
+         sodipodi:role="line"
+         id="tspan5389-2"
+         style="stroke-width:0.1"
+         x="50.06065"
+         y="91.323685">&lt;/label&gt;</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5420"
+       width="19.818361"
+       height="3.1965101"
+       x="63.930202"
+       y="80.631958" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="53.308418"
+       y="86.956459"
+       id="text5387-0"><tspan
+         sodipodi:role="line"
+         id="tspan5385-1"
+         style="stroke-width:0.1"
+         x="53.308418"
+         y="86.956459">&lt;input .....&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="23.845892"
+       y="79.109581"
+       id="text5451"><tspan
+         sodipodi:role="line"
+         id="tspan5449"
+         style="stroke-width:0.1;fill:#000000;fill-opacity:1"
+         x="23.845892"
+         y="79.109581">Input  2 個寫法</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="50.856167"
+       y="106.23288"
+       id="text5494"><tspan
+         sodipodi:role="line"
+         id="tspan5492"
+         style="stroke-width:0.1"
+         x="50.856167"
+         y="106.23288"></tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.1"
+         id="tspan5496"
+         x="50.856167"
+         y="110.20163">Value verification </tspan></text>
+  </g>
+</svg>
