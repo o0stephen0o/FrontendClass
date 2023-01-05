@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <fieldset style="width:300px;">
+        <Legend> <h2>Login</h2> </Legend> 
+        <form>
+
+            <label for="username">UserName</label><br>
+            <input id="username" type="text" placeholder="Enter username">
+            
+            <br> 
+
+            <label for="password">Password</label><br>
+            <input id="password" type="password" placeholder="Enter password">
+
+            <br>
+
+            <input style="margin-top: 10px;"type="submit" id="submit" value="submit">
+
+
+        </form>
+
+        <a href="#createAccount">Create account</a>
+
+        <br>
+
+        <a href="#forgotPassword">Forgot password</a>
+    
+    </fieldset>
+<br>
+<hr color="#c7c34c" size="2" width="100%" >
+    <fieldset id="createAccount" style="width:300px;">
+
+        <legend>Create Account</legend>
+    
+        <form>
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="e.g. Choco Lau"
+                pattern="/[a-z][A-Z][0-9]{30}/"/>
+
+            <br>
+
+            <label>Gender</label>
+
+            <div>
+                
+            <input type="radio" id="female" name="female" value="female"
+                    checked>
+            <label style="margin-right:5px;"for="female">Female</label>
+
+            <input type="radio" id="male" name="male" value="male">
+                    
+            <label style="margin-right:5px;"for="male">Male</label>
+
+            <input type="radio" id="other" name="other" value="other">
+                    
+            <label style="margin-right:5px;"for="other">Other</label>
+
+            <input type="radio" id="secret" name="secret" value="secret">
+                    
+            <label style="margin-right:5px;"for="secret">Secret</label>             
+
+            </div>
+
+            <br>
+
+           
+            <label for="email">Email</label><br>
+            <input type="email" id="email"
+            pattern="/[a-z][A-Z][0-9]_/" size="30" placeholder="e.g.ABC@gmail.com" required>
+
+            
+            <br>
+
+            <label for="username" >UserName</label><br>
+            <input type="text" placeholder="Letters/Number/_ Only" id="username">
+            
+            <br>           
+
+            
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="password"
+                minlength="8" maxlength="20" pattern="[0-9][a-z][A-Z]{8}" placeholder="Enter Password" required>
+            
+
+            <br>
+
+            <label for="ConfirmPW">Confirm password
+                <br>(Note" This function requires JS, will teach in later lesson)
+            </label>
+            <input type="password" id="pass" name="password"
+                minlength="8" maxlength="20" pattern="[0-9][a-z][A-Z]{8}" onkeypress="JS function" required>
+
+            <br>
+
+            <input style="margin-right:5px;" type="submit" value="Create">
+            <input type="reset" value="重置"> 
+
+
+
+
+        </form>
+    
+    
+    
+    </fieldset>
+
+<hr color="#c7c34c" size="2" width="100%" >
+
+    <fieldset id="forgotPassword" style="width:300px;">
+
+        <form id="forgotPasswordForm">
+
+            <h2>Forgot Password</h2>
+            <label id="forgotPW-input">Enter your username / Email
+                <br>(Note: This function also requires JS/Python to check the user database.)
+            </label>
+
+            <input id="forgotPW-input" name="forgotPW-input" required>
+
+            <br>
+
+            <input style="margin-right:5px;" type="submit" value="submit">
+
+        </form>
+
+
+    </fieldset>
+
+
+    
+</body>
+</html>
