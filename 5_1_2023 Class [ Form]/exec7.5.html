@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <fieldset style="width:300px;">
+            <legend>Create account</legend>
+
+            <form>
+
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="e.g. Choco Lau"/>
+
+                <br>
+
+                <label for="username">UserName</label><br>
+                <input type="text" id="username">
+                
+                <br>
+
+                <label for="tel">Phone no.</label><br>
+                <input type="tel" type="tel" id="phone" name="phone"
+                pattern="[0-9]{4}-[0-9]{4}"
+                required> 
+
+                <br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email"
+                pattern=".+@globex\.com" size="30" required>
+
+                <br>
+
+                
+                <label>Gender</label>
+    
+                <div>
+                <input type="radio" id="female" name="female" value="female"
+                        checked>
+                <label style="margin-right:5px;"for="female">Female</label>
+
+                <input type="radio" id="male" name="male" value="male">
+                        
+                <label style="margin-right:5px;"for="male">Male</label>
+
+                <input type="radio" id="other" name="other" value="other">
+                        
+                <label style="margin-right:5px;"for="other">Other</label>
+
+                <input type="radio" id="secret" name="secret" value="secret">
+                        
+                <label style="margin-right:5px;"for="secret">Secret</label>             
+
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="password"
+                        minlength="8" required>
+                </div>
+
+                <br>
+
+                <input style="margin-right:5px;" type="submit" value="提交">
+                <input type="reset" value="重置"> 
+
+
+
+            </form>
+
+        </fieldset>
+
+        <fieldset style="width:300px;">
+
+            <legend>Questionnaire</legend>
+
+            <form>
+                <div>
+
+                    <legend>Tick fruits that you like:</legend>
+
+                    
+                    <input type="checkbox" id="apple" name="apple">
+                    <label for="apple">Apple</label>
+                    
+                    
+                    <input type="checkbox" id="banana" name="banana">
+                    <label for="banana">Banana</label>
+                    
+
+                    
+                    <input type="checkbox" id="orange" name="orange">
+                    <label for="orange">Orange</label>
+                
+                </div>
+
+            
+
+                <!--Selection (datalist)-->
+
+                <label for="pet-select">Choose a pet:</label>
+
+                <select name="pets" id="pet-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="parrot">Parrot</option>
+                    <option value="spider">Spider</option>
+                    <option value="goldfish">Goldfish</option>
+                </select>
+                
+                <br>
+
+                <label for="opinion">Other opinion:</label><br>
+
+                
+                <textarea id="opinion" rows="3" cols="30" placeholder="Say Something"> </textarea>
+
+                <br>
+
+            
+            </form>
+
+
+
+        </fieldset>
+
+        
+    
+</body>
+</html>
