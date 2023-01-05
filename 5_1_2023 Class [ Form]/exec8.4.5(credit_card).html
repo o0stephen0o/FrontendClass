@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+</head>
+<body>
+
+    <h2>Credit Card</h2>
+
+    <form id="creditCardInfo">
+        <label for="firstName">FirstName</label> 
+        <input type="text" id="firstName">
+        
+        <label for="lastName">LastName</label>
+        <input type="text" id="lastName"> 
+
+        <br> 
+
+        <label for="CreditCardNo">Credit Card No.</label>
+        <input type="text" id="CreditCardNo" pattern="\d{4}[- /.]\d{4}[- /.]\d{4}[- /.]\d{4}" placeholder="xxxx-xxxx-xxxx-xxxx">
+
+        <br> 
+
+        <label for="expirDate">Expiration Date</label>
+        <input id="expirDate" pattern="(0[1-9]|1[012])[- /.](2[1-9]|[345][0-9])" placeholder="MM/YY"></label>
+
+        <br>
+
+        <label for="SecureCode">Security code</label>
+        <input id="SecureCode" pattern="[0-9]{3}" placeholder="CVC" maxlength="3"></label>
+
+        <br>
+
+        <input style="margin-right: 20px;"type="submit" value="sumit">
+        <input type="reset" value="reset">
+
+
+
+
+
+    </form>
+
+
+    
+</body>
+</html>
