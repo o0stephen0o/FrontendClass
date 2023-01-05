@@ -7,6 +7,232 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Exercise 7 Form</h1>
+    <form>
+        
+        <label for="name">Name (4 to 8 characters):</label>
+
+        <input type="text" id="name" name="name" required
+        minlength="4" maxlength="8" size="10">
+
+        <br>
+
+       <input style="margin-top: 20px;"
+       type="button"
+       value="Add to favorites" >
+
+       <br>
+
+       <fieldset style="margin-top: 20px;">
+            <legend>Choose your monster's features:</legend>
+
+            <div>
+            <input type="checkbox" id="scales" name="scales" checked>
+            <label for="scales">Scales</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="horns" name="horns">
+            <label for="horns">Horns</label>
+            </div>
+        </fieldset>
+
+        <div>
+             <input type="color" id="head" name="head"
+            value="#e66465">
+             <label for="head">Head</label>
+        </div>
+
+        <div>
+            <input type="color" id="body" name="body"
+            value="#f6b73c">
+            <label for="body">Body</label>
+        </div>
+
+        <br>
+
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start" name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01" max="2018-12-31">
+
+        <br>
+
+        <label for="meeting-time">Choose a time for your appointment:</label>
+
+       <input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2018-06-07T00:00" max="2018-06-14T00:00">
+
+       <br>
+
+       <label for="email">Enter your globex.com email:</label>
+
+       <input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required>
+
+       <br>
+
+       <label for="avatar">Choose a profile picture:</label>
+
+       <input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+
+       <br>
+
+        <input type="hidden" id="postId" name="postId" value="34657" />
+
+        <br>
+
+        <p>Sign in to your account:</p>
+
+        <div>
+        <label for="userId">User ID</label>
+        <input type="text" id="userId" name="userId">
+        </div>
+
+        <input type="image" id="image" alt="Login"
+            src="/media/examples/login-button.png">
+
+        <br>
+
+        <label for="start">Start month:</label>
+
+        <input type="month" id="start" name="start"
+            min="2018-03" value="2018-05">
+
+        <br>
+
+        <label for="tentacles">Number of tentacles (10-100):</label>
+
+        <input type="number" id="tentacles" name="tentacles"
+         min="10" max="100">
+
+         <br>
+
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <div>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password"
+                minlength="8" required>
+        </div>
+
+        <input type="submit" value="Sign in">
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Select a maintenance drone:</legend>
+
+            <div>
+            <input type="radio" id="huey" name="drone" value="huey"
+                    checked>
+            <label for="huey">Huey</label>
+            </div>
+
+            <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Dewey</label>
+            </div>
+
+            <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label>
+            </div>
+        </fieldset>
+
+        <br>
+
+        <p>Audio settings:</p>
+
+        <div>
+        <input type="range" id="volume" name="volume"
+                min="0" max="11">
+        <label for="volume">Volume</label>
+        </div>
+
+        <div>
+        <input type="range" id="cowbell" name="cowbell" 
+                min="0" max="100" value="90" step="10">
+        <label for="cowbell">Cowbell</label>
+        </div>
+
+        <br>
+
+        <div class="controls">
+
+            <label for="id">User ID:</label>
+            <input type="text" id="id" name="id">
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+        </div>
+
+        <br>
+
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q">
+
+        <button>Search</button>
+
+        <br>
+
+        <input type="submit" value="Send Request" />
+
+        <br>
+
+        <label for="phone">Enter your phone number:</label>
+
+        <input type="tel" id="phone" name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required>
+
+        <small>Format: 123-456-7890</small>
+
+        <br>
+
+        <label for="name">Name (4 to 8 characters):</label>
+
+        <input type="text" id="name" name="name" required
+        minlength="4" maxlength="8" size="10">
+
+        <br>
+
+        <label for="appt">Choose a time for your meeting:</label>
+
+        <input type="time" id="appt" name="appt"
+        min="09:00" max="18:00" required>
+
+        <small>Office hours are 9am to 6pm</small>
+
+        <br>
+
+        <label for="url">Enter an https:// URL:</label>
+
+        <input type="url" name="url" id="url"
+            placeholder="https://example.com"
+            pattern="https://.*" size="30"
+            required>
+
+        <br>
+
+        <label for="week">Choose a week in May or June:</label>
+
+        <input type="week" name="week" id="camp-week"
+            min="2023-W1" max="2023-W26" required>
+
+                
+    </form>
     
+
 </body>
 </html>
