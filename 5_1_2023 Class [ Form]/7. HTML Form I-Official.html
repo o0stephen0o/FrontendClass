@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>7. HTML: Form I</title>
+    <meta charset="UTF-8">
+    <!--   <meta http-equiv="refresh" content="300"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>7. HTML: Form I</h1>
+      
+    </header>
+    <main>
+        <h3>Form</h3>
+        <form form id="mainform" action="#" method="get">
+            <fieldset style="width: 200px;">
+                <legend>Cust Info</legend>
+                <label for="name">Name : </label>
+                <input id="name" name="name" placeholder="e.g. Choco Lau">
+                <label for="dist">District: </label>
+                <input id="dist" name="dist" placeholder="e.g. Western">
+                <label for="favour">Favour : </label>
+                <input id="favour" name="favour" placeholder="e.g. Music">
+                <input style="height: auto; width: auto;">
+                <input style="height: auto; width: auto;">
+            </fieldset>
+            <p> Button</p>
+            <label for="click">Click</label>
+            <input type="button" id="click" name="click" value="Click me!">
+            <p> checkbox</p>
+            <label for="tick">Tick</label>
+            <input type="checkbox" id="tick" name="tick" value="ticked" checked>
+            <p> color</p>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color" value="#191970">
+            <p> Date </p>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" value="2022-10-01">
+            <p> Datetime </p>
+            <label for="datetime">Datetime</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+            <p> month </p>
+            <label for="month">Month</label>
+            <input type="month" id="month" name="month" value="2000-01">
+            <br>
+            <label for="week">Week</label>
+            <input type="week" id="week" name="week">
+            <br>
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" value="00:00">
+            <br>
+            <label for="file">File</label>
+            <input type="file" id="file" name="file">
+            <br>
+            <p> Hidden field used in JS to change UI </p>
+            <label for="hidden">Hidden field</label>
+            <input type="hidden" id="hidden" name="hidden" value="123">
+            <br>
+            <label for="number">No.</label>
+            <input type="number" id="number" name="number" min="0" max="100" value="5">
+            <br>
+            <label for="range">Range</label>
+            <input type="range" id="range" name="range" min="0" max="10" value="0">
+            <br>
+            <label for="search">Search</label>
+            <input type="search" id="search" name="search">
+            <br>
+            <p> Select one item only </p>
+            <label for="fruit">Radio</label>
+            <input type="radio" name="fruit" id="apple" value="apple">Apple
+            <input type="radio" name="fruit" id="orange" value="orange">Orange
+            <input type="radio" name="fruit" id="banana" value="banana" checked>Banana
+            <p> input URL </p>
+            <label for="url">URL</label>
+            <input type="url" id="url" name="url">
+            <br>
+            <label for="phone">Phone no.</label>
+            <input type="tel" id="phone" name="phone">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="pw">Password</label>
+            <input type="password" id="pw" name="pw">
+            <br>
+            <label for="textarea">Text area</label><br>
+            <textarea id="textarea" rows="3" cols="20" placeholder="Say Something.."></textarea>
+            <br>
+            <br>
+            <label for="dropdown">Dropdown</label>
+            <select id="dropdown" name="dropdown">
+                <option>Select one</option>
+                <optgroup label="Animals">
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                    <option value="fish">Fish</option>
+                </optgroup>
+                <optgroup label="Fruits">
+                    <option value="apple">Apple</option>
+                    <option value="orange">Orange</option>
+                    <option value="banana">Banana</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="animal-dropdown">Datalist</label>
+            <input list="optionList" id="animal-dropdown" name="animal-dropdown">
+            <datalist id="optionList">
+                <option value="Cat"></option>
+                <option value="Dog"></option>
+                <option value="fish"></option>
+            </datalist>
+
+            <br>
+            <p> Reset button to clear all input in the form</p>
+            <input type="reset" value="Clear data">
+            <p> Rest button to clear all input in the form</p>
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <!-- copyright -->
+        <div style="text-align: center;">@ 2021 Copyright: Krystal Institue</div>
+    </footer>
+</body>
+
+</html>

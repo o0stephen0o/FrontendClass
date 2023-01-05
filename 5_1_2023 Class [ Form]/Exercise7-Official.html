@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise7</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>7. HTML: Form I</h1>
+     
+    </header>
+    <main>
+    <!--  if no fieldset the label and input  element will wrap into different line -->
+       <fieldset style="width:300px;"> 
+            <legend>Create account</legend>
+            <form>
+                <label for="name">Name</label><br>
+                <input id="name" name="name" placeholder="e.g. Choco Lau">
+                <br>
+                <label for="uname">Username</label><br>
+                <input id="uname" name="uname">
+                <br>
+                <label for="phone">Phone no.</label><br>
+                <input type="tel" id="phone" name="phone">
+                <br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="e.g. ABC@email.com">
+                <br>
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" id="female" value="female">Female
+                <input type="radio" name="gender" id="male" value="male">Male
+                <input type="radio" name="gender" id="other" value="other">Other
+                <input type="radio" name="gender" id="secret" value="secret">Secret
+                <br>
+                <label for="pw">Password</label><br>
+                <input type="password" id="pw" name="pw">
+                <br>
+                <input type="reset" id="reset" value="Clear data">
+                <input type="submit" id="submit">
+            </form>
+        </fieldset> 
+        <fieldset style="width:300px;">
+            <legend>Questionnaire</legend>
+            <label>Tick fruits that you like:</label><br>
+            <input type="checkbox" id="apple" name="apple" value="apple">
+            <label for="apple">Apple</label>
+            <input type="checkbox" id="banana" name="banana" value="banana">
+            <label for="banana">Banana</label>
+            <input type="checkbox" id="orange" name="orange" value="orange">
+            <label for="orange">Orange</label>
+            <br>
+            <label id="fruit">Which is your favourite animal?</label>
+            <select>
+                <option>Select one</option>
+                <optgroup label="Terrestrial">
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                </optgroup>
+                <optgroup label="Marine">
+                    <option value="fish">Fish</option>
+                    <option>Jellyfish</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="opinion">Other opinion:</label><br>
+            <textarea id="opinion" rows="3" cols="30" placeholder="Sayyy Something.."></textarea>
+      </fieldset> 
+    </main>
+    <footer>
+        <!-- copyright -->
+        <div style="text-align: center;">@ 2021 Copyright: Krystal Institue</div>
+    </footer>
+</body>
+</html>

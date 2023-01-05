@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise8</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>8. HTML: Form II</h1>
+        <h2>Presented by Krystal Institute</h2>
+    </header>
+    <main>
+        <!-- Login -->
+        <h3>Login</h3>
+        <form id="loginForm">
+            <label for="uname">Username</label>
+            <input id="uname" name="uname" placeholder="Enter username" maxlength="20" required>
+            <br>
+            <label for="pw">Password</label>
+            <input id="pw" name="pw" type="password" placeholder="Enter password" maxlength="20" required>
+            <br>
+            <input type="submit" value="Login">
+            <br>
+            <a href="" alt="Create account">Create account</a>
+            <br>
+            <a href="createAC.html" alt="Create account">Create account (with the new "createAC.html")</a>
+            <br>
+            <a href="" alt="Forgot password">Forgot password</a>
+        </form>
+        <!-- Create account -->
+        <h3>Create account</h3>
+        <form id="createAC-form">
+            <label for="contactName">Name</label>
+            <input id="contactName" name="contactName" placeholder="e.g. Choco Lau" pattern="[a-z A-Z]+" maxlength="30" required>
+            <br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="female" value="F" required>Female
+            <input type="radio" name="gender" id="male" value="M" required>Male
+            <input type="radio" name="gender" id="other" value="other" required>Other
+            <input type="radio" name="gender" id="secret" value="secret" required>Secret
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" maxlength="40" placeholder="e.g. ABC@email.com" required>
+            <br>
+            <label for="uname">Username</label>
+            <input id="uname" name="uname" placeholder="Letters/Numbers/_ only" pattern="[a-zA-Z0-9_]+" minlength="6" maxlength="20" required>
+            <br>
+            <label for="pw1">Password</label>
+            <input id="pw1" name="pw1" type="password" placeholder="Enter password" minlength="8" maxlength="20" required>
+            <br>
+            <label for="pw2">Comfirm password <br>(Note: This function requires JS, will teach in the later lessons.)</label><br>
+            <input id="pw2" name="pw2" type="password" minlength="8" maxlength="20" onkeypress="" required>
+            <br>
+            <input type="submit" value="Create">
+        </form>
+        <!-- Forgot password -->
+        <h3>Forgot password</h3>
+        <form id="forgotPW-form">
+            <label for="forgotPW-input">Enter your username / Email 
+                <br>(Note: This function also requires JS/Python to check the user database.)</label><br>
+            <input id="forgotPW-input" name="fotgotPW-input" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <!-- Contact us -->
+        <h3>Contact Us</h3>
+        <form id="contactForm">
+            <label for="contactName">Name</label>
+            <input id="contactName" name="contactName" placeholder="e.g. Choco Lau" pattern="[a-z A-Z]+" maxlength="30" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" maxlength="40" placeholder="e.g. ABC@email.com" required>
+            <br>
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Say something.." rows="4" cols="30" required></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <!-- Payment -->
+        <h3>Credit card</h3>
+        <form id="payment-form">
+            <label for="firstname">First name</label>
+            <input id="firstname" name="firstname" pattern="[a-z A-Z]+" maxlength="30" required>
+            <label for="lastname">Last name</label>
+            <input id="lastname" name="lastname" pattern="[a-z A-Z]+" maxlength="30" required>
+            <br>
+            <label for="ccnum">Credit card number</label>
+            <input id="ccnum" name="ccnum" pattern="\d{4}[- /.]\d{4}[- /.]\d{4}[- /.]\d{4}" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="19" required>
+            <br>
+            <label for="ccExp">Expiration date</label>
+            <input id="ccExp" name="ccExp" pattern="(0[1-9]|1[012])[- /.](2[1-9]|[345][0-9])" placeholder="MM/YY" maxlength="5" required>
+            <br>
+            <label for="cvc">Security code</label>
+            <input id="cvc" name="cvc" pattern="[0-9]{3}" placeholder="CVC" maxlength="3" required>
+            <br>
+            <input type="submit" value="Continue to checkout">
+        </form>
+    </main>
+    <footer>
+        <!-- copyright -->
+        <div style="text-align: center;">@ 2021 Copyright: Krystal Institue</div>
+    </footer>
+</body>
+</html>

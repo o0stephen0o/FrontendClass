@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>8. HTML: Form II</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>8. HTML: Form II</h1>
+        <h2>Presented by Krystal Institute</h2>
+    </header>
+    <main>
+        <h3>Search form</h3>
+        <!-- SiteSearch Google -->
+        <form method="get" action="http://www.google.com/search" target="_blank">
+            <a href="http://www.google.com/" target="_blank">
+                <img src="https://pngimg.com/uploads/google/google_PNG19635.png" width="40" alt="Google"></a>
+            <input type="search" name="q" value="">
+            <input type="submit" name="submit-btn" value="Search">
+        </form>
+        <h3>Validation</h3>
+        <form>
+            <label for="name">Name</label>
+            <input id="name" name="name" minlength="6" maxlength="20" required>
+            <br>
+            <label for="phone">Phone no.</label>
+            <input type="tel" id="phone" name="phone" maxlength="8" pattern="[0-9]{8}">
+            <br>
+            Only letters
+            <input pattern="[a-zA-Z]+">
+            <br>
+            A Small / Capital letter only
+            <input pattern="[a-zA-Z]">
+            <input pattern="[a-z]+">
+            <br>
+            Small letters, 6-20 char
+            <input pattern="[a-z]{6,20}">
+            <br>
+            Letters & no. & -_. only
+            <input pattern="[a-zA-Z0-9-_.]+">
+            Must start with letters
+            <input pattern="[a-zA-Z][a-zA-Z0-9]">
+            <br>
+            ###-########
+            <input pattern="\d{3}-\d{8}">
+            <br>
+            +###-########
+            <input pattern="[+]\d{3}-\d{8}">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <!-- copyright -->
+        <div style="text-align: center;">@ 2021 Copyright: Krystal Institue</div>
+    </footer>
+</body>
+
+</html>
