@@ -229,7 +229,40 @@
 
         <input type="week" name="week" id="camp-week"
             min="2023-W1" max="2023-W26" required>
+        
 
+        <br>
+
+        <!-- Selection (Dropdown) -->
+
+        <label for="pet-select">Choose a pet:</label>
+
+        <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+        
+        <br>
+
+
+        <!--Selection (datalist)-->
+
+        <label for="ice-cream-choice">Choose a flavor:</label>
+
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+
+        <datalist id="ice-cream-flavors">
+            <option value="Chocolate">
+            <option value="Coconut">
+            <option value="Mint">
+            <option value="Strawberry">
+            <option value="Vanilla">
+        </datalist>
                 
     </form>
     
