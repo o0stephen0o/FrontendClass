@@ -33,11 +33,14 @@
         <a href="#forgotPassword">Forgot password</a>
     
     </fieldset>
-<br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <hr color="#c7c34c" size="2" width="100%" >
     <fieldset id="createAccount" style="width:300px;">
 
-        <legend>Create Account</legend>
+        
+        <h2>Create Account</h2>
     
         <form>
 
@@ -74,29 +77,29 @@
            
             <label for="email">Email</label><br>
             <input type="email" id="email"
-            pattern="/[a-z][A-Z][0-9]_/" size="30" placeholder="e.g.ABC@gmail.com" required>
+            size="30" placeholder="e.g.ABC@gmail.com" required>
 
             
             <br>
 
             <label for="username" >UserName</label><br>
-            <input type="text" placeholder="Letters/Number/_ Only" id="username">
+            <input type="text" pattern="[a-zA-Z0-9]+" placeholder="Letters/Number/_ Only" id="username">
             
             <br>           
 
             
             <label for="pass">Password</label>
             <input type="password" id="pass" name="password"
-                minlength="8" maxlength="20" pattern="[0-9][a-z][A-Z]{8}" placeholder="Enter Password" required>
+                minlength="8" maxlength="20" pattern="[0-9a-zA-Z]{8}" placeholder="Enter Password" required>
             
 
             <br>
 
-            <label for="ConfirmPW">Confirm password
+            <label for="confirmPW">Confirm password
                 <br>(Note" This function requires JS, will teach in later lesson)
             </label>
-            <input type="password" id="pass" name="password"
-                minlength="8" maxlength="20" pattern="[0-9][a-z][A-Z]{8}" onkeypress="JS function" required>
+            <input type="password" id="confirmPW" name="confirmPW"
+                minlength="8" maxlength="20" pattern="[0-9][a-z][A-Z]{8}" onkeypress="" required>
 
             <br>
 
@@ -113,6 +116,8 @@
     </fieldset>
 
 <hr color="#c7c34c" size="2" width="100%" >
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <fieldset id="forgotPassword" style="width:300px;">
 
