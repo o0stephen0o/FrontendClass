@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline And Border</title>
+    <style>
+
+        .orange_outline{
+            background-color: orange;
+            outline-style: dotted;
+            outline-color: red;
+            outline-width: 5px;
+        }
+
+        .lightblue_outline{
+            background-color: lightblue;
+            outline: dotted orange 5px;
+        }
+
+        .orange_border{
+            background-color: orange;
+            border-style: dotted;
+            border-color: red;
+            border-width: 5px;
+        }
+
+        .lightblue_border{
+
+            background-color: lightblue;
+            border: dotted orange 5px;
+        }
+
+    </style>
+</head>
+
+<body style="background-color: lightgreen;">
+
+    <!-- outline vs outline -->
+    <a class="orange_outline"> This is first line </a>
+    <a class="lightblue_outline"> This is the second line</a>
+    <H1> this is the third line</H1>
+
+    <br>
+
+    <!--outline vs border-->
+    <a class="orange_outline"> This is first line </a>
+    <a class="lightblue_border"> This is the second line</a>
+    <H1> this is the third line</H1>
+
+    <br>
+
+
+
+    <!--border vs outline-->
+    <a class="orange_border"> This is first line </a>
+    <a class="lightblue_outline"> This is the second line</a>
+    <H1> this is the third line</H1>
+
+    <br>
+
+    <!-- border vs border -->
+    <a class="orange_border"> This is first line </a>
+    <a class="lightblue_border"> This is the second line</a>
+    <H1> this is the third line</H1>
+
+    <br>
+
+
+
+
+
+    
+</body>
+</html>
