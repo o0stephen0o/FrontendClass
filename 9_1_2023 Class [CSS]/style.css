@@ -1,0 +1,14 @@
+.orange{
+    background-color: orange;
+    margin-left: 200px;
+    height: 60px;
+    width: 100px;
+    border: dotted rgb(137,169,255) 5px;
+}
+
+.lightblue{
+    background-color:lightblue;
+    height: 200px;
+    width: 200px;
+    border: solid red 5px;
+}
