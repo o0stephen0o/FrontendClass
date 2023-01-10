@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>CSS_table style(color)</title>
+</head>
+
+<style>
+	body{
+		background-color:lightblue;
+	}
+
+  table{
+    width:50%;
+    border: 2px solid red;
+    border-collapse:collapse;
+  }
+
+	th,td{
+		height:50px;
+		padding:20px;
+    border-bottom:1px solid blue;
+
+	}
+
+  th{
+    background-color: orange;
+    color: red;
+  }
+
+  td{
+    border-bottom:1px solid blue
+  }
+
+  tr:nth-child(even){background-color:lightseagreen}
+  tr:nth-child(odd){background-color: lawngreen;}
+  tr:hover{background-color: red; color: white;}
+ /*th{
+    border: 1pcx solid black;
+    height:50px;
+    text-align:center;
+    vertical-align: top;
+  }  
+
+ td{
+    border-bottom:1px solid blue;
+    height: 50px;
+    text-align: right;
+    vertical-align: bottom;
+  }*/
+
+</style>
+
+<body>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Chan</td>
+  </tr>
+  <tr>
+    <td>Mary</td>
+    <td>Law</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Hui</td>
+  </tr>
+  <tr>
+    <td>Michael</td>
+    <td>Fung</td>
+  </tr>
+</table>
+
+</body>
+</html>
+

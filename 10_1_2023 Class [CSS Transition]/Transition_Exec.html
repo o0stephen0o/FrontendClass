@@ -39,9 +39,28 @@
             width: 300px;
             height: 300px;
 
-            background-color: lightblue;          
-            transition: width 1s, height 1s;
+            background-color: lightgreen;          
+            /*transition: width 1s, height 1s;*/
             
+        }
+
+        p,li{
+            font-size:30px;
+        }
+        
+        ol.first{
+            list-style-type: lower-roman;
+        }
+
+        ol.first:hover, ol.second:hover{
+            font-size: 50px;
+            color:aqua;
+            
+        }
+
+
+        ol.second{
+            list-style-type: upper-alpha;
         }
 
     </style>
@@ -58,6 +77,22 @@
     <div class="second">
         <a> This is the second section! </a>
     </div>
+
+    <p>order List:</p>
+
+    <ol class="first">
+        <span><li><img src="./pot.jpeg"/> coffee </li></span>
+        <span><li><img src="./pot.jpeg"/> water </li></span>
+        <span><li><img src="./pot.jpeg"/> tea </li></span>
+    </ol>
+
+    <br>
+
+    <ol class="second">
+        <li> <img src="./pot.jpeg"/> coffee </li>
+        <li> <img src="./pot.jpeg"/>water </li>
+        <li> <img src="./pot.jpeg"/> tea </li>
+    </ol>
     
 
 </body>
