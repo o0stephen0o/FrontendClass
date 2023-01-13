@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity4</title>
+    <style>
+
+        body{
+
+            background-color: rgb(96, 191, 223);
+            font-size: 14px;
+
+        }
+
+        div.container{
+            background-color: rgb(153, 235, 235);
+            width: 400px;
+            position:absolute;
+            top: 20px;
+            left:330px;
+            right:330px;
+            bottom:180px
+
+        }
+
+        
+        label.labelName{
+            margin-left: 20px;
+            margin-top:35px;
+            
+            color:orange;
+            font-size:18px;
+            font-weight: bold;
+            
+        }
+
+        label.labetext{
+
+            margin-left: 20px;
+            
+            border:none;
+            border-bottom:5px solid rgb(177, 126, 15);
+            color:orange;
+            font-size:18px;
+            font-weight: bold;
+            
+
+        }
+
+        .labeltext:focus{
+            
+            background-color: pink;
+            border:none;
+            border-bottom:  5px solid rgb(177, 126, 15);
+
+        }
+        
+        td{
+            height:30px;
+        }
+      
+        input{
+
+            margin-left:20px;
+            margin-top:5px;
+           
+        }
+
+        select{
+
+            margin-left:20px;
+            font-size:12px;
+            margin-top:10px;
+            
+        }
+
+        input[type="submit"]{
+
+            float:right;
+            border:  2px solid rgb(5, 6, 7);
+            background-color: rgb(153, 235, 235) ;
+            
+        }
+
+        input[type="submit"]:hover{
+            background-color: salmon;
+        }
+
+    </style>
+
+</head>
+<body>
+  <div class="container">
+    <form id="form1" action="https://www.google.com" method="get" target="_blank">
+        <table>
+
+            <tr>
+                <td>
+                    <label for="name" class="labelName" >Name</label> <br>
+                    <input id="name" class="labeltext" placeholder="Please Input your Name">
+
+                    <br>
+                <td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="gender" class="labelName">Gender</label><br>
+                    <input type="radio" name="gender" id="gender">M</input>
+                    <input type="radio" name="gender" id="gender">F</input>
+
+                    <br>
+                <td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="age" class="labelName">Age</label><br>
+                    <input type="radio" name="age" id="age" value="1">15-25</input>      
+                    <input type="radio" name="age" id="age" value="2">26-35</input>        
+                    <input type="radio" name="age" id="age" value="3" >36-45</input>        
+                    <input type="radio" name="age" id="age" value="4">46-55</input>        
+                    <input type="radio" name="age" id="age" value="5">56->65</input>
+
+                    <br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="favouriteFruit" class="labelName">What is your favourite fruit?</label><br>
+
+                    <select id="fruit" name="fruit">
+                        <option value="apple">apple</option>
+                        <option value="orange">orange</option>
+                        <option value="lemon">lemon</option>
+                    </select>
+
+                    <br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                
+                    <input type="submit" value="submit" class="submit">
+                </td>
+            </tr>
+
+        </table>
+
+
+    </form>
+  </div>
+    
+</body>
+</html>

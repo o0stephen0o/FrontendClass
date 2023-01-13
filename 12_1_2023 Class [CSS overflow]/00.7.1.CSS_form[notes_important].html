@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>CSS_form(original)</title>
+</head>
+
+<style> 
+    input {
+        width: 200;
+        padding:12px 20px;
+        border: none;
+        border-bottom: red 2px solid;
+        background-color: lightgreen;
+        color:blue;
+        
+
+    }
+
+    input:focus{
+        background-color: red;
+        color:white;        
+        border: rgb(67, 65, 189) 2px solid;
+        font-size:20px;
+    }
+
+    textarea{
+        margin-top: 2vh;
+        
+        width: 300px;
+        height: 250px;
+        font-size: 20px;
+        background-color: lightblue;
+        border: red 4px soild;
+    }
+
+    textarea:focus{
+        background-color: yellow;
+        color: green;
+        font-size: 25px;
+    }
+
+    textarea:hover{
+        background-color: lightsalmon;
+    }
+
+   label.comment{
+      position:relative;
+      bottom:110px;
+   }
+
+   select {
+		width: 300px;
+		padding: 16px 20px;
+		border: none;
+		/*	border: 2px blue solid; */
+		background-color: rgb(38, 184, 50);
+	}
+
+    
+
+	option {
+		color: red;
+		font-size: 16px;
+		font-weight: bold;
+        background-color: tomato;
+		margin: 5px;
+		/*	background-color: white; */
+	}
+
+    select:focus{
+        background-color: yellow;
+    }
+
+    input[type=button]{
+        margin-top:1vh;
+    	background:pink;
+    	font-size: 15px;
+    	color:#000;
+        width:20%;
+    }
+
+    /* [] Attribute Selection */
+
+    input[type=reset]{
+
+        margin-top:1vh;
+    	border:green 2px solid;
+    	background-color:lightblue;
+    	width:20%;
+    }
+
+    input[type=submit]{
+        margin-top:1vh;
+    	border:rgb(128, 0, 85) 2px solid;
+    	background-color: lightblue;        
+    	width:20%;
+    }
+
+    /*form{
+        width:50%;
+    }*/
+
+    table{
+        width:1000px;
+    }
+
+    td{
+        width:100px;
+    }
+
+    
+
+    td.info{
+        width:600px;
+    }
+
+    
+
+</style>
+</head>
+<body>
+
+<p>An input field:</p>
+
+<form id="form01" action="https://www.google.com/" target="_blank" method="get">
+    <table>
+        <tr>
+            <td>
+                <label for="fname">First Name:</label>
+            </td>
+            <td class="info">
+                <input type="text" id="fname" name="fname" >
+            </td>
+        </tr>
+
+        <tr>
+            <td class="commentLabel">
+                <label class="comment" for="ftextArea">Comment:</label>
+            </td>
+            <td class="info">
+                <textarea id="ftextArea" name="ftextArea" placholder="Please Insert"? ></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p> Please select the fruit that you like:</p>
+            </td>
+
+            <td class="info">
+                <select id="fruit" name="fruit">
+			        <option value="apple">apple</option>
+			        <option value="orange">orange</option>
+			        <option value="lemon">lemon</option>
+		        </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p> Different buttons:</p>
+            </td>
+            <td class="info">
+               
+                    <input type="button" value="button"> 
+                    <input type="reset" value="reset"> 
+                    <input type="submit" value="submit"> 
+                
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+

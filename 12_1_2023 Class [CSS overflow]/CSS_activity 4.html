@@ -1,0 +1,99 @@
+<html>
+
+<head>
+	<style>
+		body {
+			background-color: lightblue;
+		}
+
+		div.form {
+			width: 450px;
+			height: 450px;
+			margin: auto;
+			padding: 15px;
+			font-size: 20px;
+			background-color: #cbfff9;
+		}
+
+		p {
+			margin: 15px 0px 15px 15px;
+			font-size: 30px;
+			font-weight: bold;
+			color: orange;
+		}
+
+		input[type="text"] {
+			width: 350px;
+			height: 30px;
+			margin-left: 15px;
+			padding: 10px;
+			font-size: 20px;
+			border: none;
+			border-bottom: orange 2px solid;
+		}
+
+		input[type="text"]:focus {
+			 background-color: pink;
+		}
+
+		input[type="radio"] {
+			margin-left: 15px;
+			padding: 10px;
+			font-size: 20px;
+		}
+
+		input[type="submit"] {
+			float: right;
+			font-size: 20px;
+			background-color: transparent;
+		}
+
+		input[type="submit"]:hover {
+			color: red;
+		}
+
+		select {
+			margin-left: 15px;
+			padding: 5px;
+			font-size: 20px;
+		}
+
+		option {
+			font-size: 20px;
+			font-weight: bold;
+			color: violet;
+		}
+	</style>
+	<title>CSS_ activity 4</title>
+</head>
+
+<body>
+	<div class="form">
+		<form>
+			<p>Name:</p>
+			<input type="text" placeholder="Please input your name">
+
+			<p>Gender:</p>
+			<input type="radio" name="gender" value="gender">M
+			<input type="radio" name="gender" value="gender">F
+
+			<p>How old are you?</p>
+			<input type="radio" value="year" name="age">15-25
+			<input type="radio" value="year" name="age">26-35
+			<input type="radio" value="year" name="age">36-45
+			<input type="radio" value="year" name="age">46-55
+			<input type="radio" value="year" name="age">>56-65
+
+			<p> What is your favourite fruit?</p>
+			<select id="fruit" name="fruit">
+				<option value="apple">Apple</option>
+				<option value="orange">Orange</option>
+				<option value="lemon">Lemon</option>
+				<option value="pineapple">Pineapple</option>
+			</select>
+		</form>
+		<input type="submit" value="Submit">
+	</div>
+</body>
+
+</html>
