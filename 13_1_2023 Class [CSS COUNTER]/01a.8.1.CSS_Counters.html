@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<style>
+		body {
+			background: lightgreen;
+			counter-reset: section;
+			/* create and reset the counter name */
+		}
+
+		h2::before {
+			counter-increment: section;
+			content: "Section " counter(section) ": ";
+		}
+	</style>
+	<title>CSS_Counters</title>
+</head>
+
+<body>
+
+	<h1>Using CSS Counters:</h1>
+	<h2>HTML Tutorial</h2>
+	<h2>CSS Tutorial</h2>
+	<h2>JavaScript Tutorial</h2>
+
+</body>
+
+</html>

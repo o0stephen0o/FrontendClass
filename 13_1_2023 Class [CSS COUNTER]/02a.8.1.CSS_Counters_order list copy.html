@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<style>
+		body {
+			background: lightseagreen;
+			font-size: 20px;
+		}
+
+		ol {
+			counter-reset: section;
+			/* create & reset a counter_name at diff part */
+			list-style-type: none;
+			/* list-style-type: lower-alpha; */
+		}
+
+		li::before {
+			counter-increment: section;
+			/*set increment */
+			content: Counters(section, ".") " ";
+			/*specifying the display format, with Counters*/
+			
+		}
+	</style>
+
+	<title>CSS_Counters& order list</title>
+</head>
+
+<body>
+	<ol>
+		<li>section A </li>
+		<li>section B
+
+			<ol>
+				<li>section B1</li>
+				<li>section B2</li>
+				<li>section B3
+					<ol>
+
+						<li>section B1a</li>
+						<li>section B1b</li>
+						<li>section B1c</li>
+					</ol>
+
+				</li>
+				<li>section B4</li>
+			</ol>
+		</li>
+		<li>section C</li>
+		<li>section D</li>
+	</ol>
+
+</body>
+
+</html>
