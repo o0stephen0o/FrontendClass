@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+		body {
+			background: lightseagreen;
+			font-size: 20px;
+		}
+
+
+		ol{
+			counter-reset: section ;
+			/* create & reset a counter_name at diff part */
+			list-style-type: none;
+			/* list-style-type: lower-alpha; */
+		}
+
+		li::before {
+			counter-increment: section;
+			/*set increment */
+			content: Counters(section, ".")" ";
+			/*specifying the display format, with Counters*/
+			
+		}
+
+        .firstLevel::before{
+
+            counter-increment: section;
+			/*set increment */
+			content: Counter(section)".";
+			/*specifying the display format, with Counters*/
+
+        }
+
+
+	</style>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <ol>
+        <li class="firstLevel">The first section</li>
+        <li class="firstLevel">The second section</li>
+
+        <ol>
+            <li>section 2.1</li>
+            <li>section 2.2</li>
+        </ol>
+    </ol>
+
+    
+</body>
+</html>
