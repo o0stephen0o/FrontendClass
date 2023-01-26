@@ -1,0 +1,51 @@
+<html>
+<head>
+<style>
+	.grid-container {
+	  display: grid;
+	  grid-gap: 20px;
+	  grid-template-columns: auto auto auto;
+	  background-color: green;
+	  padding: 10px;
+	}
+
+	.grid-container > div {
+	  background-color: lightpink;
+	  text-align: center;
+	  padding: 20px 0;
+	  font-size: 30px;
+	}
+
+	.item1 {
+	  grid-column-start: 1;
+	  grid-column-end: 2;
+	}
+
+	.item6{
+	  grid-column-start: 1;
+	  grid-column-end: 4;
+	}
+	
+	.item8{
+		grid-column-start: 2;
+	  grid-column-end: 4;
+	}
+
+</style>
+<title>CSS_grid properties 2</title>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
+  <div class="item7">7</div>
+  <div class="item8">8</div>  
+</div>
+
+</body>
+</html>

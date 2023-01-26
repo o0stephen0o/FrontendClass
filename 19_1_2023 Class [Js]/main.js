@@ -1,0 +1,1 @@
+window.alert("demo 3")

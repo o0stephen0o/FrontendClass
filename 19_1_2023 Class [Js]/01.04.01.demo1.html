@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ck">
+    <meta name="description" content="JS demo 1">
+    <title>JS demo-1</title>
+
+    <script>
+        function demo1() {
+            document.getElementById("demoa").innerHTML = "H!";
+            /* document.erite("Testing...") */
+            console.log("Hello from demo")
+        }
+    </script>
+
+    <script>
+        function demo2() {
+
+            var t = document.getElementById("demob");
+            if(t.innerHTML=="" || t.innerHTML =="GoodBye!"){
+                t.innerHTML="Hello!";}
+            else{
+                t.innerHTML="GoodBye!";}
+    }
+        
+    </script>
+
+    <script>
+        function togetherButton() {
+        var button = document.createElement("button");
+        button.innerHTML = "Together";
+        button.addEventListener ("click", function() {
+            alert("We're in this together!");
+        });
+        document.body.appendChild(button);
+        }
+        
+    </script>
+
+</head>
+
+<body>
+    <header>
+     <h1>Exercise - Java Script 1 </h1>
+    </header>
+
+        <p id="demoa"></p>
+        <button type="button" onclick="demo1()">Say hi! </button>
+        <br>
+    <p id="demob"></p>
+    <button type="button" onclick="demo2()">Say hello ! </button>
+
+    <br>
+
+    <button type="button" onclick="togetherButton()">Test</button>
+
+
+    
+    <section id="JS001" style="text-align: Center;">
+        <p> Demo 3 window alert  </p>
+    
+   </section>
+ 
+  <script src="main.js"></script>
+  
+  <p id="democ"></p>
+
+    <script>
+        // var y=0; 
+    
+        var str="\'line\' \n Other \n line";
+        console.log(str);
+
+        document.getElementById("democ").innerText = str;
+    </script>
+
+
+    <footer>
+        <!-- Remarks -->
+
+    <div style="text-align: Center;"> @Date: 2022-10-31</div>
+  
+ </footer>
+</body>
+</html>

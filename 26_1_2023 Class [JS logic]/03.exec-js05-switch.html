@@ -1,0 +1,43 @@
+<html>
+
+<body>
+    <script>
+ /*  const fruit = 'Mangoes';
+    switch (fruit) {
+        case 'Oranges':
+            console.log('Oranges are $0.59 a pound.');
+            break;
+        case 'Mangoes':
+        case 'Papayas':
+            console.log('Mangoes and papayas are $50/kg.');
+            // expected output: "Mangoes and papayas are $50/kg."
+            break;
+        default:
+            console.log(`Sorry, we are out of ${fruit}.`);
+    }
+*/
+   /* const someday = 'Thursday';  */
+   let someday = prompt("day ?")  
+    let weekend = true;
+    switch (someday) {
+        case 'Monday':
+        case 'Tuesday':
+        case 'Wednesday':
+        case 'Thursday':
+        case 'Friday':
+            weekend = false;
+            break;
+        case 'Saturday':
+        case 'Sunday':  
+            weekend = true;
+            break;  
+        default:
+            weekend = true;
+    }
+    if (weekend) {console.log('someday is weekend.')}
+    else {console.log('someday is not weekend.')};
+ 
+    </script>
+</body>
+
+</html>

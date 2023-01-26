@@ -1,0 +1,59 @@
+<html>
+
+<body>
+    <script>
+      /*  for (let i =1; i <= 10; i++)
+        {
+        console.log(i);
+        };*/
+
+    /* omitting initialize block 
+        let i = 0;
+        for (; i <= 10; i++) {
+        console.log(i);
+        // more statements
+        };
+    */
+
+    /* omitting condition expression 
+    for (let i = 0; ; i++) {
+        console.log(i);
+        if (i > 3) break;
+        // more statements
+    };*/
+    
+
+    /* omitting 3 expressions */
+    
+    let i = 0;
+
+    for (;;) {
+        
+        console.log(i);
+        if (i > 3) break;
+        i++;
+        }
+       
+
+    /* be careful in declaration of running index.
+
+    for (let i = 0; i < 3; i++) {
+        setTimeout(() => {
+        console.log(i);
+            }, 1000);
+    }; //0,1,2
+    */
+    /*
+        let i = 0;
+        for (; i < 3; i++) {
+        setTimeout(() => {
+            console.log(i);
+        }, 1000);
+        }
+    // only 3,3,3
+        */
+
+    </script>
+</body>
+
+</html>

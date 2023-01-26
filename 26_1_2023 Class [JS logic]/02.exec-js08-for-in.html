@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>For Loop</title>
+</head>
+
+<body>
+    <script>
+    let x;
+    let y;
+        
+    //for in iterate the properties of an object
+       let dog = {
+        name: "Marley",
+        gender: "Male",
+        age: 2,
+        breed: "Labrador retriever"
+        };
+
+    for (x in dog) {
+    console.log(x+": "+dog[x]);
+    }
+    
+    // name: Marley, gender: Male, age: 2, breed: Labrador retriever
+
+    //for of loop through the values of an iterable object
+    let animals = ["Cat", "Dog", "Cow", "Horse", "Chicken"]
+
+    for (y of animals) {
+    console.log(y);
+    }
+    // Cat, Dog, Cow, Horse, Chicken
+    
+    for (x of "JavaScript") {
+   console.log(x);
+   
+   let textArray = [1,2,3,4,5,6,7,8,9,10];
+   for (x of textArray) {
+       console.log(x);
+   }    
+    // 1,2,3,4,5,6,7,8,9,10
+    
+    //Cat Object
+        let cat = {
+            name: "baby",
+            gender: "Male",
+            age: 2,
+            breed: "Persian"
+            };
+    for (x in cat) {
+    console.log(x + ": " + cat[x]);
+    }
+    //horse Object
+    
+}
+
+    </script>
+</body>
+
+</html>
