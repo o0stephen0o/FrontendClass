@@ -1,0 +1,58 @@
+<html>
+
+<body>
+    <script>
+    //label for break or continue
+    /*let str = '';
+
+        loop1:
+        for (let i = 0; i < 5; i++) {
+        if (i === 1) {
+            continue loop1;
+        }
+        str = str + i;
+        }
+
+        console.log(str);*/
+// expected output: "0234"
+
+//label continue 
+/*
+let i, j;
+
+    loop1:
+    for (i = 0; i < 3; i++) {      //The first for statement is labeled "loop1"
+    loop2:
+        for (j = 0; j < 3; j++) {   //The second for statement is labeled "loop2"
+            if (i === 1 && j === 1) {
+            continue loop1;
+            }
+            console.log(`i = ${i}, j = ${j}`);
+        }
+    }
+*/
+//label break
+
+let h, k;
+
+loopa:
+for (h = 0; h < 3; h++) {      //The first for statement is labeled "loopa"
+  loopb:
+  for (k = 0; k < 3; k++) {   //The second for statement is labeled "loopb"
+    if (h === 1 && k === 1) {
+      break loopa;
+    }
+    console.log(`h = ${h}, k = ${k}`);
+  }
+}
+console.log ('Completed');
+// Logs:
+// i = 0, j = 0
+// i = 0, j = 1
+// i = 0, j = 2
+// i = 1, j = 0
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<html>
+
+<body>
+    <script>
+        //Question 1
+        function CToF(C) {
+            var F = (C * (9/5)) + 32;
+
+            return F;
+        }
+
+        console.log(CToF(24));
+
+        //Question 2
+        function weekday(date) {
+            day = date.getDay();
+
+            if (day == 0 || day == 6) {
+                return false;
+            } else {
+                return true;
+            }
+
+        }
+
+        var date = new Date();
+        date.setFullYear(1981, 1, 12);
+
+        console.log(weekday(date));
+
+        //Question 3
+        function reverseString(str) {
+            var split = str.split("");
+
+            split.reverse();
+
+            var result = split.join("");
+
+            return result;
+        }
+
+        console.log(reverseString("The quick brown fox jumps over the lazy dog."));
+
+        //Question 4
+        function countChar(str, char) {
+            var count = 0;
+            for (var pos = 0; pos < str.length; pos++) {
+                if (str.charAt(pos) == char){
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        console.log(countChar("Even the smallest person can change the course of the future.", "t"));
+
+        //Question 5
+        function prime(num) {
+            if (num === 1) {
+                return false;
+            } else {
+                for (x = 2; x < num; x++) {
+                    if (num % x === 0) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        }
+
+        console.log(prime(89));
+    </script>
+</body>
+
+</html>

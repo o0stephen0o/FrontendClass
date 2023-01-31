@@ -1,0 +1,35 @@
+<html>
+<body>
+
+<form id="frm1" >
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>Click "ChkInput" to display the value of each element in the form.</p>
+
+<button onclick="chkInput()">ChkInput</button>
+
+<p id="demo"></p>
+
+<script>
+function chkInput() {
+  let x = document.getElementById("frm1");
+  let text = "";
+ 
+  for (let i = 0; i < x.length ;i++) {
+    if(x[i].value !== "Submit") {
+      text += x[i].value + "<br>";
+    }    
+  }
+  
+  /* for (j of x.elements) {
+    text += j.value + "<br>";
+  } */
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

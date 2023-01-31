@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObjMethod2</title>
+</head>
+<body>
+    <script>
+
+var name ="global";
+var outter = function() {
+        console.log("from fun1 on oj1");
+        console.log(this);
+        console.log(this.name);}
+
+ var obj1 = {
+     name : "obj1",
+     fun1 : outter
+     }
+
+obj1.fun1();  // this is "obj1"  -->  obj1.name is "obj1"
+ 
+var obj2 = {
+    name : "obj2",
+    fun2 : outter       // point to address of outter
+};
+obj2.fun2(); // this is "obj2" --> obj2.name is "obj2"
+    </script>
+</body>
+</html>

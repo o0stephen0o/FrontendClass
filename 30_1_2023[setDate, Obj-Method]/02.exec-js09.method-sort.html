@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort</title>
+</head>
+<body>
+
+    <form id="frm001" >
+        item1: <input type="text" name="item1" value="Apple"><br>
+        item2: <input type="text" name="item2" value="Papaya"><br>
+        item3: <input type="text" name="item1" value="Grape"><br>
+        item4: <input type="text" name="item2" value="Orange"><br>
+        item5: <input type="text" name="item1" value="Grape01"><br>
+        item6: <input type="text" name="item2" value="Banana"><br>
+       <!-- <input type="submit" value="Submit"> -->
+      </form> 
+      
+      <p>Click "Sort" to sort the input items in order.</p>
+      
+      <button onclick="SortInput()">Sort</button>
+      <br>
+      <p >Sort items in ascending order </p>
+      <br>
+      <p id="dispouta"></p>
+      <p >Sort items in descending order</p>
+      <br>
+      <p id="dispoutd"></p>
+      
+    
+    <script>
+     function SortInput() {
+        let inItems = document.getElementById("frm001");
+        let srtItems = [];
+        let outtxt = " ";
+        let outtxt2 = " ";
+        for (h of inItems.elements) {
+            srtItems.push(h.value); }
+
+        srtItems.sort();
+        
+        for (k of srtItems) {
+        outtxt += k + "<br>"};
+        document.getElementById("dispouta").innerHTML = outtxt;
+ 
+        srtItems.reverse();
+        outtxt2 = " ";
+        for (j of srtItems) {
+        outtxt2 += j + "<br>"};
+        document.getElementById("dispoutd").innerHTML = outtxt2;
+     }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+
+<body>
+    <script>
+       
+        //Celsius C to  Fahrenheit F
+        function CToF(C) {
+            var F = (C * (9/5)) + 32;
+
+            return F;
+        }
+
+        console.log(CToF(24));
+        
+     //count char in string
+        function countChar(str, char) {
+            var count = 0;
+            for (var pos = 0; pos < str.length; pos++) {
+                if (str.charAt(pos) == char){
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        console.log(countChar("Even the smallest person can change the course of the future.", "t"));
+
+	//distance
+	function distance(x1, y1, x2, y2) {
+		let dx = x2 -x1;
+		let dy = y2 -y1;
+		return Math.sqrt(dx**2 + dy**2);
+	}
+
+	console.log(distance(2,3,8,10));
+   
+    </script>
+</body>
+
+</html>

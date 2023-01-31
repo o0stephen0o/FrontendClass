@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrayForEach</title>
+</head>
+<body>
+
+    <script>
+    const companies=[
+     { name: "Company A",category : "finance", start :  "1981" , end : "2000"}, 
+     { name: "Company B",category : "retails", start :  "1992" , end : "2010"},
+     { name: "Company C",category : "retails", start :  "1981" , end : "1997"},
+     { name: "Company E",category : "retails", start :  "1988" , end : "2011"},
+     { name: "Company 1",category : "retails", start :  "1981" , end : "2012"},
+     { name: "Company X",category : "retails", start :  "1911" , end : "1922"},
+     { name: "Company Y",category : "finance", start :  "1981" , end : "2000"},
+     { name: "Company 2",category : "retails", start :  "2021" , end : "2022"},
+     { name: "Company r",category : "finance", start :  "1971" , end : "2001"},
+     { name: "Company R",category : "retails", start :  "1961" , end : "2022"}
+    ];
+const ages = [33,12,20,15,5,77,80,23,16,99,47,67,34];
+
+// (1) forEach
+for (let i = 0; i< companies.length; i++) {
+      console.log(companies[i]);
+}
+
+companies.forEach(function(company){console.log(company);});
+
+total = 0;
+ages.forEach(function(age) {total = total +age;
+});
+
+// (2) filter
+
+let adult = [];
+for (let i =0; i < ages.length; i++) {
+      if ( ages[i] >= 21) {
+            adult.push(ages[i]);
+      }
+}
+console.log(adult);
+
+let adult1 = ages.filter(function(age) {
+      if (age >= 21) {
+            return true;
+
+      }
+});
+
+// filter method arrow function
+
+let adult2 = ages.filter( age => age >= 21); 
+
+console.log("forLoop-age >=21 " + adult);
+console.log("filter-age >=21 " + adult1);
+console.log("filter-age >=21 arrow" + adult2);
+// filter companies
+
+const retailscompanies1 = companies.filter
+(function(company) {
+      if (company.category === "retails") {
+            return true;
+      }
+
+});
+
+// filter companies with arrow function
+console.log(retailscompanies);
+console.log(retailscompanies1);
+      
+// 80's company
+/*
+const eightlyCompanies = companies.filter(function(company) {
+      if (company.start >= 1980 && company.start < 1990) { return true;}});
+
+console.log(eightlyCompanies);
+
+const eightlyCompanies = companies.filter(function(company) {
+      if ((company.end - company.start) >= 10) { return true;}});
+
+console.log(eightlyCompanies);
+*/
+
+// (3) map
+const companyName = companies.map(function(company) {
+      return company.name;
+});
+
+console.log("company names =" + companyName);
+
+const testMap = companies.map(function (company) {
+      return '${company.name} [${company.start} - ${company.end}]'
+
+});
+
+console.log(testMap);
+// company.name + "[" + company.start + "-" + company.end +"]"
+
+    </script>
+    
+</body>
+</html>

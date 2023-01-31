@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>arrays</title>
+    </head>
+    <body>
+        
+        <script>
+          //  create an array with literals
+            const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];
+            console.log(shopping);
+         
+            // create an array with different data type
+            let sequence = [1, 1, 2, 3, 5, 8, 13];
+            let random = ['tree', 795, [0, 1, 2]];
+            
+            // create an array with 
+            let arrayName = new Array("cat","dog","cow","sheep","pig");
+
+            let arrayB = Array(5);
+            arrayB[0]  = "car";
+            arrayB[1] = "ferry" ;
+            arrayB[2] = "bus" ;
+            
+            // array .length property;
+            // array .push() add new element;
+            arrayName.push("hen");
+
+            // delete element
+            delete arrayB[0];
+            arrayB; // [empty,"dog","cow","sheep","pig"]
+            typeof(arrayB[0]); // undefined
+
+            // remove the last elementarray.pop()
+            arrayB.pop();
+            arrayB; // 
+            typeof(arrayB[0]); // undefined
+
+            // .shift()
+            arrayB.shift;
+            arrayB;
+
+        // .splice()
+            arrayB.splice(1,3,"bird","fish","snail");
+            arrayB;
+
+            //
+            
+        </script>
+    </body>
+</html>

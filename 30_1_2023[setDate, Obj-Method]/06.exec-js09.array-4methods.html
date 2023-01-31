@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array4MSort-Reduce</title>
+</head>
+<body>
+
+   <script>
+     const companies=[
+          { name: "Company A",category : "finance", start :  "1981" , end : "2000"}, 
+          { name: "Company B",category : "retails", start :  "1992" , end : "2010"},
+          { name: "Company C",category : "retails", start :  "1981" , end : "1997"},
+          { name: "Company E",category : "retails", start :  "1988" , end : "2011"},
+          { name: "Company 1",category : "retails", start :  "1981" , end : "2012"},
+          { name: "Company X",category : "retails", start :  "1911" , end : "1922"},
+          { name: "Company Y",category : "finance", start :  "1981" , end : "2000"},
+          { name: "Company 2",category : "retails", start :  "2021" , end : "2022"},
+          { name: "Company r",category : "finance", start :  "1971" , end : "2001"},
+          { name: "Company R",category : "retails", start :  "1961" , end : "2022"}
+     ];
+     const ages = [33,12,20,15,5,77,80,23,16,99,47,67,34];
+
+ //(1)  sort companies by start year
+
+ const sortedCompanies = companies.sort 
+ (function (c1,c2) {
+      if (c1.start > c2.start){
+           return 1;
+      }
+     else {return -1 }
+      });
+
+  console.log(sortedCompanies);
+
+ // sort ages using sort()
+ 
+ const sortAges = ages.sort(function(a,b) {
+      return a - b;
+ }); 
+ console.log(sortAges);
+ 
+ //(2) reduce method
+
+ let ageSum = 0;
+ for  (i = 0; i< ages.length; i++)  {
+       ageSum += ages[i];
+  };
+
+ console.log("Total-age = " +ageSum);
+
+total = 0;
+
+ const ageSum1 = ages.reduce(function (total, age)
+ {return total + age},0);
+ 
+ console.log("Total-age1 = " +ageSum1);
+
+// sum of all companies ages
+
+const totalValues = companies.reduce 
+(function(total,company) {
+     return total + (company.end - company.start);
+},0);
+
+console.log("companyTotal-age = " + totalValues);
+
+// sum of all companies ages with reduce method with arrow function
+
+total = 0;
+const totalYears1 =companies.reduce(
+     (total,company)=> total + company.end - company.start,0
+);
+
+console.log("companyTotal-age1 = " +totalYears1);
+
+// combine map, filter, sort, reduce methods
+
+const combined = ages.map(function(age) {return age*2 ;}).filter(function(age){ 
+     return age >= 40;
+}).sort(function (age1,age2) {
+     return age1 - age2;
+}).reduce(function(total,age) {
+     return total +age;
+},0);
+
+console.log("combined map & filter & sort & reduce = " + combined);
+
+
+// arrow function format
+const combined1 = ages.map(age => age*2 )
+.filter(age => age >= 40)
+.sort((age1,age2) => age1 - age2)
+.reduce((total,age) => total +age,0);
+
+console.log("combined map & filter & sort & reduce = " + combined1);
+   </script>
+    
+</body>
+</html>
