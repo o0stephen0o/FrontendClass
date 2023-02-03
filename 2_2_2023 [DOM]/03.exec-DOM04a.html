@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>DOM03-02</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Services</li>
+        <li >About</li>
+        <li>Contacts</li>
+    </ul>
+    <script>
+        let home = document.createElement("li");
+        home.textContent = "Home";
+        let list = document.querySelector("#list");
+        let curNode = list.firstElementChild;
+        
+        insertAfter(list, home, curNode);
+        /* list.insertBefore(home, list.lastElementChild); */
+        /* document.body.insertBefore(home, list); */
+
+        function insertAfter(parent, newNode, exNode) {
+
+            parent.insertBefore(newNode,exNode.nextElementSibling);
+        }
+        
+    </script>
+</body>
+
+</html>

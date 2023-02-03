@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>DOM03-02</title>
+</head>
+<body>
+    <script>
+        let fragment = new DocumentFragment()
+        for (let i = 0; i < 100; i++) {
+            let span = document.createElement("span");
+            
+            span.innerText = i.toString() + " ";
+            fragment.appendChild(span);
+        }
+        let body = document.querySelector("body")
+        body.appendChild(fragment)
+    </script>
+</body>
+
+</html>

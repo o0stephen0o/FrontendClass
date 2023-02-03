@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>DOM02-01a</title>
+</head>
+<body>
+    <div id="main">
+        <ul id="list">
+            <li>Home</li>
+            <li>Products</li>
+            <li >About</li>
+            <li>Contacts</li>
+            <li class="current">Login</li>
+         <!--  <li class="current">Login</li> -->
+        </ul>
+    </div>
+    <script>
+        let current = document.querySelector('.current');
+        console.log(current); // return an element
+        console.log(current.nextElementSibling); // return an element
+      //  console.log(current.previousElementSibling); 
+        console.log(current.previousElementSibling);
+    </script>
+</body>
+
+</html>

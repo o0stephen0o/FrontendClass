@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>DOM01-05</title>
+</head>
+<body>
+    <div class="main">
+        <label>First Number:</label><input type="text" name="first" id="first">
+        
+        <label for="second" style="white-space: nowrap; display: inline-block;">Second Number:
+            <input type="text" name="second" id="second"></label>
+        <button type="button" onclick="cal()">Calculate</button>
+        <br>
+        <input type="checkbox" name="cb" value=1>1
+        <input type="checkbox" name="cb" value=2>2
+        <input type="checkbox" name="cb" value=3>3
+        <input type="checkbox" name="cb" value=4>4
+        <input type="checkbox" name="cb" value=5>5
+        <button type="button" onclick="checkbox()">Submit checkbox</button>
+    </div>
+    <script>
+        // var cbs // for  displaying  on window
+        function cal() {
+            let f = document.getElementById("first")
+            let s = document.getElementById("second")
+            console.log(parseInt(f.value)+parseInt(s.value))
+        }
+
+        function checkbox() {
+            let cbs = document.getElementsByName("cb")
+            // cbs = document.getElementsByName("cb")
+            let numlist = []
+            for (let i = 0;i < cbs.length; i++) {
+                if (cbs[i].checked) {
+                  //  numlist.push(i+1)
+                  numlist.push(cbs[i].value)
+                }
+            }
+           /*
+            for (j of cbs) {
+                if (j.checked) {
+                  numlist.push(j.value)
+                }
+            }
+            */
+            console.log(numlist)
+        }
+    </script>
+</body>
+</html>

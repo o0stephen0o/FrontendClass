@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>DOM03-08</title>
+</head>
+<body>
+    <ul id="list">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+<script>
+    let list = document.querySelector("#list")
+    let li = list.removeChild(list.firstElementChild)
+    // after some time
+    list.appendChild(li)
+</script>
+</body>
+</html>

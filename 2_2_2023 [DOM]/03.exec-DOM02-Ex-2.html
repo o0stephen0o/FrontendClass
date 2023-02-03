@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>DOM02-03</title>
+</head>
+<body>
+    <ul id="list1">
+        <li>List 1 item 1</li>
+        <li>List 1 item 2</li>
+        <li>List 1 item 3</li>
+    </ul>
+    <ul id="list2">
+        <li>List 2 item 1</li>
+        <li>List 2 item 2</li>
+        <li>List 2 item 3</li>
+    </ul>
+    <button type="button" onclick="move()">Move items</button>
+    <script>
+        function move() {
+            let list1 = document.querySelector("#list1")
+            let list2 = document.querySelector("#list2")
+            let b = document.createElement("b")
+            //let item = list1.firstElementChild
+            
+                for(let i = 0; i = list1.children.length; i++){
+                    let item = list1.firstElementChild
+                    b.appendChild(item)
+                    list2.appendChild(b)
+                }
+                
+            
+        }
+    </script>
+</body>
+
+</html>

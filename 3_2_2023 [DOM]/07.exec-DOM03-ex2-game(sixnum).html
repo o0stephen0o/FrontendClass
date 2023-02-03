@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body id="body">
+    <button type="button" onclick="designated_number()">sixnum</button>
+
+    <button type="button" onclick="confirm()">confirm</button>
+    
+    <div id="display"></div>
+    
+    <button type="button" onclick="draw()">Show past hands</button>
+    
+    <div id="drawdisplay"></div>
+    
+<script>
+    let body = document.querySelector("#body")
+    
+    function sixnum(hand) {
+        let display = document.querySelector("#display")
+        
+        let p = document.createElement("p");
+        p.textContent = "You chose "+hand+"!";
+        p.id = "display";
+        body.replaceChild(p, display);
+        record.push(hand)
+    }
+
+    function draw() {
+        
+        let drawdisplay = document.querySelector("#drawdisplay")
+        //let numdisplay = document.querySelector(".numdisplay")
+        let record = [];
+        let ul = document.createElement("ul");
+        
+        //if()
+                
+        //console.log(numdisplay.innerText);                
+
+        for (let i = 0; i < 6; i++) {
+
+            let sixnum = Math.floor(Math.random() * 49) + 1;
+
+           /* if (record.includes(sixnum)) {
+                record.pop();
+                
+                
+            } else {*/
+                record.push(sixnum);
+            //}
+
+        }    
+        
+        for (let i = 0; i < record.length; i++) {
+            let li = document.createElement("li")
+            li.textContent = record[i]
+            li.className = "numdisplay"
+            ul.appendChild(li)
+        };
+        
+        ul.id = "drawdisplay"
+        
+        body.replaceChild(ul, drawdisplay)
+    }
+</script>
+</body>
+</html>

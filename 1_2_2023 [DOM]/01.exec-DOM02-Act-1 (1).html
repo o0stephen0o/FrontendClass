@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body>
+    <div id="main">
+        <ul id="list">
+            <li>Home</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contacts</li>
+            <li>Login</li>
+        </ul>
+    </div>
+    <script>
+       let parent = document.querySelector('#list'); 
+       let children = document.querySelector('#list').children;
+        
+        let first = document.querySelector('#list').firstElementChild;
+        let last = document.querySelector('#list').lastElementChild;
+        console.log(parent);
+        console.log(children);
+        console.log(first);
+        console.log(last);
+    </script>
+</body>
+
+</html>

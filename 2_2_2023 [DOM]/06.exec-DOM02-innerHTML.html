@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM02-06</title>
+</head>
+<body>
+    <ul id="main">        
+        <li>HTML</li>
+        <li>JS</li>        
+        <li>DOM</li>    
+    </ul>    
+    <button type="button" onclick="addhtml()">Add item</button>    
+    <script>      
+        function addhtml() {            
+            let main = document.querySelector("#main");
+            console.log(main.innerHTML);
+           // main.innerHTML += "<li>Python</li>"
+        }
+     </script>
+    <!--  main.innerHTML += "<script> window.alert()</script>"; --> 
+    <!-- main.innerHTML += "<img src='1' onerror='() =>{window.alert}'>" ; -->
+</body>
+</html>

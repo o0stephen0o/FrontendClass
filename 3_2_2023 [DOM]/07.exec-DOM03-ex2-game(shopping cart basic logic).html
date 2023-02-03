@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body id="body">
+    <button type="button" onclick="Sel('rock')">Rock</button>
+    <button type="button" onclick="Sel('paper')">Paper</button>
+    <button type="button" onclick="Sel('scissors')">Scissors</button><br>
+    <div id="display"></div>
+    <button type="button" onclick="showpast()">Show past hands</button>
+    <div id="pastdisplay"></div>
+<script>
+    let body = document.querySelector("#body")
+    let record = []
+    function Sel(hand) {
+        let display = document.querySelector("#display")
+        let p = document.createElement("p");
+        p.textContent = "You chose "+hand+"!";
+        p.id = "display";
+        body.replaceChild(p, display);
+        record.push(hand)
+    }
+
+    function showpast() {
+        let pastdisplay = document.querySelector("#pastdisplay")
+        let ul = document.createElement("ul");
+        for (let i = 0; i < record.length; i++) {
+            let li = document.createElement("li")
+            li.textContent = record[i]
+            ul.appendChild(li)
+        };
+        ul.id = "pastdisplay"
+        body.replaceChild(ul, pastdisplay)
+    }
+</script>
+</body>
+</html>

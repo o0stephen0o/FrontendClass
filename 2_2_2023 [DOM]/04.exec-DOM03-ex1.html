@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>DOM03-02</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Home</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Contacts</li>
+    </ul>
+    <script>
+        function insertAfter(ParentNode, NewNode, ExistingNode) {
+            ParentNode.insertBefore(NewNode, ExistingNode.nextElementSibling)
+        };
+        let product = document.createElement("li")
+        product.textContent = "Product"
+        let home = document.querySelector("li")
+        let list = document.querySelector("#list")
+        insertAfter(list, product, home)
+    </script>
+</body>
+
+</html>

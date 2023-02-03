@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>DOM03-02</title>
+</head>
+<body>
+
+    <button type="button" onclick="sixnum()">Draws</button>
+    <script>
+        function sixnum(){
+        let fragment = new DocumentFragment();
+        let body = document.querySelector("body");
+        let span = document.getElementsByClassName("sixnum1")
+        let array1 = [];
+
+        
+        let ul = document.createElement("ul");
+            
+            
+       
+        for (let i = 0; i < 7; i++){
+            let span = document.createElement("span");
+            let sixnum = Math.floor(Math.random() * 49) + 1;
+            
+            if (array1.includes(sixnum)){
+                array1.pop();
+                sixnum();
+            } 
+            else
+            {
+                array1.push(sixnum);
+            }
+            
+            span.innerText = sixnum.toString() + " ";
+            span.className = "sixnum1";
+            fragment.appendChild(span);
+            body.appendChild(fragment);
+
+            for (let i = 0; i < 7; i++) {
+                array1.pop();
+            }
+        }
+        
+        
+        }
+        
+        
+    </script>
+</body>
+
+</html>

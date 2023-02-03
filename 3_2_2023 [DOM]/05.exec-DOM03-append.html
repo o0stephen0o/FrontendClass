@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>DOM03-02</title>
+</head>
+<body>
+    <ul id="list">
+       <li>Home</li>
+    </ul>
+
+    <p id="para">The fist line</p>
+
+<script>
+    let namelist = ["Products", "Services", "About"];
+    let list = document.querySelector("#list");
+    
+    for (let i = 0; i < namelist.length; i++) {
+        let li = document.createElement("li");
+        li.textContent = namelist[i];
+        list.append(li);
+    }
+
+    // let p = document.querySelector("#para")
+     //p.append("Mary", "James", "Albert")
+    // (1) prepend inserts set of Nodes or DOMString before the first child
+    let p = document.querySelector("#para")
+    // p.prepend("Mary", "James", "Albert")
+    // (2) beware of the sequence changed
+     p.prepend("Mary")
+     p.prepend("James")
+     p.prepend("Albert")
+    
+
+
+</script>
+</body>
+</html>

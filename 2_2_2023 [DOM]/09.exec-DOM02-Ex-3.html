@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>DOM02-ex09</title>
+</head>
+<body>
+<span id="opdisplay"></span><span id="display"></span>
+    <table>
+        <tr>
+            <th><button type="button" onclick="addnum(7)">7</button></th>
+            <th><button type="button" onclick="addnum(8)">8</button></th>
+            <th><button type="button" onclick="addnum(9)">9</button></th>
+            <th><button type="button" onclick="boperator('+')">+</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="addnum(4)">4</button></th>
+            <th><button type="button" onclick="addnum(5)">5</button></th>
+            <th><button type="button" onclick="addnum(6)">6</button></th>
+            <th><button type="button" onclick="boperator('-')">-</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="addnum(1)">1</button></th>
+            <th><button type="button" onclick="addnum(2)">2</button></th>
+            <th><button type="button" onclick="addnum(3)">3</button></th>
+            <th><button type="button" onclick="boperator('*')">*</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="del_num()">C</button></th>
+            <th><button type="button" onclick="addnum(0)">0</button></th>
+            <th><button type="button" onclick="cal()">=</button></th>
+            <th><button type="button" onclick="boperator('/')">/</button></th>
+        </tr>
+    </table>
+    <script>
+        let operand1 = 0;
+        let optype ="";
+        let display = document.querySelector("#display");
+        let opdisplay = document.querySelector("#opdisplay");
+        
+        //get input number
+        function addnum(num) {
+            if (optype=="=") {display.textContent=""; // clear result display
+                              opdisplay.textContent="";
+                              optype = "" } // clear cal() done indicator
+            display.textContent += num.toString()
+        };
+
+        function boperator(op) {
+            operand1 = display.textContent; //previous input num
+            opdisplay.textContent = op;
+            display.textContent = "";  // clear the num before capture next input num
+            optype = op; // set operator 
+        }
+
+        function del_num() {
+            display.textContent = "";
+        }
+
+        function cal() {
+            let result = 0;
+            switch (optype) {
+                case "+":
+                    result = parseInt(operand1) + parseInt(display.textContent)
+                    break
+                case "-":
+                    result = parseInt(operand1) - parseInt(display.textContent)
+                    break
+                case "*":
+                    result = parseInt(operand1) * parseInt(display.textContent)
+                    break
+                case "/":
+                    result = parseInt(operand1) / parseInt(display.textContent)
+                    break
+            }
+            opdisplay.textContent = "="
+            display.textContent = result.toString()
+            operand1 = 0;
+            optype ="="; // indicating cal() is just done
+        }
+    </script>
+</body>
+
+</html>

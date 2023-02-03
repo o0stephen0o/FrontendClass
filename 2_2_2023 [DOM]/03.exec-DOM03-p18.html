@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>DOM03-02</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Services</li>
+        <li>About</li>
+        <li>Contacts</li>
+    </ul>
+    <script>
+        let home = document.createElement("li");
+        home.textContent = "Home";
+        let list = document.querySelector("#list")
+        secondChild = list.firstElementChild.nextElementSibling
+        
+        list.insertBefore(home, secondChild)
+        //ist.insertBefore(home, list.firstElementChild)
+    </script>
+</body>
+
+</html>

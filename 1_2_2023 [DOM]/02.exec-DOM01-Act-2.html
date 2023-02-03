@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body>
+    First Name: <input type="text" name="name" value="John">
+    Last Name: <input type="text" name="name" value="Williams">
+    <button type="button" onclick="getname()">Get Name</button>
+    <script>
+        // function getname() {
+        //     const p = document.getElementsByName("name");
+        //     let fullname = "";
+        //     for (let i = 0; i < p.length; i++) {
+        //         fullname += p[i].value;
+        //         p[i].value = "peter";
+        //         console.log(p)
+        //         fullname += " ";
+        //     };
+        //     console.log(fullname);
+        // };
+
+
+        function getname() {
+            const p = document.getElementsByName("name");
+            let fullname = "";
+            for (p of p.NodeList) {
+                fullname += p.value;
+                p.value = "peter";
+                console.log(p.value)
+                fullname += " ";
+            };
+            console.log(fullname);
+        };
+        
+    </script>
+</body>
+</html>

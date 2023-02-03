@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM02-01</title>
+</head>
+<body>
+   <!--  
+    <div id="main">
+        <p class="p1">This is a child paragraph!</p>    
+    </div>
+    <script>
+        let p1 = document.querySelector('.p1');
+        console.log(p1.parentNode);
+    </script>
+-->
+<div id="main">
+    <p id="p1">This is the first child paragraph!</p>
+    <p id="p2">This is the second child paragraph!</p>
+    <p id="p3">This is the last child paragraph!</p>
+
+</div>
+ <script>
+     let main = document.querySelector('#main');
+      //  console.log(main.firstChild);
+     // console.log(main.firstElementChild);
+     // console.log(main.lastChild);
+     // <p> ?? why
+     // console.log(main.childNodes); // returns a NodeList
+     console.log(main.children); // returns a HTMLCollection
+
+</script></body> 
+
+
+</html>

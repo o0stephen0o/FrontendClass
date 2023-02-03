@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>DOM03-06</title>
+</head>
+<body>
+    <h2>JS Tutorial</h2>
+    <ul id="list">
+        <li>JS</li>
+        <li>DOM</li>
+        <li>ES6</li>
+    </ul>
+    <h2>JS Tutorial</h2>
+<script>
+    
+    //beforeend
+    let list1 = document.querySelector("#list")
+   list1.insertAdjacentHTML("Beforeend", "<li>Hello!Beforeend</li>");
+
+    
+    //Afterbegin
+    let list2 = document.querySelector("#list")
+    list2.insertAdjacentHTML("Afterbegin", "<li>Hello!Afterbegin</li>");
+
+    //Beforebegin
+    let list3 = document.querySelector("#list")
+    list3.insertAdjacentHTML("Beforebegin", "<li>Hello!Beforebegin</li>");
+    
+    //Afterend
+    let list = document.querySelector("#list")
+    list.insertAdjacentHTML("Afterend", "<li>Hello!Afterend</li>");
+    
+    //Beforebegin inserts before the element
+    //Afterbegin inserts before the first child of the element
+    //Beforeend inserts after the last child of the element
+    //Afterend inserts after the element
+    
+    
+    //Replace Child
+     let python = document.createElement("li");
+     python.textContent = "Python Replace";
+     list.replaceChild(python, list.firstElementChild.nextElementSibling)
+</script>
+</body>
+</html>

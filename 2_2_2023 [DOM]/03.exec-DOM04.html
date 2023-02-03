@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>DOM03-02</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Services</li>
+        <li id="about">About</li>
+        <li>Contacts</li>
+    </ul>
+    <script>
+        let home = document.createElement("li");
+        home.textContent = "Home";
+        room ="roomgogogo"
+        //let list = document.querySelector("#list")
+        let about = document.querySelector("#about")
+        //let curNode = list.firstElementChild;
+        let curNode = list.firstElementChild;
+        
+        
+        //insertAfter(list, home, curNode)
+
+        insertAfter(about, room , curNode)
+        
+        
+        
+        //secondChild = list.firstElementChild.nextElementSibling
+        
+        //list.insertBefore(home, secondChild)
+        //ist.insertBefore(home, list.firstElementChild)
+        
+        
+       /* function insertAfter(parent, newNode, exNode) {
+            parent.insertBefore(newNode, exNode.nextSibling);
+        }*/
+
+        function insertAfter(exNode, newNode, curNode) {
+           exNode.append(curNode.nextSibling.textContent,newNode);
+           
+        }
+    </script>
+</body>
+
+</html>

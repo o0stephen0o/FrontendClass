@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body>
+    <label for="fn" style="white-space: nowrap; display: inline-block;">First Number:
+        <input id="fn"class="num" type="number" name="number" value="5">
+    </label>
+    
+    <label for="sn" style="white-space: nowrap; display: inline-block;">Second Number:
+        <input id="sn" class="num" type="number" name="number" value="10">
+    </label>
+  
+    <button type="button" onclick="getSumResult()">Calculate</button> <br/>
+    
+    
+    <input type="checkbox" class="numbox" name="arrayNum" id="arrayNum1" value="1">
+        <label for="arrayNum1" >1</label>
+    </input>
+
+    <input type="checkbox" class="numbox"  name="arrayNum" id="arrayNum2" value="2">
+        <label for="arrayNum2" >2</label>
+    </input>
+
+    <input type="checkbox" class="numbox" name="arrayNum" id="arrayNum3" value="3">
+        <label for="arrayNum3" >3</label>
+    </input>
+
+    <input type="checkbox" class="numbox" name="arrayNum" id="arrayNum4" value="4">
+        <label for="arrayNum4">4</label>
+    </input>
+
+    <input type="checkbox" class="numbox" name="arrayNum" id="arrayNum5" value="5">
+        <label for="arrayNum5" >5</label>
+    </input>
+
+    <button type="button" onclick="genArray()">Submit Checkbox</button>
+        
+    
+    
+    
+    <script>
+        function getSumResult() {
+            const p = document.getElementsByClassName("num");
+            let result = 0;
+            for (let i = 0; i < p.length; i++) {
+                result += parseInt(p[i].value);              
+            };
+            console.log(result);
+        };
+        
+        // function genArray(){
+        //     const h = document.getElementsByName("arrayNum");
+        //     let result = [];
+        //     for (let i = 0; i < h.length; i++) {
+        //         if (h[i].checked) {
+        //             result.push(parseInt(h[i].value));
+        //         }
+        //     }
+        //     console.log(result);
+        // }
+        
+        
+       //For Of
+       //  function genArray(){
+       //      const h = document.getElementsByName("arrayNum");
+       //      let result = [];
+       //      for (j of h) {
+       //          if (j.checked) {
+       //              result.push(parseInt(j.value));
+       //          }
+       //      }
+       //      console.log(result);
+       //  }
+
+        //querySelectorAll
+        function genArray(){
+        let cbs = document.querySelectorAll(".numbox");
+            let result = [];
+            for (j of cbs) {
+                if (j.checked) {
+                    result.push(parseInt(j.value));
+                }
+            }
+            console.log(result);
+        }
+      
+    </script>
+</body>
+</html>

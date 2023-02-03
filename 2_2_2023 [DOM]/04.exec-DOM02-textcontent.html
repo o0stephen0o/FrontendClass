@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM02-04</title>
+</head>
+<body>
+    <div id="main">
+        <span style="display:none" >A hidden text with</span>
+           A not so hidden text         
+           <span style="visibility: hidden">Another hidden text</span>
+           <!-- A comment -->     
+    </div>
+    
+    <script>
+      let main = document.querySelector("#main");
+      // console.log(main.textContent);
+     // console.log(main.innerText);  
+      main.innerText = "abcsde";
+      </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+    <style>
+        table {
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input[type="button"] {
+            width: 100%;
+            padding: 20px 40px;
+            background-color: green;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input[type="text"] {
+            padding: 20px 30px;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+    </style>
+    
+    
+    
+</head>
+<body>
+<br><br>
+
+<span id="opdisplay" ></span><span id="display"></span>
+<table style="text-align: left;">
+    <table>
+        <tr>
+            <th><button type="button" onclick="addnum(7)">7</button></th>
+            <th><button type="button" onclick="addnum(8)">8</button></th>
+            <th><button type="button" onclick="addnum(9)">9</button></th>
+            <th><button type="button" onclick="boperator('+')">+</button></th>
+        </tr>
+        
+        <tr>
+            <th><button type="button" onclick="addnum(4)">4</button></th>
+            <th><button type="button" onclick="addnum(5)">5</button></th>
+            <th><button type="button" onclick="addnum(6)">6</button></th>
+            <th><button type="button" onclick="boperator('-')">-</button></th>
+        </tr>
+        
+        <tr>
+            <th><button type="button" onclick="addnum(1)">1</button></th>
+            <th><button type="button" onclick="addnum(2)">2</button></th>
+            <th><button type="button" onclick="addnum(3)">3</button></th>
+            <th><button type="button" onclick="boperator('*')">*</button></th>
+        </tr>
+        
+        <tr>
+            <th><button type="button" onclick="remove()">C</button></th>
+            <th><button type="button" onclick="addnum(0)">0</button></th>
+            <th><button type="button" onclick="cal()">=</button></th>
+            <th><button type="button" onclick="boperator('/')">/</button></th>
+        </tr>
+    </table>
+</table>
+
+    <script>
+        
+        let operand1 = 0;
+        let optype = "";
+        let display = document.querySelector("#display");
+        let opdisplay = document.querySelector("#opdisplay");
+        
+        function addnum(num) {
+            if (optype=="=") {display.textContent=""; // clear result display
+                opdisplay.textContent="";
+                optype = "" } // clear cal() done indicator
+            display.innerText += num.toString();
+        }
+        
+        function boperator(operator) {
+            operand1 = display.innerText;
+            optype = operator;
+            opdisplay.innerText = operand1 + " " + optype;
+            display.innerText = "";
+        }
+        
+        function cal() {
+            let operand2 = display.innerText;
+            let result = 0;
+            switch (optype) {
+                case "+":
+                    result = parseInt(operand1) + parseInt(operand2);
+                    break;
+                case "-":
+                    result = parseInt(operand1) - parseInt(operand2);
+                    break;
+                case "*":
+                    result = parseInt(operand1) * parseInt(operand2);
+                    break;
+                case "/":
+                    result = parseInt(operand1) / parseInt(operand2);
+                    break;
+            }
+            display.innerText = result;
+            opdisplay.innerText = "";
+        }
+        
+        function remove() {
+            display.innerText = "";
+            opdisplay.innerText = "";
+        }
+   
+       
+        
+    </script>
+</body>
+
+</html>
