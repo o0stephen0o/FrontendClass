@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM04-style</title>
+    <style>
+        div {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: red">CssText</div>
+    <div style="color: blue">setAttribute</div>
+<script>
+    let divs = document.getElementsByTagName("div");
+    let div1 = document.getElementsByTagName("div")[0];
+    let div2 = document.getElementsByTagName("div")[1];
+    div1.style.cssText = "color:black;background-color:pink";
+    div2.setAttribute("style", "color:white;background-color:black");
+    console.log(divs);
+    console.log(div1)
+    console.log(div1.style) //p31
+    
+</script>
+</body>
+</html>

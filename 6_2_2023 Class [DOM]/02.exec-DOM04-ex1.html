@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body>
+    <ul id="list">
+        <li id="item1" onclick="showspecies(this)" data-species="fish">Goldfish</li>
+        <li id="item2" onclick="showspecies(this)" data-species="bird">Eagle</li>
+        <li id="item3" onclick="showspecies(this)" data-species="dog">Husky</li>
+    </ul>
+    <div id="display"></div>
+    <script>
+        function showspecies(animal) {
+            let display = document.querySelector("#display");
+            let species = animal.dataset.species;
+            let id = animal.id;
+            console.log(animal.attributes);
+            display.textContent = animal.textContent + " is a " + species + " id = " +id;
+        }
+    </script>
+</body>
+</html>

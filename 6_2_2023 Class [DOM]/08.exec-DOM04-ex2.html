@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+    <style>
+        button {
+            background-color: rgba(0,0,0,0.4);
+            border: none;
+            padding: 5px;
+        }
+        .activetab {
+            background-color: rgba(0,0,0,0.13);
+        }
+        .panel {
+            background-color:  rgba(0,0,0,0.13);
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="tabs">
+        <button type="button" class="tab activetab" onclick="changetab('panel1', this)">Panel 1</button>
+        <button type="button" class="tab" onclick="changetab('panel2', this)">Panel 2</button>
+        <button type="button" class="tab" onclick="changetab('panel3', this)">Panel 3</button>
+    </div>
+    <div id="panels">
+        <div id="panel1" class="panel active" style="display: block">This is the first panel</div>
+        <div id="panel2" class="panel" style="display: none">This is the second panel</div>
+        <div id="panel3" class="panel" style="display: none">This is the third panel</div>
+    </div>
+    <script>
+        function changetab(name, button) {
+            let btns = document.querySelector("#tabs").children;
+            let panels = document.querySelector("#panels").children;
+            for (let i = 0; i < btns.length; i++) {
+                if (btns[i].classList.contains("activetab")) {
+                    btns[i].classList.toggle("activetab");
+                };
+                if (panels[i].classList.contains("active")) {
+                    panels[i].classList.toggle("active");
+                    panels[i].style.display = "none";
+                };
+            };
+            button.classList.toggle("activetab");
+            let panel = document.getElementById(name);
+            panel.style.display = "block";
+            panel.classList.toggle("active");
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <img class="image main" src="#">
+    <div class="main panel  navbar"></div>
+    <div class="panel"></div>
+    <script>
+    let mainpanel = document.querySelector("div");
+      console.log(mainpanel.className);
+     // *change class name
+      mainpanel.className = "main";
+     // console.log(mainpanel.className);
+     // *add class name to existing class 
+     let img = document.querySelector("img");
+     img.className += " panel";
+    
+     // console.log(img.className);
+    </script>
+</body>
+
+</html>

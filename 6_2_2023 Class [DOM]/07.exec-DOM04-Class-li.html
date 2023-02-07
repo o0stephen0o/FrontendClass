@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM04-07</title>
+</head>
+<body>
+    <div class="main"></div>
+    <div class="panel"></div>
+<script>
+    //let mainpanel = document.querySelector("div");
+    let mainpanel = document.querySelectorAll("div");
+    let classes = mainpanel[1].classList
+    console.log(classes)
+    // (1) syntax : classes.add("class1","class2"...);
+     classes.add("info","index");
+     console.log(classes);
+    // (2) syntax : classes.remove("classname");
+     //classes.remove("main");
+     //console.log(classes);
+    // (3) syntax : classes.replace("oldclass", "newclass");
+    // classes.replace("panel", "warning");
+    // console.log(classes);
+    // (4) check classname, return boolean
+    //  syntax : classes.contains("classname");
+    // console.log(classes.contains("xmain"));
+    // (5) toggle : add new class or remove existing class.toggle("panel");
+    //   syntax : classes.toggle("classname");
+     classes.toggle("panel");
+     console.log(classes);
+
+</script>
+</body>
+</html>

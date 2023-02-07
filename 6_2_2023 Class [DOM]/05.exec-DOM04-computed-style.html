@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM04-05</title>
+    <style>
+        div {
+            font-size: 72px;
+            color: red;
+            }
+        div:hover {
+            color: green;
+        }
+        div::before {
+            content: "**PseudoText before div **";
+            color: pink;
+            font-size: 30px;
+        }
+     </style>
+</head>
+<body>
+    <div>This is a red text.</div>
+    <div id="display"></div>
+    <script>
+     // syntax :let style = window.getComputedStyle(element, "pseudoElement");
+        let div = document.querySelector("div");
+        // let div = document.getElementsByTagName("div")[0];
+        let elemstyle = getComputedStyle(div);
+        // let elemstyle = getComputedStyle(div).fontSize;
+        //let elemstyle = getComputedStyle(div,":before").fontSize;
+        console.log(elemstyle);
+    </script>
+
+
+</body>
+</html>

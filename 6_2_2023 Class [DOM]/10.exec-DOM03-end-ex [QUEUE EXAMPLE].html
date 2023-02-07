@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>DOM03-10</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Customer 1</li>
+        <li>Customer 2</li>
+        <li>Customer 3</li>
+    </ul>
+    <div id="display"></div>
+    <button type="button" onclick="remove()">Remove</button>
+    <button type="button" onclick="add()">Add</button>
+
+    <script>
+        let list = document.querySelector("#list")
+        let display = document.querySelector("#display")
+        let queue = []
+        function remove() {
+            if (list.children.length > 0) {
+                let child = list.removeChild(list.firstElementChild)
+                queue.push(child)
+            }
+        }
+
+        function add() {
+            if (queue.length == 0) {
+                display.textContent = "There is no saved child"
+            }
+            else {
+                list.appendChild(queue[0]);
+                queue.shift(); // shift() => DELETE the array first item and the items in array left shift
+            }
+        }
+    </script>
+</body>
+</html>

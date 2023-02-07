@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>DOM03-08</title>
+</head>
+<body>
+    <ul id="list">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+<script>
+    let list = document.querySelector("#list")
+    let clonedlist1 = list.cloneNode(true)
+    let clonedlist2 = list.cloneNode(false)
+    console.log(clonedlist1)
+    console.log(clonedlist2)
+</script>
+</body>
+
+</html>

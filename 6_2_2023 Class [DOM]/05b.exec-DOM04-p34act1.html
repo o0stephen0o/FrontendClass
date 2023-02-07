@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+    <style>
+        div {
+            font-size: 72px;
+        }
+    </style>
+</head>
+<body>
+    <div>This is a red text.</div>
+    <div id="display"></div>
+    <script>
+        let div = document.getElementsByTagName("div")[0];
+        let display = document.querySelector("#display")
+        display.textContent = getComputedStyle(div).fontSize
+    </script>
+</body>
+</html>

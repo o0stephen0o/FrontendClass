@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-01</title>
+</head>
+<body>
+    <!--<input type="text" id="cb">-->
+     <!--<input type="checkbox" id="cb"> -->
+     <input type="checkbox" id="cb" data-secured="true" data-fig="cat"> 
+    <!--data- 行頭不是標準ATTRIBUTE , 是比DEVELOPER 處理-->
+    
+        
+ <script>
+        let inputObj = document.querySelector('#cb');
+        console.log(inputObj.attributes);
+        console.log(inputObj.checked);
+        inputObj.type = "radio";
+        console.log(inputObj.type);
+        inputObj.name= "inputbox";
+        console.log(inputObj.name);
+        
+        
+        console.log(inputObj.dataset.secured)
+        console.log(inputObj.dataset.fig)
+
+</script>
+</body>
+</html>

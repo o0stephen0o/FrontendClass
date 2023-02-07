@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="841mm"
+   height="594mm"
+   viewBox="0 0 841 594"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="DOM_NOTES.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.41386281"
+     inkscape:cx="523.12021"
+     inkscape:cy="562.98849"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="4.3952012"
+       y="9.8292685"
+       id="text113"><tspan
+         sodipodi:role="line"
+         id="tspan111"
+         style="stroke-width:0.264583"
+         x="4.3952012"
+         y="9.8292685">Pesudo Code </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="105.39451"
+       y="20.626347"
+       id="text113-7"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0"
+         style="stroke-width:0.309534"
+         x="105.39451"
+         y="20.626347">Body </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="88.885071"
+       y="50.552891"
+       id="text113-7-3"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0"
+         style="stroke-width:0.309534"
+         x="88.885071"
+         y="50.552891">div </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="163.39757"
+       y="52.510532"
+       id="text113-7-3-0"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0-0"
+         style="stroke-width:0.309534"
+         x="163.39757"
+         y="52.510532">div </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="98.844681"
+       y="43.215542"
+       id="text113-7-0"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7"
+         style="stroke-width:0.309534"
+         x="98.844681"
+         y="43.215542">#tabs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="110.6463"
+       y="66.328796"
+       id="text113-7-0-5"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-3"
+         style="stroke-width:0.309534"
+         x="110.6463"
+         y="66.328796">children</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="140.59853"
+       y="90.136116"
+       id="text113-7-0-4"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-6"
+         style="stroke-width:0.309534"
+         x="140.59853"
+         y="90.136116">#panel1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="125.11463"
+       y="134.41147"
+       id="text113-7-0-4-2"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-6-64"
+         style="stroke-width:0.309534"
+         x="125.11463"
+         y="134.41147">btns [   ] Array </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="167.83472"
+       y="99.607758"
+       id="text113-7-0-4-5"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-6-6"
+         style="stroke-width:0.309534"
+         x="167.83472"
+         y="99.607758">#panel2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="190.13333"
+       y="99.643028"
+       id="text113-7-0-4-5-0"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-6-6-2"
+         style="stroke-width:0.309534"
+         x="190.13333"
+         y="99.643028">#panel3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="168.22038"
+       y="43.258495"
+       id="text113-7-0-7"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-0"
+         style="stroke-width:0.309534"
+         x="168.22038"
+         y="43.258495">#panels</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="4.0159359"
+       y="14.607441"
+       id="text113-9"><tspan
+         sodipodi:role="line"
+         id="tspan111-2"
+         style="stroke-width:0.264583"
+         x="4.0159359"
+         y="14.607441">先寫低LOGIC, 再打CODE </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.90723px;fill:#000000;stroke-width:0.408935"
+       x="3.7286675"
+       y="16.683186"
+       id="text113-9-1"
+       transform="scale(0.75869132,1.3180591)"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3"
+         style="stroke-width:0.408935"
+         x="3.7286675"
+         y="16.683186">Example: 08. exec-DOM04-ex2 </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="15.407293"
+       y="130.66508"
+       id="text113-9-1-5"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0"
+         style="stroke-width:0.264583"
+         x="15.407293"
+         y="130.66508">1. let btns = document.querySelector(&quot;#tabs&quot;).children;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="15.082699"
+       y="138.17688"
+       id="text113-9-1-5-0"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0"
+         style="stroke-width:0.264583"
+         x="15.082699"
+         y="138.17688">2. let panels = document.querySelector(&quot;#panels&quot;).children;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="15.060173"
+       y="146.64763"
+       id="text113-9-1-5-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-2"
+         style="stroke-width:0.264583"
+         x="15.060173"
+         y="146.64763">3. for (let i = 0; i &lt; btns.length; i++) {;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="3.3404677"
+       y="27.897278"
+       id="text113-9-1-3"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-8"
+         style="stroke-width:0.264583"
+         x="3.3404677"
+         y="27.897278"> </tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.21641;stroke-opacity:1"
+       id="path406"
+       cx="111.63812"
+       cy="19.019234"
+       rx="11.131958"
+       ry="4.8188515" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 106.68493,23.054794 C 94.705478,41.815067 94.705478,41.815067 94.705478,41.815067 l -0.452053,-3.842464 3.842464,3.616438 -3.842464,0.226026"
+       id="path1166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.543389;stroke-opacity:1"
+       d="m 120.96343,21.534492 c 37.88252,24.804237 38.3083,24.593868 38.3083,24.593868 l -10.79185,0.271701 6.86396,-8.958449 3.27466,8.503485"
+       id="path1168" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170"
+       cx="93.338089"
+       cy="48.427128"
+       rx="10.708308"
+       ry="6.2331944" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="55.19796"
+       y="95.092186"
+       id="text113-7-3-9"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0-1"
+         style="stroke-width:0.309534"
+         x="55.19796"
+         y="95.092186">button </tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170-9"
+       cx="62.609589"
+       cy="92.219177"
+       rx="10.708308"
+       ry="6.2331944" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="86.032295"
+       y="106.1468"
+       id="text113-7-3-9-9"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0-1-3"
+         style="stroke-width:0.309534"
+         x="86.032295"
+         y="106.1468">button </tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170-9-6"
+       cx="94.027405"
+       cy="103.0685"
+       rx="10.708308"
+       ry="6.2331944" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170-3"
+       cx="168.79099"
+       cy="50.048096"
+       rx="10.708308"
+       ry="6.2331944" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 84.986301,53.116437 c -20.342466,33 -20.342466,33 -20.342466,33 l -0.113014,-4.068493 3.616439,2.599314 -3.503425,1.469179"
+       id="path1248" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 94.818492,55.037672 c -0.565067,42.041095 -0.452056,42.041095 -0.452056,42.041095 l -1.921232,-2.486303 3.39041,-0.339039 -1.356164,2.260271"
+       id="path1250" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 101.71233,52.212329 c 19.43835,27.801369 19.43835,27.801369 19.43835,27.801369 l -4.29452,-1.582193 3.61644,-2.4863 0.45206,4.068493"
+       id="path1252" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 159.52657,55.291961 c -20.34246,32.999995 -20.34246,32.999995 -20.34246,32.999995 l -0.11302,-4.06849 3.61644,2.59932 -3.50342,1.46917"
+       id="path1248-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 169.35876,57.213196 c -0.56506,42.0411 -0.45205,42.0411 -0.45205,42.0411 l -1.92123,-2.48631 3.39041,-0.33904 -1.35617,2.26027"
+       id="path1250-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 176.2526,54.387853 c 19.43835,27.801373 19.43835,27.801373 19.43835,27.801373 l -4.29452,-1.582197 3.61644,-2.4863 0.45206,4.068497"
+       id="path1252-3" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="109.65715"
+       y="89.219406"
+       id="text113-7-3-9-9-3"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0-1-3-3"
+         style="stroke-width:0.309534"
+         x="109.65715"
+         y="89.219406">button </tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170-9-6-5"
+       cx="118.09931"
+       cy="86.455482"
+       rx="10.708308"
+       ry="6.2331944" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="132.06195"
+       y="97.97097"
+       id="text113-7-3-9-9-3-1"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0-1-3-3-3"
+         style="stroke-width:0.309534"
+         x="132.06195"
+         y="97.97097">  div </tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170-9-6-5-0"
+       cx="140.25"
+       cy="95.044518"
+       rx="10.708308"
+       ry="6.2331944" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="160.34525"
+       y="108.10438"
+       id="text113-7-3-9-9-3-1-8"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0-1-3-3-3-1"
+         style="stroke-width:0.309534"
+         x="160.34525"
+         y="108.10438">  div </tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170-9-6-5-0-1"
+       cx="169.0685"
+       cy="104.98973"
+       rx="10.708308"
+       ry="6.2331944" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="186.09624"
+       y="91.021057"
+       id="text113-7-3-9-9-3-1-88"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-0-1-3-3-3-3"
+         style="stroke-width:0.309534"
+         x="186.09624"
+         y="91.021057">  div </tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1170-9-6-5-0-6"
+       cx="195.30678"
+       cy="88.223679"
+       rx="10.708308"
+       ry="6.2331944" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 116.67262,36.440215 c -3.83581,4.315288 -3.19651,4.315288 -3.19651,4.315288 l 2.87686,5.114417 0.47947,-4.155463 h 7.35198 l 0.15982,-3.356335 h -7.99127 z"
+       id="path1629" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1631"
+       cx="131.45648"
+       cy="45.230618"
+       rx="4.0755506"
+       ry="3.9956377" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.4798px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.456649;stroke-opacity:1"
+       x="131.36571"
+       y="46.462727"
+       id="text1635"
+       transform="scale(0.98817551,1.011966)"><tspan
+         sodipodi:role="line"
+         id="tspan1633"
+         style="stroke-width:0.456649"
+         x="131.36571"
+         y="46.462727">1</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 116.17808,46.78767 c 0,1.130138 -0.22603,14.013698 -0.22603,14.013698 l -2.03424,-2.260272 h 4.74657 l -2.4863,2.034247"
+       id="path1637" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="188.30226"
+       y="77.433693"
+       id="text113-7-0-5-5"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-3-2"
+         style="stroke-width:0.309534"
+         x="188.30226"
+         y="77.433693">children</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 183.36655,46.208738 c -3.83581,4.315288 -3.19651,4.315288 -3.19651,4.315288 l 2.87686,5.114417 0.47947,-4.155463 h 7.35198 l 0.15982,-3.356335 h -7.99127 z"
+       id="path1629-2" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1631-0"
+       cx="196.79427"
+       cy="50.478592"
+       rx="4.0755506"
+       ry="3.9956377" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.4798px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.456649;stroke-opacity:1"
+       x="197.48531"
+       y="51.648643"
+       id="text1635-6"
+       transform="scale(0.9881755,1.011966)"><tspan
+         sodipodi:role="line"
+         id="tspan1633-0"
+         style="stroke-width:0.456649"
+         x="197.48531"
+         y="51.648643">2</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 195.30352,57.68633 c 0,1.130138 -0.22603,14.013698 -0.22603,14.013698 l -2.03424,-2.260272 h 4.74657 l -2.4863,2.034247"
+       id="path1637-1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 126.57534,130.41781 -18.76027,-0.67809 2.26027,-3.39041 -0.45205,5.65069 -2.03425,-2.26028"
+       id="path1666" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="130.38844"
+       y="141.95198"
+       id="text113-7-0-4-2-6"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-6-64-3"
+         style="stroke-width:0.309534"
+         x="130.38844"
+         y="141.95198">panels [   ] Array </tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 131.94895,137.81828 -18.76027,-0.67809 2.26027,-3.39041 -0.45205,5.65069 -2.03425,-2.26028"
+       id="path1666-3" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="101.25256"
+       y="150.25732"
+       id="text113-7-0-4-2-6-1"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-6-64-3-5"
+         style="stroke-width:0.309534"
+         x="101.25256"
+         y="150.25732">繼個掃</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 102.26172,145.96938 -18.76027,-0.67809 2.26027,-3.39041 -0.45205,5.65069 -2.03425,-2.26028"
+       id="path1666-3-3" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="22.930632"
+       y="153.68051"
+       id="text113-9-1-5-0-1-3"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-2-2"
+         style="stroke-width:0.264583"
+         x="22.930632"
+         y="153.68051">4. for (let i = 0; i &lt; btns.length; i++) {;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="13.333776"
+       y="194.27486"
+       id="text113-9-1-5-0-1-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-2-2-8"
+         style="stroke-width:0.264583"
+         x="13.333776"
+         y="194.27486">6. button.classList.toggle(&quot;activetab&quot;);</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="14.079787"
+       y="202.94673"
+       id="text113-9-1-5-0-1-3-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-2-2-8-7"
+         style="stroke-width:0.264583"
+         x="14.079787"
+         y="202.94673">7. let panel = document.getElementById(name);</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="13.233772"
+       y="221.48097"
+       id="text113-9-1-5-0-1-3-3-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-2-2-8-7-4"
+         style="stroke-width:0.264583"
+         x="13.233772"
+         y="221.48097">8. panel.style.display = &quot;block&quot;;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="13.067752"
+       y="229.40047"
+       id="text113-9-1-5-0-1-3-3-5-3-9"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-2-2-8-7-4-5"
+         style="stroke-width:0.264583"
+         x="13.067752"
+         y="229.40047">8. panel.classList.toggle(&quot;active&quot;);</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="21.472599"
+       y="160.9315"
+       id="text1972"><tspan
+         sodipodi:role="line"
+         id="tspan1970"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="160.9315">   5.          if (btns[i].classList.contains(&quot;activetab&quot;)) {</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="164.90025"
+         id="tspan1974">                    btns[i].classList.toggle(&quot;activetab&quot;);</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="168.869"
+         id="tspan1976">                };</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="172.83775"
+         id="tspan1978">                if (panels[i].classList.contains(&quot;active&quot;)) {</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="176.8065"
+         id="tspan1980">                    panels[i].classList.toggle(&quot;active&quot;);</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="180.77525"
+         id="tspan1982">                    panels[i].style.display = &quot;none&quot;;</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="184.744"
+         id="tspan1984">                };</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.472599"
+         y="188.71275"
+         id="tspan1986">            }</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="129.88841"
+       y="172.61867"
+       id="text113-7-0-4-2-6-1-8"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         id="tspan111-0-7-6-64-3-5-4"
+         style="stroke-width:0.309534"
+         x="129.88841"
+         y="172.61867">所有BTN  AND PANEL</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.309534"
+         x="129.88841"
+         y="177.52928"
+         id="tspan2022">調至關狀態</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.309534"
+         x="129.88841"
+         y="182.4399"
+         id="tspan2274">**panels class display 要轉返做none </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.309534"
+         x="129.88841"
+         y="187.08292"
+         id="tspan2020" /></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 131.43945,167.91544 -18.76027,-0.67809 2.26027,-3.39041 -0.45205,5.65069 -2.03425,-2.26028"
+       id="path1666-3-3-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.71441px;fill:#000000;stroke-width:0.309534"
+       x="94.347549"
+       y="195.56093"
+       id="text113-7-0-4-2-6-1-8-5"
+       transform="scale(1.018923,0.98142842)"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.309534"
+         x="94.347549"
+         y="195.56093"
+         id="tspan2022-3" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.309534"
+         x="94.347549"
+         y="200.20393"
+         id="tspan2020-6" /></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 95.545697,193.78798 -18.76027,-0.67809 2.26027,-3.39041 -0.45205,5.65069 -2.03425,-2.26028"
+       id="path1666-3-3-5-0" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="99.411461"
+       y="195.14694"
+       id="text2097"><tspan
+         sodipodi:role="line"
+         id="tspan2095"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
+         x="99.411461"
+         y="195.14694">把按的那個開</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 113.74689,202.86842 -18.760272,-0.67809 2.26027,-3.39041 -0.45205,5.65069 -2.03425,-2.26028"
+       id="path1666-3-3-5-0-5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 83.927876,226.30778 -18.13613,-4.84647 2.959708,-2.80067 -1.701338,5.40741 -1.478704,-2.65719"
+       id="path1666-3-3-5-0-5-6" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="117.61266"
+       y="204.22739"
+       id="text2097-8"><tspan
+         sodipodi:role="line"
+         id="tspan2095-0"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
+         x="117.61266"
+         y="204.22739">name 是 function argument</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
+         x="117.61266"
+         y="212.62238"
+         id="tspan2243">選panel id -&gt; panel1, panel2, panel3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="16.5"
+       y="123.18493"
+       id="text2160"><tspan
+         sodipodi:role="line"
+         id="tspan2158"
+         style="stroke-width:0.264583;fill:#000000;fill-opacity:1"
+         x="16.5"
+         y="123.18493">changetab(name, button)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="2.9134321"
+       y="30.614313"
+       id="text113-9-1-5-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-8"
+         style="stroke-width:0.264583"
+         x="2.9134321"
+         y="30.614313">onclick=&quot;changetab('panel1', this)&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="3.3233998"
+       y="35.912487"
+       id="text113-9-1-5-0-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-8-6"
+         style="stroke-width:0.264583"
+         x="3.3233998"
+         y="35.912487">onclick=&quot;changetab('panel2', this)&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="3.3233998"
+       y="40.88509"
+       id="text113-9-1-5-0-2-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan111-2-3-0-0-8-6-3"
+         style="stroke-width:0.264583"
+         x="3.3233998"
+         y="40.88509">onclick=&quot;changetab('panel3', this)&quot;</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 25.541096,204.55479 c -1.582192,13.56165 -1.582192,13.56165 -1.582192,13.56165 0,0 -2.938356,-2.71233 -2.034247,-2.71233 0.90411,0 5.198629,0 5.198629,0 l -3.164382,2.4863"
+       id="path2272" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="85.223045"
+       y="229.45198"
+       id="text2097-1"><tspan
+         sodipodi:role="line"
+         id="tspan2095-2"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
+         x="85.223045"
+         y="229.45198">改指向panel(var) style display 為block</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.418505;stroke-opacity:1"
+       d="m 96.898229,239.88093 -28.769795,-7.64385 4.695059,-4.41721 -2.698875,8.52856 -2.345705,-4.19092"
+       id="path1666-3-3-5-0-5-6-4" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="98.631798"
+       y="244.01631"
+       id="text2097-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan2095-2-1"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
+         x="98.631798"
+         y="244.01631">轉換指向panel(var) classlist 為 active</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="98.502548"
+       y="254.42598"
+       id="text2097-1-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan2095-2-1-2"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
+         x="98.502548"
+         y="254.42598">[如開關燈]</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1;stroke-dasharray:0.26458299,0.26458299;stroke-dashoffset:0"
+       id="rect2618"
+       width="9.8292685"
+       height="3.9157248"
+       x="16.621853"
+       y="218.56139" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1;stroke-dasharray:0.26458299,0.26458299;stroke-dashoffset:0"
+       id="rect2620"
+       width="9.6694422"
+       height="4.7148523"
+       x="16.462027"
+       y="225.83344" />
+  </g>
+</svg>
