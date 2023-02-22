@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--	<link href="style.css" rel="stylesheet" type="text/css" /> -->
+	<title>React-01-06</title>
+</head>
+<body>
+	  Hello world
+	  <script >
+		//class
+		var Employee = class Parent {
+			constructor(name, dept) {
+				this.name = name;
+				this.dept = dept;
+			}
+			print() {
+				console.log("The Name of the Employee : " + this.name);
+				console.log("The Department of the Employee : " + this.dept);
+			};
+			};
+			// Object creation
+			var employee1 = new Employee("John","Marketing" );
+			var employee2 = new Employee("Jack","Production" );
+			var employee3 = new Employee("Smith","Electrical" );
+			var employee4 = new Employee("Tom","HR" );
+			var employee5 = new Employee("Jerry","Quality Control" );
+			// Accessing object method
+			employee1.print();
+			employee2.print();
+			employee3.print();
+			employee4.print();
+			employee5.print();
+
+	  </script>
+	</body>
+	</html>

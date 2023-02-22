@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6-04-02</title>
+</head>
+<body>
+<script>
+// array.find() method 
+// declare a array with 3 objects
+    let customers = [{
+        name: 'ABC Inc',
+        credit: 300
+        }, 
+    {
+        name: 'ACME Corp',
+        credit: 200
+        },
+    {
+        name: 'IoT AG',
+        credit: 300
+        }];
+// find the first customer whose credit is greater than 100.
+  console.log(customers.find(c => c.credit > 5100));
+
+// console.log(customers.find(function (c) {return (c.credit > 250)}));
+</script>
+</body>
+</html>

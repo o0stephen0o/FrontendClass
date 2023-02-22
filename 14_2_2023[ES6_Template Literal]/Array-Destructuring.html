@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+
+        /*function getAge(...ages){
+            return ages;
+        }
+
+        let age = getAge(10,20,30);
+
+        let x = age[0]
+        let y = age[1]
+        let z = age[2]*/
+
+        //Array Destructuring 
+
+        let [a, b, c, ...others] = [10, 20, 30, 40, 50];
+        console.log([a, b, c, ...others]);
+
+        //轉換 VARIABLE  => SWAP VARIABLE 可用DESTRUCTURING 方汰
+
+        let j =2; let k=4; let l=1; let p=3;
+
+        [j, k, l, p] = [l, j, p, k]
+
+        console.log([j, k, l, p])
+
+        
+
+
+
+
+    </script>
+</body>
+</html>

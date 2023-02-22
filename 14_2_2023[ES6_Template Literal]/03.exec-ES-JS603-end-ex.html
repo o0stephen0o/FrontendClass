@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body id="body">
+    <button type="button" onclick="Sel('1')">1</button>
+    <button type="button" onclick="Sel('2')">2</button>
+    <button type="button" onclick="Sel('3')">3</button>
+    <button type="button" onclick="showrec()">Show click record</button><br>
+    <div id="display"></div>
+    <br>
+<script>
+    let body = document.querySelector("#body")
+    let record = []
+    const Sel = (hand) => {
+        let display = document.querySelector("#display")
+        let p = document.createElement("p");
+        p.textContent = `You click on ${hand}`;
+        p.id = "display";
+        body.replaceChild(p, display);
+        record.push(hand)
+    }
+    
+    const showrec = () => {
+        let display = document.querySelector("#display")
+        let p = document.createElement("p");
+        for (let i = 0; i < record.length; i++) {
+            if (record.length == 1 || i==0) {
+                p.textContent += `${record[i]}`
+                } 
+            else { p.textContent += `,${record[i]}`;
+                    } 
+                };
+        p.id = "display";
+        body.replaceChild(p, display);
+         
+    };
+</script>
+</body>
+</html>

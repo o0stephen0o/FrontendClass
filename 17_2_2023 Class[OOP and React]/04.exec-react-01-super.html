@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--	<link href="style.css" rel="stylesheet" type="text/css" /> -->
+	<title>React-01-04</title>
+</head>
+<body>
+	  Hello world
+	  <script >
+		//parent class
+		class Parent {
+			doPrint() {
+				console.log("This is printed from parent")
+			};
+			};
+			//child class
+			class Child extends Parent {
+			doPrint() {
+			//super keyword is used to access the function of the parent class
+				super.doPrint()
+				console.log("This is printed from child")
+			};
+			};
+			var obj = new Child();
+			obj.doPrint();
+	  </script>
+	</body>
+	
+	</html>

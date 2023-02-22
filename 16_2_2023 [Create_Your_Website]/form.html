@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="form.html" method="GET">
+
+    <input type="number" name="number1" placeholder="Enter number 1"/>
+    <input type="string" name="string1" placeholder="Enter string 1"/>
+    <input type="submit" value="Submit"/>
+
+    <script>
+
+        let form = window.location.search.substring(1)
+        console.log (form)
+        
+        let form2 = form.split("&"); // form2 = ["number=15", "text=JS"]
+        let formdata ={};
+
+
+        for (input of form2) {
+            let inputdata = input.split("="); // inputdata = ["number", "15"]
+            let inputdata2 = { 
+                [inputdata[0]]: inputdata[1] 
+            }
+           object.assign(formdata, inputdata2)
+        }
+
+    </script>
+    
+</body>
+</html>

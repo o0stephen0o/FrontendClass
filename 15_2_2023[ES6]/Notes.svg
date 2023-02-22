@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="841mm"
+   height="594mm"
+   viewBox="0 0 841 594"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Notes.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.41386281"
+     inkscape:cx="2074.3589"
+     inkscape:cy="490.5007"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="9.58953"
+       y="30.366846"
+       id="text2242"><tspan
+         sodipodi:role="line"
+         id="tspan2240"
+         style="stroke-width:0.765;stroke-dasharray:none"
+         x="9.58953"
+         y="30.366846" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="9.5496569"
+       y="50.717628"
+       id="text2296"><tspan
+         sodipodi:role="line"
+         id="tspan2294"
+         style="stroke-width:0.765"
+         x="9.5496569"
+         y="50.717628">`The appl ? ...${var}`</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="9.5496569"
+         y="60.419003"
+         id="tspan2298" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="9.5496569"
+         y="70.120377"
+         id="tspan2300" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="10.397261"
+       y="37.325504"
+       id="text2412"><tspan
+         sodipodi:role="line"
+         id="tspan2410"
+         style="stroke-width:0.765"
+         x="10.397261"
+         y="37.325504">Template Literal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="11.267653"
+       y="69.78083"
+       id="text2412-0"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5"
+         style="stroke-width:0.765"
+         x="11.267653"
+         y="69.78083">Array Destructuring</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="18.837427"
+       y="82.761574"
+       id="text2412-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-8"
+         style="stroke-width:0.765"
+         x="18.837427"
+         y="82.761574">[a, b, ...others]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="10.248385"
+       y="104.68623"
+       id="text2412-0-8"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3"
+         style="stroke-width:0.765"
+         x="10.248385"
+         y="104.68623">Array Function</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="M 3.1643836,57.441945 C 185.34246,58.346052 185.34246,58.346052 185.34246,58.346052"
+       id="path3275" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="M 5.1986301,95.866601 185.11644,97.222765"
+       id="path3277" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.6768px;fill:#e22121;fill-opacity:1;stroke:#7b396c;stroke-width:1.3481;stroke-dasharray:none;stroke-opacity:1"
+       x="10.661592"
+       y="19.224718"
+       id="text2412-9"
+       transform="scale(0.90618571,1.1035266)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-56"
+         style="fill:#e22121;fill-opacity:1;stroke:#7b396c;stroke-width:1.3481;stroke-opacity:1"
+         x="10.661592"
+         y="19.224718">REVIEW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="216.64799"
+       y="17.42951"
+       id="text2412-0-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6"
+         style="stroke-width:0.765"
+         x="216.64799"
+         y="17.42951">Array Extension</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.8557px;fill:none;stroke:#000000;stroke-width:1.07003;stroke-dasharray:none"
+       x="228.31738"
+       y="383.35876"
+       id="text2412-0-8-2-9"
+       transform="scale(0.84053416,1.1897196)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-0"
+         style="stroke-width:1.07003"
+         x="228.31738"
+         y="383.35876">Array Extension Activity</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.5034px;fill:none;stroke:#000000;stroke-width:1.42958;stroke-dasharray:none"
+       x="587.02661"
+       y="26.657639"
+       id="text2412-0-8-2-9-6"
+       transform="scale(0.77031482,1.2981705)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-0-1"
+         style="stroke-width:1.42958"
+         x="587.02661"
+         y="26.657639">Array Extension Activity -FIND()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="277.10754"
+       y="29.634989"
+       id="text2412-0-8-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4"
+         style="stroke-width:0.765"
+         x="277.10754"
+         y="29.634989">Array Constructor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="297.59302"
+       y="42.776791"
+       id="text2412-0-8-2-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-6"
+         style="stroke-width:0.765"
+         x="297.59302"
+         y="42.776791">arr = new Array(3)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="227.52452"
+       y="29.667204"
+       id="text2412-0-8-2-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2"
+         style="stroke-width:0.765"
+         x="227.52452"
+         y="29.667204">Old Version</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="297.7796"
+       y="55.510117"
+       id="text2412-0-8-2-4-6-4"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-6-1"
+         style="stroke-width:0.765"
+         x="297.7796"
+         y="55.510117">arr =  [ empty, empty, empty]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="302.78864"
+       y="77.660797"
+       id="text2412-0-8-2-4-6-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-6-1-9"
+         style="stroke-width:0.765"
+         x="302.78864"
+         y="77.660797">arr[0]</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="302.78864"
+         y="87.362175"
+         id="tspan3570">arr[1]</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="302.78864"
+         y="97.063545"
+         id="tspan3572">arr[2]</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#7b396c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 325.9315,75.493149 c 18.98631,-0.452054 18.98631,-0.452054 18.98631,-0.452054 l 0.45204,-15.369863 -2.71232,2.712329 h 3.61643 l -1.35615,-2.712329"
+       id="path3628" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#7b396c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 328.64382,86.342465 41.58906,-0.90411 V 58.767122 l -0.90411,3.164385 3.16437,0.452054 -3.16437,-3.164382"
+       id="path3684" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#7b396c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="M 327.73971,96.739725 C 330,96.287671 400.06849,95.38356 400.06849,95.38356 l 0.45204,-35.712328 -4.52054,3.164383 8.58904,1.356164 -2.71233,-2.712329"
+       id="path3686" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="222.90138"
+       y="124.49231"
+       id="text2412-0-8-2-4-5-8"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-7"
+         style="stroke-width:0.765"
+         x="222.90138"
+         y="124.49231">Since the Easy Error: </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="290.09464"
+       y="139.14026"
+       id="text2412-0-8-2-4-6-7"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-6-4"
+         style="stroke-width:0.765"
+         x="290.09464"
+         y="139.14026">arr1 = new Array(&quot;3&quot;)</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="290.09464"
+         y="148.84163"
+         id="tspan3844">arr1=[&quot;3&quot;]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="222.44933"
+       y="177.38272"
+       id="text2412-0-8-2-4-5-6"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2"
+         style="stroke-width:0.765"
+         x="222.44933"
+         y="177.38272">New Vsersion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="240.37462"
+       y="191.74046"
+       id="text2412-0-8-2-4-5-6-1"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9"
+         style="stroke-width:0.765"
+         x="240.37462"
+         y="191.74046">Array Extension</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.8364px;fill:none;stroke:#c51f1f;stroke-width:1.36383;stroke-dasharray:none;stroke-opacity:1"
+       x="342.52139"
+       y="173.17618"
+       id="text2412-0-8-2-4-5-6-1-2"
+       transform="scale(0.91727644,1.0901839)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7"
+         style="stroke:#c51f1f;stroke-width:1.36383;stroke-opacity:1"
+         x="342.52139"
+         y="173.17618">Array.of()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.8364px;fill:none;stroke:#c51f1f;stroke-width:1.36383;stroke-dasharray:none;stroke-opacity:1"
+       x="338.50504"
+       y="298.27942"
+       id="text2412-0-8-2-4-5-6-1-2-7"
+       transform="scale(0.91727644,1.0901839)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-3"
+         style="stroke:#c51f1f;stroke-width:1.36383;stroke-opacity:1"
+         x="338.50504"
+         y="298.27942">Array.from()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="313.76514"
+       y="206.96742"
+       id="text2412-0-8-2-4-5-6-1-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2"
+         style="stroke-width:0.765"
+         x="313.76514"
+         y="206.96742">arr = Array.of(3, 6, 9)</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#7b396c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 339.49314,213.82191 c -0.90411,25.76713 -0.90411,25.76713 -0.90411,25.76713 l -5.87671,-4.52055 h 10.84932 l -4.97261,4.52055"
+       id="path3954" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="311.26828"
+       y="250.81674"
+       id="text2412-0-8-2-4-5-6-1-2-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-3"
+         style="stroke-width:0.765"
+         x="311.26828"
+         y="250.81674">arr = [3, 6, 9]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="172.45685"
+       y="208.19662"
+       id="text2412-0-8-2-4-5-6-1-6"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-8"
+         style="stroke-width:0.765"
+         x="172.45685"
+         y="208.19662">不需用New Keywords Constructor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="228.0596"
+       y="43.19664"
+       id="text2412-0-8-2-4-5-6-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-6"
+         style="stroke-width:0.765"
+         x="228.0596"
+         y="43.19664">Method1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;white-space:pre;inline-size:36.0982;display:inline;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="223.72038"
+       y="137.14984"
+       id="text2412-0-8-2-4-5-6-1-7-6"><tspan
+         x="223.72038"
+         y="137.14984"
+         id="tspan15701">Method2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;white-space:pre;inline-size:36.0982;display:inline;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="223.72038"
+       y="137.14984"
+       id="text2412-0-8-2-4-5-6-1-7-6-2"
+       transform="translate(-3.7778164,84.082195)"><tspan
+         x="223.72038"
+         y="137.14984"
+         id="tspan15703">Method3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;white-space:pre;inline-size:36.0982;display:inline;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="223.72038"
+       y="137.14984"
+       id="text2412-0-8-2-4-5-6-1-7-6-2-4"
+       transform="translate(2.3200302,191.14445)"><tspan
+         x="223.72038"
+         y="137.14984"
+         id="tspan15705">Method4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="134.4888"
+       y="344.92639"
+       id="text2412-0-8-2-4-5-6-1-6-7"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-8-2"
+         style="stroke-width:0.765"
+         x="134.4888"
+         y="344.92639">Accept the element which is array itself </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="304.6376"
+       y="398.55383"
+       id="text2412-0-8-2-4-5-6-1-2-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-31"
+         style="stroke-width:0.765"
+         x="304.6376"
+         y="398.55383">arr = Array.of(&quot;abcdef&quot;)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.5251px;fill:none;stroke:#bf2f96;stroke-width:1.82599;stroke-dasharray:none;stroke-opacity:1"
+       x="188.76372"
+       y="272.51132"
+       id="text2412-0-8-2-4-5-6-1-6-7-8"
+       transform="scale(0.71792319,1.3929067)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-8-2-7"
+         style="stroke:#bf2f96;stroke-width:1.82599;stroke-opacity:1"
+         x="188.76372"
+         y="272.51132">必需要STRING, 1個ARGUMENT</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#7b396c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 352.55216,403.31374 c -0.90411,25.76713 -0.90411,25.76713 -0.90411,25.76713 l -5.87671,-4.52055 h 10.84932 l -4.97261,4.52055"
+       id="path3954-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="303.86963"
+       y="440.94791"
+       id="text2412-0-8-2-4-5-6-1-2-0-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-3-1"
+         style="stroke-width:0.765"
+         x="303.86963"
+         y="440.94791">arr =  [ &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot; ]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="305.06775"
+       y="476.02484"
+       id="text2412-0-8-2-4-5-6-1-2-0-2-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-3-1-9"
+         style="stroke-width:0.765"
+         x="305.06775"
+         y="476.02484">let numlist = [1, 2, 3, 4, 5]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="305.56317"
+       y="488.71439"
+       id="text2412-0-8-2-4-5-6-1-2-0-2-6-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-3-1-9-1"
+         style="stroke-width:0.765"
+         x="305.56317"
+         y="488.71439">let result = Array.from(numlist, x =&gt; x*x);</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9226"
+       width="39.780819"
+       height="18.534246"
+       x="429.67807"
+       y="475.56165" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 475.56163,520.08904 c -3.84247,-6.32878 -20.34247,-25.76713 -20.34247,-25.76713 0,0 -4.52053,4.0685 -2.93835,3.61643 1.58221,-0.45204 8.58903,-1.58218 8.58903,-1.58218 l -6.10272,-1.80822"
+       id="path9282" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="479.17807"
+       y="525.06165"
+       id="text9286"><tspan
+         sodipodi:role="line"
+         id="tspan9284"
+         style="stroke-width:0.765"
+         x="479.17807"
+         y="525.06165">Call-Back Function</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="479.17807"
+         y="534.763"
+         id="tspan10106">x is element of the array</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="508.49918"
+       y="470.53433"
+       id="text2412-0-8-2-4-5-6-1-2-0-2-6-2-5"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-3-1-9-6"
+         style="stroke-width:0.765"
+         x="508.49918"
+         y="470.53433">let numlist = [1, 2, 3, 4, 5]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="520.31506"
+       y="492.28766"
+       id="text10147"><tspan
+         sodipodi:role="line"
+         id="tspan10145"
+         style="stroke-width:0.765"
+         x="520.31506"
+         y="492.28766">function(x)</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 561.67808,482.68151 c 5.42464,-9.60617 5.42464,-9.60617 5.42464,-9.60617 l -2.48629,1.01711 3.50343,1.80824 -1.35617,-2.82535"
+       id="path10149" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 566.53765,484.71576 c 1.58221,-0.7911 10.51028,-10.51028 10.51028,-10.51028 l -2.48628,0.56507 2.93835,1.69519 -1.01714,-2.03423"
+       id="path10151" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 570.15411,490.14041 c 1.24315,-0.67808 16.72603,-16.72603 16.72603,-16.72603 l -3.84249,1.01713 4.40754,1.46918 -0.79108,-1.80824"
+       id="path10153" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 579.76026,487.99315 c 2.26028,-1.01713 17.63014,-12.88356 17.63014,-12.88356 l -2.03425,0.33903 2.82535,1.69522 -0.7911,-1.92125"
+       id="path10155" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 592.41779,486.18491 16.04796,-1.80821 -0.22603,-9.49315 -2.48629,1.58219 3.84246,0.45206 -1.13014,-1.35617"
+       id="path10157" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="519.34845"
+       y="549.64392"
+       id="text2412-0-8-2-4-5-6-1-2-0-2-6-2-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-3-1-9-6-4"
+         style="stroke-width:0.765"
+         x="519.34845"
+         y="549.64392">result = [1, 4, 9, 16, 25]</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#bf2f96;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10186"
+       width="36.616436"
+       height="18.986301"
+       x="266.94501"
+       y="443.73056" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="506.7421"
+       y="52.69146"
+       id="text2412-0-8-2-4-5-6-1-2-0-2-6-2-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-4-2-2-9-7-2-3-1-9-1-9"
+         style="stroke-width:0.765"
+         x="506.7421"
+         y="52.69146">array.find( c =&gt; c.credit &gt; 5100)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.5034px;fill:none;stroke:#000000;stroke-width:1.42958;stroke-dasharray:none"
+       x="586.5755"
+       y="98.111343"
+       id="text2412-0-8-2-9-6-1"
+       transform="scale(0.77031483,1.2981705)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-0-1-9"
+         style="stroke-width:1.42958"
+         x="586.5755"
+         y="98.111343">Object Extensions -  Assign()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.5034px;fill:none;stroke:#000000;stroke-width:1.42958;stroke-dasharray:none"
+       x="585.01483"
+       y="137.96198"
+       id="text2412-0-8-2-9-6-1-3"
+       transform="scale(0.77031483,1.2981705)"><tspan
+         sodipodi:role="line"
+         id="tspan2410-5-3-6-0-1-9-6"
+         style="stroke-width:1.42958"
+         x="585.01483"
+         y="137.96198">Object Destructuring </tspan></text>
+  </g>
+</svg>

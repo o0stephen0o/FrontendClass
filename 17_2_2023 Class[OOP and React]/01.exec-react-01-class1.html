@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React-01-01</title>
+</head>
+<body>
+    <script>
+
+    //class
+    class Polygon { 
+        constructor(height, width) { 
+        this.height = height; 
+        this.width = width; 
+        }
+        test() { 
+        console.log("This inside polygon: ", this);
+        console.log("The height of the polygon: ", this.height);
+        console.log("The width of the polygon: ",this.width) 
+        } ;
+        test1() { 
+        console.log("This inside polygon: ", this);
+        console.log("The height of the polygon: ",height);
+        console.log("The width of the polygon: ",width) 
+        } ;
+    
+    }
+        //Object Creation
+        let sq = new Polygon(10,10);
+        let rect = new Polygon(33,24);
+        //Accessing Function
+        sq.test();
+        rect.test();  
+    </script>
+    
+</body>
+</html>

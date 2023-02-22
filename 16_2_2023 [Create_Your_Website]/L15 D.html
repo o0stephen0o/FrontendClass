@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6-05-D</title>
+</head>
+<body>
+<h1>D</h1>
+<ul id="dispObj" >Input data from client</ul>
+
+<script>
+    let form = window.location.search.substring(1);
+    let dispitem = document.querySelector("#dispObj");
+    let form2 = form.split("&");
+    let formdata = {};
+    let newli;
+    for (input of form2) {
+        let inputdata = input.split("=");
+        inputdata2 = {
+            [inputdata[0]]: inputdata[1]
+        };
+        newli = document.createElement("li");
+        newli.innerText = `${inputdata[0]} : ${inputdata[1]}`;
+        dispitem.appendChild(newli);
+        Object.assign(formdata, inputdata2);
+    };
+
+    console.log(formdata);
+</script>
+</body>
+</html>

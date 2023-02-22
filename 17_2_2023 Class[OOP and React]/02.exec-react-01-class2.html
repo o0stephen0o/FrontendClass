@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React-01-01</title>
+</head>
+<body>
+    <script>
+class student {
+	// Constructor
+	constructor(name, year, rank){
+		this.n = name;
+		this.y = year;
+		this.r = rank;
+	}
+	// Function
+	decreaserank(){
+		this.r -= 1;
+    console.log("The rank is: ",this. r) 
+	}
+}
+//objects creation
+const student1 = new student("Tim", 2009, 34)
+const student2 = new student("John", 2012, 45)
+const student3 = new student("Tim", 2010, 76)
+//Accessing functions
+student1.decreaserank();
+ 
+    </script>
+    
+</body>
+</html>

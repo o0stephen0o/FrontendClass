@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React-01-03</title>
+</head>
+<body>
+    <script>
+	class parent {
+		constructor(g) {
+		this.Character = g
+		}
+	};
+	class child extends parent {
+		disp() {
+		console.log("No of Character: "+this.Character)
+		}
+	};
+	var obj = new child(19);
+	// call child method
+	obj.disp()
+    </script>
+    
+</body>
+</html>

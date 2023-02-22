@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSTutorial</title>
+    <style>
+        #display {
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 10px;
+        }
+
+        .square {
+            background-color: grey;
+            width: 100px;
+            height: 100px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+<div id="announcement">red's turn</div>
+<div id="display">
+    <div id="sq1" class="square neutral" onclick="addRecord(sq1,1)">1</div>
+    <div id="sq2" class="square neutral" onclick="addRecord(sq2,2)">2</div>
+    <div id="sq3" class="square neutral" onclick="addRecord(sq3,3)">3</div>
+    <div id="sq4" class="square neutral" onclick="addRecord(sq4,4)">4</div>
+    <div id="sq5" class="square neutral" onclick="addRecord(sq5,5)">5</div>
+    <div id="sq6" class="square neutral" onclick="addRecord(sq6,6)">6</div>
+    <div id="sq7" class="square neutral" onclick="addRecord(sq7,7)">7</div>
+    <div id="sq8" class="square neutral" onclick="addRecord(sq8,8)">8</div>
+    <div id="sq9" class="square neutral" onclick="addRecord(sq9,9)">9</div>
+</div>
+    
+</body>
+
+<script>
+
+    let winState = [[1,2,3],[1,4,7],[7,8,9],[3,6,9],[4,5,6],[2,5,8],[1,5,9],[7,5,3]];
+    let redRecord =[]
+    let blueRecord =[]
+
+    function addRecord(id, num){
+        let detect = document.getElementById(id);
+        let display = document.getElementById("announcement");
+
+
+        if(display.textContent = "red's turn") {
+
+            detect.className="square red";
+            redRecord.push(num);
+            display.textContent ="blue's turn"
+
+        } else 
+        {
+            detect.className="square blue";
+            blueRecord.push(num)
+            display.textContent ="red's turn"
+
+        }
+
+
+        for( win of winState){
+
+            if (redRecord = win) { display.textContent ="Red's Win" };
+            elseif ( blueRecord = win) {display.textContent ="Blue's Win"};
+
+        }
+        
+    }
+
+
+
+</script>
+
+
+
+</html>

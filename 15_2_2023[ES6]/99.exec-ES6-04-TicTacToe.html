@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+    <style>
+        #display {
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 10px;
+        }
+
+        .square {
+            background-color: grey;
+            width: 100px;
+            height: 100px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="announcement">red's turn</div>
+<div id="display">
+    <div id="sq1" class="square neutral">1</div>
+    <div id="sq2" class="square neutral">2</div>
+    <div id="sq3" class="square neutral">3</div>
+    <div id="sq4" class="square neutral">4</div>
+    <div id="sq5" class="square neutral">5</div>
+    <div id="sq6" class="square neutral">6</div>
+    <div id="sq7" class="square neutral">7</div>
+    <div id="sq8" class="square neutral">8</div>
+    <div id="sq9" class="square neutral">9</div>
+</div>
+<script>
+    let turn = "red";
+    let announcement = document.querySelector("#announcement");
+    let winseq = ['123', '456', '789', '147', '258', '369', '159', '357'];
+
+    let sqlist = document.querySelectorAll(".square");
+    for (sq of sqlist) {
+        sq.onclick = (e) => {changesquare(e.target)};
+    };
+
+    function changesquare(sq) {
+        if (sq.classList.contains("neutral")) {
+            sq.classList.toggle(turn); // 有就取走, 無就加入
+            sq.classList.toggle("neutral");
+            // check first if theres winner
+            let result = checkwinner();
+            if (result == true) {
+                announcement.textContent = `${turn} wins!`
+                for (sq of sqlist) {
+                    //sq.onclick = '';
+                    sq.classList = "square neutral"
+                };
+            } else if (result == "tie") {
+                announcement.textContent = `It's a tie!`;
+                for (sq of sqlist) {
+                    sq.onclick = '';
+                };
+            } else {
+                if (turn == "red") {
+                    turn = "blue";
+                } else {
+                    turn = "red";
+                };
+                announcement.textContent = `${turn}'s turn`;
+            };
+        };
+    };
+
+    function checkwinner() {
+        //check tie
+        let tie = 0;
+        for (sq of sqlist) {
+            if (sq.classList.contains("neutral") != true) {
+                tie++
+            };
+        };
+        if (tie == 9) {
+            // tie
+            return "tie"
+        };
+
+        // check winner
+        for (seq in winseq) {
+            let count = 0;
+            let seqid = Array.from(winseq[seq]);
+            for (id of seqid) {
+                if (document.querySelector(`#sq${id}`).classList.contains(turn)) {
+                    count++
+                };
+            };
+            if (count == 3) {
+                // winner
+                return true
+            };
+        };
+        // no winner
+        return false
+    };
+</script>
+</body>
+</html>
