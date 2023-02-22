@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>ES6-JS02-02</title>
+</head>
+<body id="body">
+<script>
+    function showPerson(firstname, lastname, ...titles) {
+        sentence = firstname + " " + lastname + " is ";
+        for (let i = 0; i < titles.length; i++) {
+            if (i != titles.length - 1) {
+                sentence += "a " + titles[i] + ", ";
+            } else {
+                if (titles.length == 1) {
+                    sentence += "a " + titles[i]
+                } else {
+                    sentence += "and a " + titles[i];
+                };
+            };
+        };
+        console.log(sentence);
+        let body = document.querySelector("#body");
+        body.innerText = sentence;
+    };
+
+   // showPerson("Keith", "Fung", "Firefighter")
+   // showPerson("Marvin", "Chan", "Highschool student", "Pet Owner")
+    showPerson("Justin", "Lau", "Consultant", "Hiker", "Camper", "good man", "father")
+</script>
+</body>
+</html>

@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="841mm"
+   height="594mm"
+   viewBox="0 0 841 594"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Notes.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.2926452"
+     inkscape:cx="213.56919"
+     inkscape:cy="1732.4733"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.0036;stroke-dasharray:none"
+       id="rect788"
+       width="127.91941"
+       height="93.788795"
+       x="19.1056"
+       y="18.20149" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="24.932779"
+       y="30.207018"
+       id="text1006"><tspan
+         sodipodi:role="line"
+         id="tspan1004"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="30.207018">&lt;html&gt;</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="39.908394"
+         id="tspan1010">    &lt;script&gt;</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="49.609768"
+         id="tspan1016">           var a,b,c</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="59.311142"
+         id="tspan1018">           let  a,b,c</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="69.01252"
+         id="tspan1012" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="78.71389"
+         id="tspan1014">     &lt;/script&gt; </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="88.415268"
+         id="tspan2097">&lt;/html&gt;</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="24.932779"
+         y="98.116638"
+         id="tspan1008" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="M 164.09589,35.938356 C 91.08904,46.561644 91.08904,46.561644 91.08904,46.561644 l 2.712328,-5.198631 c 0,0 1.130139,8.815067 0.678082,7.91096 -0.452054,-0.904111 -2.938357,-2.260275 -2.938357,-2.260275 v 0.226028"
+       id="path1074" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="165.22603"
+       y="31.643837"
+       id="text1078"><tspan
+         sodipodi:role="line"
+         id="tspan1076"
+         style="stroke-width:0.765"
+         x="165.22603"
+         y="31.643837">Will be added to </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="165.22603"
+         y="41.345211"
+         id="tspan1080">property list of the global object </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="165.22603"
+         y="51.046585"
+         id="tspan1082">[Window Level] </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="146.81764"
+       y="149.81926"
+       id="text1078-5"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="146.81764"
+         y="149.81926"
+         id="tspan1082-43">Read-Only Block-scoped constant</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="M 170.87671,84.308219 C 91.99315,58.767122 91.541093,58.767122 91.541093,58.767122 l -0.226025,4.972603 6.328767,-6.780821 -6.328767,2.034246"
+       id="path1810" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="166.02998"
+       y="93.76445"
+       id="text1078-6"><tspan
+         sodipodi:role="line"
+         id="tspan1076-2"
+         style="stroke-width:0.765"
+         x="166.02998"
+         y="93.76445">Will <tspan
+   style="fill:#ff0000"
+   id="tspan1849"><tspan
+   style="fill:#7a2557;fill-opacity:1;stroke:#e90a42;stroke-opacity:1"
+   id="tspan1953">NOT</tspan> </tspan>be added to </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="166.02998"
+         y="103.46583"
+         id="tspan1080-8">property list of the global object </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="166.02998"
+         y="113.1672"
+         id="tspan1082-4">[Window Level] </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="21.896093"
+       y="156.78882"
+       id="text4305"><tspan
+         sodipodi:role="line"
+         id="tspan4303"
+         style="fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-opacity:1"
+         x="21.896093"
+         y="156.78882">CONSTANT</tspan></text>
+    <path
+       style="fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.30137,148.95205 c -75.267124,6.5548 -75.267124,6.5548 -75.267124,6.5548 l 2.4863,-4.29452 0.452056,7.00685 -2.938356,-2.48631"
+       id="path4463" />
+    <path
+       style="fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="M 150.76027,182.63014 C 62.157532,161.15753 62.157532,161.15753 62.157532,161.15753 c 0,0 2.260275,7.23288 2.260275,6.32877 0,-0.90411 2.486303,-9.0411 2.486303,-9.0411 l -5.198631,2.71233"
+       id="path4609" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       x="154.11093"
+       y="186.01215"
+       id="text1078-5-4"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.765"
+         x="154.11093"
+         y="186.01215"
+         id="tspan1082-43-7">Immutable</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="22.696432"
+       y="218.56973"
+       id="text4305-4"><tspan
+         sodipodi:role="line"
+         id="tspan4303-2"
+         style="fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-opacity:1"
+         x="22.696432"
+         y="218.56973">CONSTANT A = </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.8008px;fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:2.24744;stroke-dasharray:none;stroke-opacity:1"
+       x="178.22342"
+       y="119.1146"
+       id="text4667"
+       transform="scale(0.47950806,2.0854707)"><tspan
+         sodipodi:role="line"
+         id="tspan4665"
+         style="stroke-width:2.24744"
+         x="178.22342"
+         y="119.1146">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.11148px;fill:none;stroke:#000000;stroke-width:0.503831;stroke-dasharray:none"
+       x="92.152557"
+       y="228.71355"
+       id="text1078-5-4-3"
+       transform="scale(1.0214073,0.97904137)"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.503831"
+         x="92.152557"
+         y="228.71355"
+         id="tspan1082-43-7-5">name: &quot;may&quot;,</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3216px;fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:2.10165;stroke-dasharray:none;stroke-opacity:1"
+       x="295.43848"
+       y="114.71551"
+       id="text4671"
+       transform="scale(0.45837946,2.1815986)"><tspan
+         sodipodi:role="line"
+         id="tspan4669"
+         style="stroke-width:2.10165"
+         x="295.43848"
+         y="114.71551">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.11148px;fill:none;stroke:#000000;stroke-width:0.503831;stroke-dasharray:none"
+       x="91.740311"
+       y="238.29893"
+       id="text1078-5-4-3-6"
+       transform="scale(1.0214073,0.97904137)"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.503831"
+         x="91.740311"
+         y="238.29893"
+         id="tspan1082-43-7-5-6">addr: &quot;HK&quot;,</tspan></text>
+    <path
+       style="fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 161.26393,201.85961 c -30.52667,18.85941 -30.52667,18.85941 -30.52667,18.85941 l 1.11878,-3.19651 1.43843,4.31529 -2.23756,-0.6393"
+       id="path4727" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="165.67809"
+       y="202.29451"
+       id="text4731"><tspan
+         sodipodi:role="line"
+         id="tspan4729"
+         style="stroke-width:0.765"
+         x="165.67809"
+         y="202.29451">a.name = &quot;Betty&quot;</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#4c925b;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 231.9041,201.84246 c 2.93836,4.9726 1.5822,5.42466 2.93836,4.9726 1.35616,-0.45205 15.14383,-15.82191 15.14383,-15.82191"
+       id="path4733" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.054794,229.19178 c 0.452053,37.06848 0.452053,37.06848 0.452053,37.06848 l -4.068492,-5.8767 h 11.30137 l -6.328767,5.8767"
+       id="path4789" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="18.277874"
+       y="278.0097"
+       id="text4305-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan4303-2-4"
+         style="fill:#180711;fill-opacity:1;stroke:#130a0c;stroke-width:0.765;stroke-opacity:1"
+         x="18.277874"
+         y="278.0097">CONSTANT B = {} </tspan></text>
+    <path
+       style="fill:#d1172f;fill-opacity:1;stroke:#c9152c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 91.08904,268.74658 c 18.53425,18.64725 18.53425,18.64725 18.53425,18.64725 v 0"
+       id="path4920" />
+    <path
+       style="fill:#d1172f;fill-opacity:1;stroke:#c9152c;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="M 109.62329,268.97261 91.315068,286.60275"
+       id="path4922" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="335.63354"
+       y="22.05592"
+       id="text5704"><tspan
+         sodipodi:role="line"
+         id="tspan5702"
+         style="stroke:#18221a;stroke-width:0.765;stroke-opacity:1"
+         x="335.63354"
+         y="22.05592">Rest Parmter</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="346.34616"
+       y="93.54351"
+       id="text5704-9"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="346.34616"
+         y="93.54351">Example</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="353.39377"
+       y="109.30464"
+       id="text5704-9-7"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="353.39377"
+         y="109.30464">function fxa (a,b, ..num)</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="353.39377"
+         y="119.00602"
+         id="tspan6878" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="343.56165"
+       y="37.068493"
+       id="text6016"><tspan
+         sodipodi:role="line"
+         id="tspan6014"
+         style="stroke-width:0.765"
+         x="343.56165"
+         y="37.068493">function fxa (a,b)</tspan></text>
+    <path
+       style="fill:#1a1314;fill-opacity:1;stroke:#152518;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 441.43149,12.205479 c -34.80821,16.952054 -34.80821,16.952054 -34.80821,16.952054 l 2.03425,-4.068492 2.26028,4.29452 h -4.0685"
+       id="path6072" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#1a1314;fill-opacity:1;stroke:#152518;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="446.85614"
+       y="14.013699"
+       id="text6448"><tspan
+         sodipodi:role="line"
+         id="tspan6446"
+         style="stroke-width:0.765"
+         x="446.85614"
+         y="14.013699">...Arg</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#152518;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6502"
+       width="30.287672"
+       height="19.664385"
+       x="443.01367"
+       y="1.8082192" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#152518;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       d="m 460.61709,23.973825 c 5.43409,46.349397 5.43409,46.349397 5.43409,46.349397 0,0 -12.4664,-3.835812 -7.03233,-4.794766 5.43406,-0.958953 12.78604,-1.917906 12.78604,-1.917906 l -6.39302,5.753719"
+       id="path6610" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#152518;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="454.54108"
+       y="83.404106"
+       id="text6666"><tspan
+         sodipodi:role="line"
+         id="tspan6664"
+         style="stroke-width:0.765"
+         x="454.54108"
+         y="83.404106">Arg = [......]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#152518;stroke-width:0.765;stroke-dasharray:none;stroke-opacity:1"
+       x="480.30823"
+       y="94.479454"
+       id="text6720"><tspan
+         sodipodi:role="line"
+         id="tspan6718"
+         style="stroke-width:0.765"
+         x="480.30823"
+         y="94.479454">可以無限個或無ARG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.1502px;fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.227386;stroke-dasharray:none;stroke-opacity:1"
+       x="769.77325"
+       y="76.280228"
+       id="text6882"
+       transform="scale(0.45238452,2.2105089)"><tspan
+         sodipodi:role="line"
+         id="tspan6880"
+         style="stroke-width:0.227386"
+         x="769.77325"
+         y="76.280228">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.4287px;fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.204593;stroke-dasharray:none;stroke-opacity:1"
+       x="1086.2374"
+       y="70.63784"
+       id="text6886"
+       transform="scale(0.41612721,2.4031113)"><tspan
+         sodipodi:role="line"
+         id="tspan6884"
+         style="stroke-width:0.204593"
+         x="1086.2374"
+         y="70.63784">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="357.82486"
+       y="134.52565"
+       id="text5704-9-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-3"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.82486"
+         y="134.52565">a  number</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.82486"
+         y="144.22702"
+         id="tspan6878-6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="357.46222"
+       y="144.04367"
+       id="text5704-9-7-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-3-6"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.46222"
+         y="144.04367">b  number</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.46222"
+         y="153.74504"
+         id="tspan6878-6-9" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="357.22159"
+       y="155.11902"
+       id="text5704-9-7-4-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-3-6-3"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.22159"
+         y="155.11902">num [...]</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.22159"
+         y="164.82039"
+         id="tspan6878-6-9-0" /></text>
+    <path
+       style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.0649999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 502.23287,146.0137 c -69.16438,0.45205 -69.16438,0.45205 -69.16438,0.45205 l 7.68493,-4.9726 -0.90411,10.84931 -6.32876,-4.52054"
+       id="path7038" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#141112;fill-opacity:1;stroke:#152518;stroke-width:0.365;stroke-dasharray:none;stroke-opacity:1"
+       x="506.24258"
+       y="148.24847"
+       id="text6720-6"><tspan
+         sodipodi:role="line"
+         id="tspan6718-3"
+         style="fill:#141112;fill-opacity:1;stroke-width:0.365;stroke-dasharray:none"
+         x="506.24258"
+         y="148.24847">要分開到睇</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="354.2084"
+       y="200.18658"
+       id="text5704-9-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-7"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="354.2084"
+         y="200.18658">function fxb (...num)</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="354.2084"
+         y="209.88795"
+         id="tspan6878-5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="359.38348"
+       y="223.04025"
+       id="text5704-9-7-4-1"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-3-0"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="359.38348"
+         y="223.04025">let sum=0;</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="359.38348"
+         y="232.74162"
+         id="tspan7195">for (let i=0; i&lt; num.length; i++){</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="359.38348"
+         y="242.44301"
+         id="tspan7197">      sum += num[i]</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="359.38348"
+         y="252.14438"
+         id="tspan6878-6-6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.1502px;fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.227386;stroke-dasharray:none;stroke-opacity:1"
+       x="764.91168"
+       y="116.91991"
+       id="text6882-5"
+       transform="scale(0.45238452,2.2105089)"><tspan
+         sodipodi:role="line"
+         id="tspan6880-0"
+         style="stroke-width:0.227386"
+         x="764.91168"
+         y="116.91991">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.4287px;fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.204593;stroke-dasharray:none;stroke-opacity:1"
+       x="1205.6028"
+       y="109.65146"
+       id="text6886-1"
+       transform="scale(0.41612721,2.4031113)"><tspan
+         sodipodi:role="line"
+         id="tspan6884-5"
+         style="stroke-width:0.204593"
+         x="1205.6028"
+         y="109.65146">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="357.06815"
+       y="371.51538"
+       id="text5704-9-7-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-7-8"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.06815"
+         y="371.51538">1. a b is </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="357.06815"
+         y="381.21677"
+         id="tspan6878-5-5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="355.60757"
+       y="385.82843"
+       id="text5704-9-7-1-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-7-8-0"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="355.60757"
+         y="385.82843">2. a b is </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="355.60757"
+         y="395.52982"
+         id="tspan6878-5-5-4" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="413.05014"
+       y="385.56363"
+       id="text5704-9-7-1-0-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-7-8-0-5"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="413.05014"
+         y="385.56363">and a </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="413.05014"
+         y="395.26501"
+         id="tspan6878-5-5-4-5" /></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9525"
+       width="20.907534"
+       height="7.3458905"
+       x="395.66095"
+       y="364.92123" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9579"
+       width="18.986301"
+       height="7.7979455"
+       x="393.62671"
+       y="378.59589" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9581"
+       width="23.732876"
+       height="7.4589038"
+       x="441.20547"
+       y="379.72601" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="M 483.79181,339.30955 C 455.34286,377.1882 455.18302,377.348 455.18302,377.348 l 0.63932,-5.11439 c 0,0 5.27423,4.31527 4.63494,4.31527 -0.63931,0 -4.95459,-0.15983 -4.95459,-0.15983"
+       id="path9637" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="486.34903"
+       y="338.67026"
+       id="text9693"><tspan
+         sodipodi:role="line"
+         id="tspan9691"
+         style="stroke-width:0.365"
+         x="486.34903"
+         y="338.67026">check whether is the last item of array </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="350.25531"
+       y="299.72134"
+       id="text9693-8"><tspan
+         sodipodi:role="line"
+         id="tspan9691-1"
+         style="stroke-width:0.365"
+         x="350.25531"
+         y="299.72134">first name</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="355.03387"
+       y="357.04959"
+       id="text5704-9-7-1-9"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-7-89"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="355.03387"
+         y="357.04959">function fxa (a, b, ...num)</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="355.03387"
+         y="366.75098"
+         id="tspan6878-5-3" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="412.2818"
+       y="399.25684"
+       id="text5704-9-7-1-0-3-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan5702-5-5-7-8-0-5-5"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="412.2818"
+         y="399.25684">,a </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#141112;fill-opacity:1;stroke:#0d100e;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+         x="412.2818"
+         y="408.95822"
+         id="tspan6878-5-5-4-5-1" /></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9581-4"
+       width="23.732876"
+       height="7.4589038"
+       x="422.21964"
+       y="391.9985" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="M 476.46574,425.38356 C 446.17809,401.8767 446.17809,401.8767 446.17809,401.8767 l 1.80821,9.04111 6.78082,-7.23289 -9.49314,-1.80822"
+       id="path12009" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="477.21124"
+       y="431.18661"
+       id="text9693-5"><tspan
+         sodipodi:role="line"
+         id="tspan9691-6"
+         style="stroke-width:0.365"
+         x="477.21124"
+         y="431.18661">check whether is the middle item of array </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="357.12399"
+       y="451.29626"
+       id="text9693-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan9691-6-7"
+         style="stroke-width:0.365"
+         x="357.12399"
+         y="451.29626">Decision tree</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="308.87253"
+       y="441.72675"
+       id="text9693-5-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan9691-6-7-1"
+         style="font-size:9.87778px;fill:#23020b;fill-opacity:1;stroke-width:0.365"
+         x="308.87253"
+         y="441.72675">REST PARAMETER EXCERCISE</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 381.08217,300.84246 c 27.80139,49.04796 27.80139,49.04796 27.80139,49.04796 0,0 -5.87671,-2.26028 -4.0685,-2.26028 1.80822,0 4.52054,-1.35618 4.52054,-1.35618 l -0.67807,2.93836"
+       id="path12038" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 422.89727,285.02054 -2.93836,64.86988 -4.52056,-3.16439 7.68493,-0.45207 -3.16437,3.39043"
+       id="path12040" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="403.98935"
+       y="283.63455"
+       id="text9693-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan9691-1-0"
+         style="stroke-width:0.365"
+         x="403.98935"
+         y="283.63455">last name</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="397.96548"
+       y="474.04245"
+       id="text15029"><tspan
+         sodipodi:role="line"
+         id="tspan15027"
+         style="stroke-width:0.365"
+         x="397.96548"
+         y="474.04245">!=last</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="306.48727"
+       y="526.43579"
+       id="text15029-5"><tspan
+         sodipodi:role="line"
+         id="tspan15027-6"
+         style="stroke-width:0.365"
+         x="306.48727"
+         y="526.43579">sentence += &quot;a &quot; +title[i] + &quot;, &quot;</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 402.92009,480.91494 c -37.0795,37.23934 -37.23934,37.23934 -37.23934,37.23934 l 1.75808,-5.27423 3.19651,4.15546 -4.15547,0.79913"
+       id="path15031" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 415.5463,480.75511 66.48741,41.87428 -7.03231,-0.95896 5.75371,-6.07335 0.95895,7.03231"
+       id="path15033" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 483.95162,541.48881 -38.03846,39.95637 1.91791,-6.39302 3.8358,5.43406 -4.15547,1.2786"
+       id="path15035" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 499.52055,548.34247 30.73971,31.64382 -9.94521,-5.42464 10.39728,-3.16439 -2.26028,7.23286"
+       id="path15037" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="463.23532"
+       y="535.77521"
+       id="text15029-6"><tspan
+         sodipodi:role="line"
+         id="tspan15027-3"
+         style="stroke-width:0.365"
+         x="463.23532"
+         y="535.77521">ARRAY 只有1 個 ITEM?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#2ee219;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="377.6521"
+       y="497.04028"
+       id="text15029-2"><tspan
+         sodipodi:role="line"
+         id="tspan15027-2"
+         style="fill:#2ee219;fill-opacity:1;stroke-width:0.365"
+         x="377.6521"
+         y="497.04028">T</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#2ee219;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="459.0437"
+       y="557.49255"
+       id="text15029-2-9"><tspan
+         sodipodi:role="line"
+         id="tspan15027-2-2"
+         style="fill:#2ee219;fill-opacity:1;stroke-width:0.365"
+         x="459.0437"
+         y="557.49255">T</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#e20f4a;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="452.73862"
+       y="500.56311"
+       id="text15029-2-9-9"><tspan
+         sodipodi:role="line"
+         id="tspan15027-2-2-7"
+         style="fill:#e20f4a;fill-opacity:1;stroke-width:0.365"
+         x="452.73862"
+         y="500.56311">F</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:#e20f4a;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="512.78259"
+       y="558.84875"
+       id="text15029-2-9-9-4"><tspan
+         sodipodi:role="line"
+         id="tspan15027-2-2-7-8"
+         style="fill:#e20f4a;fill-opacity:1;stroke-width:0.365"
+         x="512.78259"
+         y="558.84875">F</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="316.66232"
+       y="532.07812"
+       id="text15029-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan15027-3-3"
+         style="stroke-width:0.365"
+         x="316.66232"
+         y="532.07812" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="355.37601"
+       y="459.56287"
+       id="text9693-5-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan9691-6-7-3"
+         style="stroke-width:0.365"
+         x="355.37601"
+         y="459.56287">For Loop Loop Each items In Array </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="366.72427"
+       y="590.42908"
+       id="text15029-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan15027-6-6"
+         style="stroke-width:0.365"
+         x="366.72427"
+         y="590.42908">sentence += &quot;a &quot; + title[i] </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="500.67966"
+       y="590.78088"
+       id="text15029-5-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan15027-6-6-7"
+         style="stroke-width:0.365"
+         x="500.67966"
+         y="590.78088">sentence += &quot;and a &quot; + title[i] </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9107px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:1.66687;stroke-dasharray:none;stroke-opacity:1"
+       x="652.92993"
+       y="25.776117"
+       id="text5704-2"
+       transform="scale(0.90892436,1.1002016)"><tspan
+         sodipodi:role="line"
+         id="tspan5702-55"
+         style="stroke:#18221a;stroke-width:1.66687;stroke-opacity:1"
+         x="652.92993"
+         y="25.776117">Spread Operator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="615.64783"
+       y="56.258575"
+       id="text22853"><tspan
+         sodipodi:role="line"
+         id="tspan22851"
+         style="stroke-width:0.365"
+         x="615.64783"
+         y="56.258575">let numbers = [1, 2, 3, ...[4,5,6]]</tspan></text>
+    <path
+       style="fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 710.74401,106.60361 c 28.12928,-47.308348 28.12928,-47.308348 28.12928,-47.308348 l -4.95459,1.438429 5.5939,2.876859 -0.95895,-4.315288"
+       id="path22919" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="699.78076"
+       y="120.24657"
+       id="text22923"><tspan
+         sodipodi:role="line"
+         id="tspan22921"
+         style="stroke-width:0.365"
+         x="699.78076"
+         y="120.24657">把SQUARE BACKET 取走</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.64091px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.282345;stroke-dasharray:none;stroke-opacity:1"
+       x="691.86841"
+       y="97.479523"
+       id="text22923-8"
+       transform="scale(0.86924419,1.1504247)"><tspan
+         sodipodi:role="line"
+         id="tspan22921-6"
+         style="stroke-width:0.282344"
+         x="691.86841"
+         y="97.479523">UNPACKAGING</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 691.19178,68.260274 c -52.89042,58.315066 -52.89042,58.315066 -52.89042,58.315066 l 19.43835,38.87671 -9.49314,-4.52054 9.0411,-4.0685 -0.45207,7.68493"
+       id="path22925" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="608.48431"
+       y="185.88925"
+       id="text22853-9"><tspan
+         sodipodi:role="line"
+         id="tspan22851-6"
+         style="stroke-width:0.365"
+         x="608.48431"
+         y="185.88925">let numbers = [1, 2, 3, 4,5,6]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="608.05493"
+       y="215.09888"
+       id="text22853-9-7"><tspan
+         sodipodi:role="line"
+         id="tspan22851-6-0"
+         style="stroke-width:0.365"
+         x="608.05493"
+         y="215.09888">EXAMPLE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="625.71503"
+       y="232.63614"
+       id="text22853-9-6"><tspan
+         sodipodi:role="line"
+         id="tspan22851-6-4"
+         style="stroke-width:0.365"
+         x="625.71503"
+         y="232.63614">let a = [&quot;A&quot;, &quot;B&quot;]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="626.52686"
+       y="249.89729"
+       id="text22853-9-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan22851-6-4-8"
+         style="stroke-width:0.365"
+         x="626.52686"
+         y="249.89729">let b = [...a, &quot;C&quot;, &quot;D&quot;]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="626.82098"
+       y="266.19949"
+       id="text22853-9-6-9-5"><tspan
+         sodipodi:role="line"
+         id="tspan22851-6-4-8-3"
+         style="stroke-width:0.365"
+         x="626.82098"
+         y="266.19949">console.log(b) //[&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, &quot;D&quot;]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.1609px;fill:#d1172f;fill-opacity:1;stroke:#18221a;stroke-width:2.57865;stroke-dasharray:none;stroke-opacity:1"
+       x="25.561554"
+       y="270.10007"
+       id="text5704-2-3"
+       transform="scale(0.80473742,1.2426414)"><tspan
+         sodipodi:role="line"
+         id="tspan5702-55-6"
+         style="stroke:#18221a;stroke-width:2.57865;stroke-opacity:1"
+         x="25.561554"
+         y="270.10007">For...of: Entries</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#23020b;fill-opacity:1;stroke:#0d100e;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       x="40.348068"
+       y="364.15012"
+       id="text22853-9-6-9-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan22851-6-4-8-3-2"
+         style="stroke-width:0.365"
+         x="40.348068"
+         y="364.15012">let animals = [&quot;Cat&quot;, &quot;dog&quot;, &quot;Bear&quot;]</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.365"
+         x="40.348068"
+         y="376.49731"
+         id="tspan1174">for ( const [index, animal] of animlas.entries()){</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.365"
+         x="40.348068"
+         y="388.84454"
+         id="tspan1176">    console.log(animal + &quot;index is&quot; + index) </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.365"
+         x="40.348068"
+         y="401.19174"
+         id="tspan1178">}</tspan></text>
+  </g>
+</svg>

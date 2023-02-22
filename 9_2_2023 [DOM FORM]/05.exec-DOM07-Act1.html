@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>DOM07-05</title>
+    <style>
+        form {
+            padding: 15px;
+            margin: auto;
+            width: fit-content;
+            border: solid 2px lightgrey;
+            border-radius: 15px;
+            background-color: lightgrey;
+        }
+        input {
+            padding: 5px;
+            margin: auto 0 15px;
+            display: block;
+            border-radius: 30px;
+            border: solid 2px grey;
+            text-align: center;
+            width: 200px;
+        }
+        input:hover {
+            background-color: #bedefb;
+        }
+        button {
+            padding: 5px;
+            margin: auto;
+            display: block;
+            border-radius: 30px;
+            border: solid 2px grey;
+            width: 200px;
+        }
+        button:hover {
+            background-color: #bedefb;
+        }
+    </style>
+</head>
+<body>
+    <form action="./login.html" method="get" id="form" target="_self">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+    <script>
+        let form = document.querySelector("#form");
+        let username = form.elements[0]
+        let password = form.elements[1]
+        form.addEventListener("submit", function(event) {
+            if (username.value == "admin") {
+                username.style.borderColor = "initial";
+                if (password.value == "1234") {
+                    password.style.borderColor = "initial";
+                    form.submit()
+                } else {
+                    Invalidinput("password");
+                    event.preventDefault();
+                }
+            } else {
+                Invalidinput("username");
+                event.preventDefault();
+            };
+        });
+
+        function Invalidinput(input) {
+            if (input == "username") {
+                username.style.borderColor = "blue";
+                username.value = "";
+                username.placeholder = "Invalid username";
+            } else {
+                password.style.borderColor = "red";
+                password.value = "";
+                password.placeholder = "Invalid password";
+            };
+        };
+    </script>
+</body>
+</html>

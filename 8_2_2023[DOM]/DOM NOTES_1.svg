@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="841mm"
+   height="594mm"
+   viewBox="0 0 841 594"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="DOM NOTES_1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.3411615"
+     inkscape:cx="366.27118"
+     inkscape:cy="1067.846"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.269888;stroke-opacity:1"
+       id="rect111"
+       width="94.08165"
+       height="56.953594"
+       x="8.5916929"
+       y="56.28347" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.4817px;fill:none;stroke:#000000;stroke-width:0.540141;stroke-opacity:1"
+       x="10.67909"
+       y="61.888702"
+       id="text845"
+       transform="scale(0.96870981,1.0323009)"><tspan
+         sodipodi:role="line"
+         id="tspan843"
+         style="stroke-width:0.540141"
+         x="10.67909"
+         y="61.888702">DOM</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.244173;stroke-opacity:1"
+       id="path899"
+       cx="42.606159"
+       cy="68.712326"
+       rx="8.7122602"
+       ry="3.9656844" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="38.230476"
+       y="69.979538"
+       id="text845-0"><tspan
+         sodipodi:role="line"
+         id="tspan843-3"
+         style="stroke-width:0.264583"
+         x="38.230476"
+         y="69.979538">HTML</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.244173;stroke-opacity:1"
+       id="path899-0"
+       cx="29.722605"
+       cy="85.099319"
+       rx="8.7122602"
+       ry="3.9656844" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="25.34692"
+       y="86.479553"
+       id="text845-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan843-3-0"
+         style="stroke-width:0.264583"
+         x="25.34692"
+         y="86.479553">LOAD</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.244173;stroke-opacity:1"
+       id="path899-0-1"
+       cx="57.184933"
+       cy="84.986305"
+       rx="8.7122602"
+       ry="3.9656844" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="52.809246"
+       y="86.366539"
+       id="text845-0-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan843-3-0-2"
+         style="stroke-width:0.264583"
+         x="52.809246"
+         y="86.366539">BODY</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.244173;stroke-opacity:1"
+       id="path899-0-1-8"
+       cx="56.958904"
+       cy="102.78596"
+       rx="8.7122602"
+       ry="3.9656844" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="55.973629"
+       y="103.88366"
+       id="text845-0-4-4-9"><tspan
+         sodipodi:role="line"
+         id="tspan843-3-0-2-1"
+         style="stroke-width:0.264583"
+         x="55.973629"
+         y="103.88366">p</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 39.778538,72.513327 c -5.753716,9.189966 -5.753716,9.189966 -5.753716,9.189966"
+       id="path1236" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 46.49121,72.433415 c 8.071189,9.030139 8.071189,9.030139 8.071189,9.030139"
+       id="path1238" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 57.918734,89.055267 c -0.239739,9.589529 -0.239739,9.589529 -0.239739,9.589529"
+       id="path1240" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.243847;stroke-opacity:1"
+       id="rect1242"
+       width="33.341999"
+       height="5.856719"
+       x="67.663399"
+       y="64.456841" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="69.039612"
+       y="68.599083"
+       id="text845-9"><tspan
+         sodipodi:role="line"
+         id="tspan843-0"
+         style="stroke-width:0.264583"
+         x="69.039612"
+         y="68.599083">1.DOMContentLoad</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.224496;stroke-opacity:1"
+       id="rect1242-9"
+       width="28.167021"
+       height="5.8760705"
+       x="67.951904"
+       y="72.383934" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="69.337791"
+       y="76.535858"
+       id="text845-9-6"><tspan
+         sodipodi:role="line"
+         id="tspan843-0-4"
+         style="stroke-width:0.264583"
+         x="69.337791"
+         y="76.535858">2.Load</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.221822;stroke-opacity:1"
+       id="rect1242-9-6"
+       width="27.487312"
+       height="5.8787451"
+       x="68.530312"
+       y="80.35173" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.18619px;fill:none;stroke:#000000;stroke-width:0.265516;stroke-opacity:1"
+       x="69.646461"
+       y="84.845207"
+       id="text845-9-6-3"
+       transform="scale(1.0040334,0.99598281)"><tspan
+         sodipodi:role="line"
+         id="tspan843-0-4-1"
+         style="stroke-width:0.265516"
+         x="69.646461"
+         y="84.845207">3.beforeload</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.218937;stroke-opacity:1"
+       id="rect1242-9-63"
+       width="26.763926"
+       height="5.8816299"
+       x="68.709473"
+       y="88.564835" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.85065px;fill:none;stroke:#000000;stroke-width:0.237554;stroke-opacity:1"
+       x="78.088333"
+       y="82.899673"
+       id="text845-9-6-7"
+       transform="scale(0.89404103,1.1185169)"><tspan
+         sodipodi:role="line"
+         id="tspan843-0-4-7"
+         style="stroke-width:0.237554"
+         x="78.088333"
+         y="82.899673">4.UnLoad</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.58611px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="8.8559208"
+       y="8.9072762"
+       id="text845-7"><tspan
+         sodipodi:role="line"
+         id="tspan843-5"
+         style="font-size:4.58611px;stroke-width:0.264583"
+         x="8.8559208"
+         y="8.9072762">DOM page load event </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="8.8469133"
+       y="12.455564"
+       id="text845-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan843-5-7"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="12.455564" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="16.424313"
+         id="tspan3605">Page load event of Dom is a JavaScript event that occurs when a web page has been completely loaded and rendered. </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="20.393063"
+         id="tspan3623">This event can be used to perform actions after the page has been loaded, such as setting up event handlers, </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="24.361813"
+         id="tspan3625">displaying content, or running scripts.</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="28.330563"
+         id="tspan3607" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="32.299313"
+         id="tspan3609">The following code snippet shows how to use the page load event:</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="36.268063"
+         id="tspan3611" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="40.236813"
+         id="tspan3613">// Add event listener for page load event</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="44.205563"
+         id="tspan3615">window.addEventListener(&quot;load&quot;, function(){</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="48.174313"
+         id="tspan3617">  // Code to run when page is loaded</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="52.143063"
+         id="tspan3619">});</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.8469133"
+         y="56.111813"
+         id="tspan3621" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.58611px;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="8.3416061"
+       y="127.61789"
+       id="text845-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan843-5-6"
+         style="font-size:4.58611px;stroke-width:0.264583"
+         x="8.3416061"
+         y="127.61789">Function sytnax Type</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.34869px;fill:none;stroke:#000000;stroke-width:0.36627;stroke-opacity:1"
+       x="9.3641348"
+       y="156.75751"
+       id="text845-7-4-4"
+       transform="scale(0.79806486,1.253031)"><tspan
+         sodipodi:role="line"
+         id="tspan843-5-6-2"
+         style="font-size:6.34869px;stroke-width:0.36627"
+         x="9.3641348"
+         y="156.75751">Mutation Observer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="9.8321924"
+       y="137.31165"
+       id="text340"><tspan
+         sodipodi:role="line"
+         id="tspan338"
+         style="stroke-width:0.264583"
+         x="9.8321924"
+         y="137.31165">1) function  fxname    ()   {}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="9.6682501"
+       y="143.74384"
+       id="text340-3"><tspan
+         sodipodi:role="line"
+         id="tspan338-0"
+         style="stroke-width:0.264583"
+         x="9.6682501"
+         y="143.74384">2) function  ()   {}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="56.054794"
+       y="143.86644"
+       id="text371"><tspan
+         sodipodi:role="line"
+         id="tspan369"
+         style="stroke-width:0.264583"
+         x="56.054794"
+         y="143.86644">Anonymous Function</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="9.5737228"
+       y="150.63766"
+       id="text340-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan338-0-2"
+         style="stroke-width:0.264583"
+         x="9.5737228"
+         y="150.63766">3) fxname  ()  =&gt; {}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="9.5963058"
+       y="156.6274"
+       id="text340-3-5-9"><tspan
+         sodipodi:role="line"
+         id="tspan338-0-2-2"
+         style="stroke-width:0.264583"
+         x="9.5963058"
+         y="156.6274">4) (e)  =&gt; {}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="56.579788"
+       y="153.18506"
+       id="text371-3"><tspan
+         sodipodi:role="line"
+         id="tspan369-4"
+         style="stroke-width:0.264583"
+         x="56.579788"
+         y="153.18506">ES6 Arrow Function</tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 45.883562,150.64726 c 9.15411,1.35616 9.15411,1.35616 9.15411,1.35616 l -0.904111,-1.24315 -0.565068,2.26028 1.695204,-1.13014"
+       id="path508" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 33.452054,155.73287 c 21.924658,-2.03424 21.924658,-2.03424 21.924658,-2.03424 l -1.582193,-0.7911 0.565071,2.14726 0.904107,-1.46918"
+       id="path510" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 40.345891,143.30137 15.143835,-0.11302 -1.356165,-1.01712 v 1.92124 l 1.243151,-0.67809"
+       id="path514" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-dasharray:none;stroke-opacity:1"
+       id="rect224"
+       width="50.664688"
+       height="26.051559"
+       x="7.0323224"
+       y="207.13387" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="10.388659"
+       y="213.52689"
+       id="text1011"><tspan
+         sodipodi:role="line"
+         id="tspan1009"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.065;stroke-dasharray:none"
+         x="10.388659"
+         y="213.52689">&lt;div&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.065;stroke-dasharray:none;stroke-opacity:1"
+       x="11.108174"
+       y="226.97179"
+       id="text1011-8"><tspan
+         sodipodi:role="line"
+         id="tspan1009-3"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.065;stroke-dasharray:none"
+         x="11.108174"
+         y="226.97179">&lt;/div&gt;</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1092"
+       width="32.284752"
+       height="47.947655"
+       x="71.601822"
+       y="204.89632" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.23845;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1092-6"
+       width="32.311302"
+       height="38.789112"
+       x="41.73008"
+       y="270.28885" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0649999;stroke-dasharray:none;stroke-opacity:1"
+       x="74.262268"
+       y="200.77383"
+       id="text1096"><tspan
+         sodipodi:role="line"
+         id="tspan1094"
+         style="stroke-width:0.065"
+         x="74.262268"
+         y="200.77383">(2) function</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0649999;stroke-dasharray:none;stroke-opacity:1"
+       x="41.608505"
+       y="268.09845"
+       id="text1096-5"><tspan
+         sodipodi:role="line"
+         id="tspan1094-7"
+         style="stroke-width:0.065"
+         x="41.608505"
+         y="268.09845">(3) Observor  [Observe Element]</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 57.094636,205.89928 c 13.900684,-3.50343 13.900684,-3.50343 13.900684,-3.50343 l -2.825343,-1.35617 1.243153,4.52055 1.469178,-2.93835"
+       id="path1201" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.916555,255.39928 c -18.647262,7.68493 -21.698633,9.04109 -21.698633,9.04109 l 1.469179,-2.14726 0.791096,3.05137 -2.034246,-0.79109"
+       id="path1929" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1987"
+       width="5.8767123"
+       height="14.126713"
+       x="40.142578"
+       y="239.69037" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1989"
+       width="3.5034246"
+       height="3.0513699"
+       x="41.611759"
+       y="236.63899" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 42.12032,235.90441 c -1.412671,-1.52568 -1.412671,-1.52568 -1.412671,-1.52568 v 0"
+       id="path1991" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.419977,234.43523 c 0.05651,1.41268 0.05651,1.41268 0.05651,1.41268"
+       id="path1993" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 45.397719,235.96092 c 1.808218,-1.6387 1.808218,-1.6387 1.808218,-1.6387"
+       id="path1995" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="8.4656429"
+       y="204.29201"
+       id="text1999"><tspan
+         sodipodi:role="line"
+         id="tspan1997"
+         style="stroke-width:0.265"
+         x="8.4656429"
+         y="204.29201">(1)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="47.375458"
+       y="246.69722"
+       id="text2003"><tspan
+         sodipodi:role="line"
+         id="tspan2001"
+         style="stroke-width:0.265"
+         x="47.375458"
+         y="246.69722">(4)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.7553px;fill:none;fill-opacity:1;stroke:#130b0e;stroke-width:1.34912;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="138.49771"
+       y="126.91051"
+       id="text14853"
+       transform="scale(0.534703,1.8701971)"><tspan
+         sodipodi:role="line"
+         id="tspan14851"
+         style="stroke:#130b0e;stroke-width:1.34912;stroke-opacity:1"
+         x="138.49771"
+         y="126.91051">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.7553px;fill:none;fill-opacity:1;stroke:#130b0e;stroke-width:1.34912;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="82.901405"
+       y="160.41049"
+       id="text14853-0"
+       transform="scale(0.534703,1.8701971)"><tspan
+         sodipodi:role="line"
+         id="tspan14851-7"
+         style="stroke:#130b0e;stroke-width:1.34912;stroke-opacity:1"
+         x="82.901405"
+         y="160.41049">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.7553px;fill:none;fill-opacity:1;stroke:#130b0e;stroke-width:1.34912;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="-196.69905"
+       y="-116.15916"
+       id="text14853-4"
+       transform="matrix(-0.53466291,-0.00654732,0.02290013,-1.8700569,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan14851-1"
+         style="stroke:#130b0e;stroke-width:1.34912;stroke-opacity:1"
+         x="-196.69905"
+         y="-116.15916">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.7553px;fill:none;fill-opacity:1;stroke:#130b0e;stroke-width:1.34912;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="-130.57143"
+       y="-149.55124"
+       id="text14853-4-4"
+       transform="matrix(-0.53466291,-0.00654732,0.02290013,-1.8700569,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan14851-1-0"
+         style="stroke:#130b0e;stroke-width:1.34912;stroke-opacity:1"
+         x="-130.57143"
+         y="-149.55124">{</tspan></text>
+  </g>
+</svg>

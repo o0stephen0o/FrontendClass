@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM06-08</title>
+</head>
+<body>
+    <ul id="menu">
+        <li><a id="home">Home</a></li>
+        <li><a id="about">About</a></li>
+        <li><a id="services">Services</a></li>
+    </ul>
+<script>
+   /* let home = document.getElementById("home");
+    home.onclick = function() {console.log("Home was clicked!")};
+    let about = document.getElementById("about");
+    about.onclick = function() {console.log("About was clicked!")};
+    let services = document.getElementById("services");
+    services.onclick = function() {console.log("Services was clicked!")};*/
+   
+    let menu = document.getElementById("menu");
+    menu.addEventListener("click", function(event){
+        switch (event.target.id){
+            case "home":
+                console.log("Home was clicked!");
+                break;
+            case "about":
+                console.log("About was clicked!");
+                break;
+            case "services":
+                console.log("Services was clicked!");
+                break;
+        }
+    })
+</script>
+    
+</body>
+</html>

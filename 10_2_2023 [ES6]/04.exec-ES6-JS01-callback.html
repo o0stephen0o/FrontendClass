@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES06-JS01-03</title>
+</head>
+<body>
+  <script>
+  /*
+  //01. let & var variabl in for loop
+    for (var i = 0; i < 5; i++) {
+      setTimeout(function () {
+          console.log(i);
+        }, 1000);
+  };
+  */
+  //02. asynchronous callback concept 
+  /*
+    console.log("first statement");
+
+    setTimeout( function sayHi() {
+        console.log('Hi')
+    }, 1000);
+
+    console.log("last statement");
+   */
+    //03. 
+    // if no blocking events, both var and let working fine within loop.
+    // in synchronise manner
+    
+    for (var i = 0; i < 5; i++) {
+        console.log(i);
+      };
+
+    for (let j = 0; j < 5; j++) {
+        console.log(j);
+    
+      };
+    
+
+  </script>  
+</body>
+</html>

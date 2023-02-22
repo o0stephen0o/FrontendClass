@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>ES6-JS02-06</title>
+</head>
+<body id="body">
+    <div id="output"></div>
+    <br>
+    <div id="output1"></div>
+<script>
+    let numlist = [1,2,3,4,5,6]
+    output = document.querySelector("#output");
+    output1 = document.querySelector("#output1");
+    function MultiplyList(multiplyer,numlist) {
+        let total =[];
+        for (num of numlist) {
+            total.push(multiplyer * num)};
+        return total;
+    };
+
+    let b = MultiplyList(2, numlist);
+    output1.innerText = b;
+    console.log(b);
+    console.log(MultiplyList(3, numlist));
+    console.log(b.toString());
+    output.innerText = b.toString();
+   
+
+</script>
+</body>
+</html>

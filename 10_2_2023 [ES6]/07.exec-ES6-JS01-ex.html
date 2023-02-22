@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>ES6-JS01-05</title>
+<body id="body">
+    Height<input type="number" value="">px<br>
+    Width<input type="number" value="">px<br>
+    Border width<input type="number" value="">px<br>
+    <button type="button" id="btn">Click me to create a div</button>
+<script>
+    // ES6 JS default parameter exercise
+    //
+    let btn = document.querySelector("#btn");
+    let body = document.querySelector("#body");
+    btn.addEventListener("click", function() {
+        let inputs = document.querySelectorAll("input");
+        let divlist = []
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i].value == "") {
+                divlist.push(undefined);
+            } else {
+                divlist.push(inputs[i].value)
+            }
+        };
+        CreateDiv(divlist[0], divlist[1], divlist[2]);
+    });
+    function CreateDiv(h="100", w="100", bw="3") {
+        let div = document.createElement("div");
+        div.style.height = h+"px";
+        div.style.width = w+"px";
+        div.style.border = "solid";
+        div.style.borderWidth = bw+"px";
+        body.insertBefore(div, body.firstChild);
+    };
+</script>
+</body>
+</html>

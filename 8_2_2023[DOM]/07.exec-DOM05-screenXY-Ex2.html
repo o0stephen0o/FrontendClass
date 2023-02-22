@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM05-08</title>
+</head>
+<body style="margin:0px"  > 
+    <h2>Move the mouse on the Canvas below to examine the mouse pointer coordinates</h2>
+    <Div id="canvas" onmousemove="showXY(event)"
+      style="margin:0px ; width: 50vw; height: 40vh; border: solid 2px black;padding: 5px"></div>
+
+    <br>     
+        <p >Your mouse screen coordinates: <span id="screenXY"></span></p>
+        <p >Your mouse client coordinates: <span id="clientXY"></span></p>
+       
+            
+   
+<script>
+  function showXY(event) {
+  let sx = event.screenX;
+  let sy = event.screenY;
+  let cx = event.clientX;
+  let cy = event.clientY;
+  let scoords = "( " + sx + " , " + sy +")."
+  let ccoords = "( " + cx + " , " + cy +")."
+  document.getElementById("screenXY").innerText = scoords;
+  document.getElementById("clientXY").innerText = ccoords;
+
+}
+</script>
+</body>
+</html>

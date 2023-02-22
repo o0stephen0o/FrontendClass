@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM05-07</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let btn = document.querySelector("button");
+            btn.addEventListener("click", function() {
+                let div = document.querySelector("#display");
+                div.textContent = "I'm clicked!"
+            });
+            btn.addEventListener("mousemove", function() {
+                let div = document.querySelector("#display");
+                div.textContent = "mouse move!"
+            });
+            btn.addEventListener("dblclick", function() {
+                let div = document.querySelector("#display");
+                div.textContent = "double click!"
+            });
+            btn.addEventListener("mousedown", function() {
+                let div = document.querySelector("#display");
+                div.textContent = "mousedown !"
+            });
+        })
+</script>
+</head>
+<body>
+    <button type="button">Click me!</button>
+    <div id="display"></div>
+</body>
+</html>

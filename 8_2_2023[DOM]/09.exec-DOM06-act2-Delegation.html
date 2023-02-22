@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>JSTutorial</title>
+</head>
+<body>
+    <ul id="menu">
+        <li><a id="home">Home</a></li>
+        <li><a id="about">About</a></li>
+        <li><a id="services">Services</a></li>
+    </ul>
+    <script>
+        let menu = document.getElementById("menu");
+        menu.addEventListener("click", function(event) {
+            switch (event.target.id) {
+                case "home":
+                    console.log("Home was clicked");
+                    break
+                case "about":
+                    console.log("About was clicked");
+                    break
+                case "services":
+                    console.log("Services was clicked");
+                    break
+            };
+        });
+
+    </script>
+</body>
+</html>

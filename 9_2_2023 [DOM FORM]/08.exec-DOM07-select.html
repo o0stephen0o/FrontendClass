@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>DOM07-08</title>
+    
+</head>
+<body>
+    <select name="subject" id="selection">
+        <option value="js">JS</option>
+        <option value="react">React</option>
+        <option value="angular">Angular</option>
+        <option value="node">Node</option>
+    </select>  
+    <button onclick="checksel()">Select</button>     
+    <script>
+        let selection = document.querySelector("#selection");
+        function checksel() {
+            console.log(selection.value)
+        };
+    </script>
+</body>
+</html>

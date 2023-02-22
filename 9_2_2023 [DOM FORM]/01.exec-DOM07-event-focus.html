@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM07-01</title>
+</head>
+<body>
+    <form>
+        <label>Username</label>
+        <input type="text"><br>
+        <label>Password</label>
+        <input type="password">
+    </form>
+<script>
+    let inputelem = document.querySelector("input[type='text']")
+    inputelem.addEventListener("focus", function() {
+        inputelem.style.backgroundColor = "yellow";
+    });
+    inputelem.addEventListener("blur", function() {
+        inputelem.style.backgroundColor = "initial";
+    });
+</script>
+</body>
+</html>

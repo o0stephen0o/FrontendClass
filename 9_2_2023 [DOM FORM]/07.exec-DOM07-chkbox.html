@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>DOM07-06</title>
+    
+</head>
+<body>
+    <input type="checkbox" name="color" value="red">black
+    <input type="checkbox" name="color" value="blue">red
+    <input type="checkbox" name="color" value="green">Green
+    <input type="checkbox" name="color" value="yellow">Yellow
+    <button onclick="checksel()">Submit</button>       
+    <script>
+        let colors = document.querySelectorAll("input");
+        function checksel() {
+        let selectedvalue =[];
+       /*
+        for (let i=0; i < colors.length; i++) {
+            if (colors[i].checked) {
+            selectedvalue.push(colors[i].value);
+        };
+    
+        */
+        for (let color of colors) {
+            if (color.checked) {
+                selectedvalue.push(color.value);
+            };
+        };
+        console.log(selectedvalue)
+        };
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM06-03</title>
+    <style>
+        #menu {
+            position: fixed;
+            top: 0;
+            margin-bottom: 5vh;
+            padding-left: 20px;
+        }
+        #jsContent {
+            width: 100vw;
+            margin:500px;
+            padding-left: 20px;
+           
+        }
+
+        #pyContent {
+            width: 100vw;
+            margin:500px;
+           padding-left: 20px;
+         
+        }
+        
+        #htmlContent {
+            width: 100vw;
+            margin:500px;
+           padding-left: 20px;
+           
+        }
+        
+        #container {
+            margin-top: 5vh;
+            margin-left: 20px;
+        }
+        
+        p{
+            margin-left: 20px;
+        }
+
+        h4{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <button id="js" >1.JS</button>
+        <!--<button id="py">2.Python</button>
+        <button id="html">3.HTML</button>-->
+        <button id="py" onclick="scrollintoViewFunction('pyContent')">2.Python</button>
+        <button id="html" onclick="scrollintoViewFunction('htmlContent')">3.HTML</button>
+        
+    </div>
+    <div id="container">
+        <div id="jsContent">
+            <h4></h4>
+            <br>
+            <h4>JS</h4>
+            <br>
+            <p> JavaScript 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quo qui voluptates aspernatur doloremque tempore ut quos reprehenderit. Velit, nemo!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut illum quos, vero tenetur ullam quia quis ipsam nobis labore nam.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum fuga aperiam harum. Sint dolor voluptatum quae quidem sequi maxime!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque itaque cupiditate, assumenda in possimus quidem odio vitae nostrum enim! Necessitatibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, labore? Eos reiciendis consequuntur ipsum eum minima accusantium cupiditate delectus quidem!
+            </p>
+        </div>
+    
+        <div id="pyContent">
+            <h4></h4>
+            <br>
+            <h4>Pyhton</h4>
+            <br>
+            <p> Python 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quo qui voluptates aspernatur doloremque tempore ut quos reprehenderit. Velit, nemo!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut illum quos, vero tenetur ullam quia quis ipsam nobis labore nam.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum fuga aperiam harum. Sint dolor voluptatum quae quidem sequi maxime!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque itaque cupiditate, assumenda in possimus quidem odio vitae nostrum enim! Necessitatibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, labore? Eos reiciendis consequuntur ipsum eum minima accusantium cupiditate delectus quidem!
+            </p>
+        </div>
+        <div id="htmlContent">
+            <h4></h4>
+            <br>
+            <h4>HTML</h4>
+            <br>
+            <p> HTML  
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quo qui voluptates aspernatur doloremque tempore ut quos reprehenderit. Velit, nemo!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut illum quos, vero tenetur ullam quia quis ipsam nobis labore nam.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum fuga aperiam harum. Sint dolor voluptatum quae quidem sequi maxime!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque itaque cupiditate, assumenda in possimus quidem odio vitae nostrum enim! Necessitatibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, labore? Eos reiciendis consequuntur ipsum eum minima accusantium cupiditate delectus quidem!
+            </p>
+        </div>
+    </div>
+    
+
+<script>
+   /* let menu = document.getElementById("menu"); //!**取得menu
+        menu.addEventListener("click", function(event) {
+            switch (event.target.id) {
+                case "js":
+                    const jsele = document.getElementById("jsContent");
+                    jsele.scrollIntoView();
+                    break
+                case "py":
+                    const pyele = document.getElementById("pyContent");
+                    pyele.scrollIntoView();
+                    break
+                case "html":
+                    const htmlele = document.getElementById("htmlContent");
+                    htmlele.scrollIntoView();
+                    break
+            };
+        });*/
+        
+        function scrollintoViewFunction(contentid) {
+
+                const content = document.getElementById(contentid);
+                content.scrollIntoView();
+           
+        }
+</script>
+
+</body>
+</html>

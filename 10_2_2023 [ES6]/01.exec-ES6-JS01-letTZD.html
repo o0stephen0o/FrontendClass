@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6-JS01-01</title>
+</head>
+<body>
+    <script>
+      
+        
+        //01. TDZ concept I
+        // TDZ starts at beginning of scope
+            console.log(bar); // undefined
+            console.log(foo); // ReferenceError
+            var bar = 1;
+            let foo = 2; // End of TDZ (for foo)
+        
+       
+        //02. TDZ concept II
+        // The term "temporal" is used because the zone depends on the order of execution (time) 
+        // rather than the order in which the code is written (position).
+        // TDZ starts at beginning of scope e.g. "{"
+      /*  const func = () => console.log(letVar); // OK
+        let letVar;
+        console.log(letVar);
+      
+        letVar = 3; // End of TDZ (for letVar) , once let variable being initialized.
+        func(); // Called outside TDZ!
+       */
+
+      
+    </script>
+</body>
+</html>

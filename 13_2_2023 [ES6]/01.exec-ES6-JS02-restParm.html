@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>ES6-JS02-01</title>
+</head>
+<body id="body">
+
+
+<script>
+
+    // default parameter... passing agurments as an array
+   // function add(a,b,...num) {
+    function add(...num) {
+    let sum = 0
+    //for (let i = 0; i < num.length; i++) {
+    //    sum += num[i]
+    //}
+    for (let y of num) {
+        sum += y
+    }
+    
+    console.log(sum);
+    };
+add(10, 20, 30, 40, 50);
+// i.e. num = [10, 20, 30, 40, 50]  
+</script>
+</body>
+</html>

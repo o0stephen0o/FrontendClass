@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>ES6-JS02-04</title>
+</head>
+<body id="body">
+<script>
+      
+    let animals = ["Seagull", "Lizard", "Cat", "Bear"]
+    //1. for loop elements in array   
+    for (let i = 0; i < animals.length; i++) {
+        console.log(animals[i]);
+        }
+    // ES6 for..of elements in array 
+    for (let animal of animals) {
+        console.log(animal);
+        };
+    //2. for loop elements in array  
+    for (let i = 0; i < animals.length; i++) {
+        console.log(animals[i] + " is at index " + i);
+        };
+    // ES6 index and element in array, 
+    // array destructuring is used to assign 
+    // the result of the array.entries() method to the index and animal variables in each iteration:
+    for (const [index, animal] of animals.entries()) {
+        console.log(animal + " is at index " + index);
+        };
+    
+</script>
+</body>
+</html>

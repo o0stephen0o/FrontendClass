@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>ES6-JS02-05</title>
+</head>
+<body id="body">
+<script>
+    let alist = ["Owl", "Bat", "Parrot", "Parrot", "Bat", "HummingBird"]
+
+    function AnimalCount(type,animals) {
+        let total = 0;
+        for (animal of animals) {
+            if(animal === type) { total++;}
+        }
+        return total;
+    };
+
+    let a = AnimalCount("HummingBird", alist);
+    console.log(a)
+
+</script>
+</body>
+</html>

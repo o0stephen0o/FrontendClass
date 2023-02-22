@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom07-03</title>
+</head>
+<body>
+    <p>Please click on the checkbox control.</p>
+
+    <form>
+        <label for="id-checkbox">Checkbox:</label>
+        <input type="checkbox" id="id-checkbox" />
+    </form>
+
+    <div id="output-box"></div>
+    <script>
+        const checkbox = document.querySelector("#id-checkbox");
+        checkbox.addEventListener("click", checkboxClick, false);
+
+        function checkboxClick(event) {
+            let warn = "preventDefault() won't let you check this!<br>";
+            document.getElementById("output-box").innerHTML += warn;
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>

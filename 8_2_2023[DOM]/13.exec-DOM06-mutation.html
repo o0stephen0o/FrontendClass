@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main"></div>
+    <div id="API">
+        <script>//API code</script>
+    <div id="ad"><!-- Advertisement created by API --></div>
+    </div>
+    <button onclick="addchild()" value="addchild">addchild</button>
+    <button onclick="chgattr()" >chgattr</button>
+<script>
+    // Select the node that will be observed for mutations
+    const targetNode = document.getElementById('API');
+    
+    // Options for the observer (which mutations to be observed)
+    const config = { attributes: true, childList: true, subtree: true };
+    
+    // Callback function to be executed when mutations are observed
+    const callback = (mutationList, observer) => {
+      for (const mutation of mutationList) {
+        if (mutation.type === 'childList') {
+          console.log('A child node has been added or removed.');
+        } else if (mutation.type === 'attributes') {
+          console.log(`The ${mutation.attributeName} attribute was modified.`);
+        }
+      }
+    };
+    
+    // Create an observer instance linked to the callback function
+    const observer = new MutationObserver(callback);
+    
+    // Start observing the target node for configured mutations
+    observer.observe(targetNode, config);
+    
+    // Later, you can stop observing
+   //  observer.disconnect();
+
+   const addchild = () => {
+    let p = document.createElement("p");
+        p.textContent = "new paragraph : ***";
+        targetNode.append(p);
+   };
+   const chgattr = () => {
+      targetNode.setAttribute("className", 'newchg');
+   };
+
+
+</script>
+</body>
+
+
+</html>

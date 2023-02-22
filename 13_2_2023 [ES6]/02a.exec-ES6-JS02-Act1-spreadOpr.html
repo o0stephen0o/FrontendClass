@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>ES6-JS02-2a</title>
+</head>
+<body>
+    <script>
+        let a = ["A", "B"];
+        let b = [...a, "C", "D"];
+        console.log(b) // ["A", "B", "C", "D"]
+
+        let c = ["A",..."BC", "D"];
+        console.log(c) // ["A", "B", "C", "D"]
+
+        let d = ["A", "B"];
+        d.push(...["C", "D"])
+        console.log(d) // ["A", "B", "C", "D"]
+    </script>
+</body>
+</html>

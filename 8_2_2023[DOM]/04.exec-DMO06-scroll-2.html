@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM06-03</title>
+<style>
+    #scroller {
+        overflow: scroll;
+        height: 300px;
+        width: 300px;
+        border: 5px dashed orange;
+    }
+
+    #output {
+        padding: 1rem 0;
+    }
+
+</style>
+</head>
+<body>
+    <div id="container">
+      <div id="scroller">
+        <p>
+          Far out in the uncharted backwaters of the unfashionable end of the
+          western spiral arm of the Galaxy lies a small unregarded yellow sun.
+          Orbiting this at a distance of roughly ninety-two million miles is an
+          utterly insignificant little blue green planet whose ape-descended life
+          forms are so amazingly primitive that they still think digital watches are
+          a pretty neat idea.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex architecto veritatis dignissimos aspernatur repellat illo deserunt sit labore eligendi!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatibus nesciunt maxime magnam vitae expedita voluptates labore, eveniet sequi aliquam.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nihil sequi minus. Iste eligendi quos quis id rem tenetur impedit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis itaque id accusantium, expedita maxime. Magnam iure ea cupiditate quo?
+          
+        </p>
+      </div>
+    </div>
+    
+    <div id="output">scrollTop: 0</div>
+    <script>
+        const scroller = document.querySelector("#scroller");
+        const output = document.querySelector("#output");
+
+        scroller.addEventListener("scroll", (event) => {
+            output.textContent = `scrollTop: ${scroller.scrollTop}`; // explanation of ${scroller.scrollTop}: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+        });
+
+    </script>
+
+</body>
+</html>

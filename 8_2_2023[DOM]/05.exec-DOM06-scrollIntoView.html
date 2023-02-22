@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM06-03</title>
+    <style>
+        #myDIV {
+            height: 250px;
+            width: 250px;
+            overflow: auto;
+            background: coral;
+    }
+        #content {
+            margin:500px;
+            height: 800px;
+            width: 2000px;
+            background-color: lightgreen;
+    }
+    </style>
+</head>
+<body>
+    <h1>The Element Object</h1>
+    <h2>The scrollIntoView() Method</h2>
+
+    <button onclick="myFunction()">Scroll</button>
+
+    <p>Click "Scroll" to scroll to the top of the element with id="content".</p>
+
+    <div id="myDIV">
+        <div id="content">
+            <p>Some text inside an element.</p>
+            <p>Some text inside an element.</p>
+            <p>Some text inside an element.</p>
+        </div>
+    </div>
+
+<script>
+    function myFunction() {
+    const element = document.getElementById("content");
+    element.scrollIntoView();
+    }
+</script>
+
+</body>
+</html>

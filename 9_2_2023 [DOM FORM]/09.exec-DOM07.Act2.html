@@ -1,0 +1,17 @@
+
+<head>
+    <title>JSTutorial</title>
+</head>
+<body>
+    <input type="text" id="input" name="input" value="">
+    <div id="display"></div>
+<script>
+    let input = document.querySelector("input[type=text]");
+    addEventListener("change", function() {
+        let display = document.querySelector("#display");
+        display.textContent = input.value;
+        input.value ="******";
+    });
+</script>
+</body>
+</html>
